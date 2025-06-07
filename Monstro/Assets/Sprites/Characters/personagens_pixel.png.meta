@@ -1,28 +1,49 @@
 fileFormatVersion: 2
-guid: 69b8e8224b22be14bae36e381e03987d
+guid: 773cdfea6db7dac43974062185cb7df0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3020211616947796598
-    second: paredes_pixel_0
+      213: -5365805985054834475
+    second: personagens_pixel_0
   - first:
-      213: -8388501685025351416
-    second: paredes_pixel_1
+      213: -2589487774438489954
+    second: personagens_pixel_1
   - first:
-      213: 2658670469098646365
-    second: paredes_pixel_2
+      213: 5982153915251102446
+    second: personagens_pixel_2
   - first:
-      213: -2970616868770113808
-    second: paredes_pixel_3
+      213: 8668319087116923510
+    second: personagens_pixel_3
   - first:
-      213: 1089529239831481967
-    second: paredes_pixel_4
+      213: -5544498963099637929
+    second: personagens_pixel_4
   - first:
-      213: -8121717727104402380
-    second: paredes_pixel_5
+      213: -8188069835143153022
+    second: personagens_pixel_5
   - first:
-      213: -8415975780893123869
-    second: paredes_pixel_6
+      213: 7305745029739038519
+    second: personagens_pixel_6
+  - first:
+      213: 382986725186931865
+    second: personagens_pixel_7
+  - first:
+      213: 1932776640680729884
+    second: personagens_pixel_8
+  - first:
+      213: 5374993670818194493
+    second: personagens_pixel_9
+  - first:
+      213: 8344857608187720364
+    second: personagens_pixel_10
+  - first:
+      213: -2336454755072323553
+    second: personagens_pixel_11
+  - first:
+      213: -5186916120183594793
+    second: personagens_pixel_12
+  - first:
+      213: -3986568615827176212
+    second: personagens_pixel_13
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +90,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 107
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -144,137 +165,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: paredes_pixel_0
+      name: personagens_pixel_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 385
-        width: 225
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 5, y: 5, z: 5, w: 5}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a858151498d0616d0800000000000000
-      internalID: -3020211616947796598
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredes_pixel_1
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 170
-        width: 50
-        height: 215
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 5, y: 0, z: 5, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 25, y: 107.5}
-        - {x: -25, y: 107.5}
-        - {x: -25, y: -107.5}
-        - {x: 25, y: -107.5}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8095c42692e069b80800000000000000
-      internalID: -8388501685025351416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredes_pixel_3
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 150
-        width: 225
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 5, z: 0, w: 20}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f69c2562bf36c6d0800000000000000
-      internalID: -2970616868770113808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: paredes_pixel_4
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 115
-        width: 80
-        height: 80
+        x: 153
+        y: 603
+        width: 135
+        height: 252
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f6e8e803219ce1f00800000000000000
-      internalID: 1089529239831481967
+      spriteID: 5d04427c2e3d885b0800000000000000
+      internalID: -5365805985054834475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredes_pixel_5
+      name: personagens_pixel_1
       rect:
         serializedVersion: 2
-        x: 214
-        y: 29
-        width: 82
-        height: 82
+        x: 540
+        y: 602
+        width: 118
+        height: 271
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 43cf2f502ccd94f80800000000000000
-      internalID: -8121717727104402380
+      spriteID: e90806eb69a401cd0800000000000000
+      internalID: -2589487774438489954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: paredes_pixel_6
+      name: personagens_pixel_3
       rect:
         serializedVersion: 2
-        x: 360
-        y: 30
-        width: 80
-        height: 80
+        x: 737
+        y: 602
+        width: 163
+        height: 298
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3ea1395fd92743b80800000000000000
-      internalID: -8415975780893123869
+      spriteID: 672b753784e0c4870800000000000000
+      internalID: 8668319087116923510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagens_pixel_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 306
+        width: 99
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757aceea19bfd03b0800000000000000
+      internalID: -5544498963099637929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagens_pixel_5
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 306
+        width: 99
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a73300ed12e5e80800000000000000
+      internalID: -8188069835143153022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagens_pixel_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 305
+        width: 117
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737cb25a568336560800000000000000
+      internalID: 7305745029739038519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagens_pixel_7
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 305
+        width: 145
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c057cb564a05500800000000000000
+      internalID: 382986725186931865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagens_pixel_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 9
+        width: 99
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d92f94d1a92da10800000000000000
+      internalID: 1932776640680729884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagens_pixel_10
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 9
+        width: 144
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2be3d18c3eec370800000000000000
+      internalID: 8344857608187720364
       vertices: []
       indices: 
       edges: []
@@ -283,7 +366,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 72feb501d8dbc494db7f3a1668c759f1
+    spriteID: 66db69e093e77d04797344f97a652471
     internalID: 0
     vertices: []
     indices: 
@@ -293,13 +376,20 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      paredes_pixel_0: -3020211616947796598
-      paredes_pixel_1: -8388501685025351416
-      paredes_pixel_2: 2658670469098646365
-      paredes_pixel_3: -2970616868770113808
-      paredes_pixel_4: 1089529239831481967
-      paredes_pixel_5: -8121717727104402380
-      paredes_pixel_6: -8415975780893123869
+      personagens_pixel_0: -5365805985054834475
+      personagens_pixel_1: -2589487774438489954
+      personagens_pixel_10: 8344857608187720364
+      personagens_pixel_11: -2336454755072323553
+      personagens_pixel_12: -5186916120183594793
+      personagens_pixel_13: -3986568615827176212
+      personagens_pixel_2: 5982153915251102446
+      personagens_pixel_3: 8668319087116923510
+      personagens_pixel_4: -5544498963099637929
+      personagens_pixel_5: -8188069835143153022
+      personagens_pixel_6: 7305745029739038519
+      personagens_pixel_7: 382986725186931865
+      personagens_pixel_8: 1932776640680729884
+      personagens_pixel_9: 5374993670818194493
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
