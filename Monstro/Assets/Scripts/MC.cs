@@ -21,6 +21,7 @@ public class MC : Character
     protected int Life = 10;
 
     public int speed = 10;
+    private int dir = 0;
 
     protected bool flagMove = false;
 
@@ -34,11 +35,12 @@ public class MC : Character
         flagMove = !paused;
     }
 
-    void Move(int dir)
+    void Move()
     {
         print("Movendo x em " + dir);
-        transform.Translate(dir * Time.deltaTime * speed, 0, 0);
-        double dist = transform.position.x - prevX;
+        
+        SendMessage("RigidBodyMoveX",dir * Time.fixedDeltaTime* speed);
+        float dist = (float) (transform.position.x - prevX);
         prevX = transform.position.x;
         if (charCamera != null)
         {
@@ -47,17 +49,27 @@ public class MC : Character
         
     }
 
-    void Gameplay()
+    public void Gameplay()
     {
         print("Entrou gameplay");
         if (flagMove)
         {
             print("Movimento habilitado");
-            
+            dir = 0;
             if (Keyboard.current[moveLeftButton].isPressed)
-                Move(-1);
+                dir += -1;
             if (Keyboard.current[moveRightButton].isPressed)
-                Move(1);
+                dir += 1;
+        }
+    }
+
+    public void PhysicalGameplay()
+    {
+        print("Entrou cálculo física");
+        if (flagMove)
+        {
+            print("Movimento habilitado");
+            Move();
         }
     }
 
@@ -79,5 +91,8 @@ public class MC : Character
     {
         Gameplay();
     }
-    
+    void FixedUpdate()
+    {
+        PhysicalGameplay();
+    }
 }
