@@ -1,0 +1,45 @@
+Semana que vem projeto IC
+	pibic máximo 5 páginas
+		diminuir tamanho
+	gerar um jogo no final não responde pergunta de pesquisa, falta pergunta de pesquisa
+
+IA 
+
+Algo a mais		um grupo usa IA generativa para imagens de rpg (frente, lado, costas)
+				fazia imagem de lado e costas se mandava a de frente
+			tipo analisar
+	talvez pode usar para fazer, mas tem que justificar por que e como
+		importância uso de IA, qual modelo
+	ia para analisar o comportamento do jogador? fazer inimigo com base nisso?
+
+Não só aplicar em um personagem
+
+ODS da ONU para justificativa da proposta
+
+Importância jogo sério
+
+Importância saúde mental
+
+Jogos sendo utilizado como ferramenta
+
+Metodologia
+
+	criar o jogo
+	depois aplicar uma IA
+	olhar uso de IA em jogos 2D
+		https://sol.sbc.org.br/index.php/sbgames		foca mais nesse
+		https://dl.acm.org/doi/proceedings/10.1145/3641519
+		https://sol.sbc.org.br/index.php/sbgames/article/view/32329/32126	o que dá para fazer em jogos 2D
+		https://sol.sbc.org.br/index.php/sbgames/article/view/32363
+	
+		
+diagrama para tcc como fez da IC
+	
+
+Tem que fazer o roteiro gcd
+
+
+
+proposta até dia 31
+	máximo até dia 30 de manhã
+		mais rápido possível

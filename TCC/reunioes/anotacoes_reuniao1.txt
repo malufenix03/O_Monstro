@@ -1,0 +1,47 @@
+Desenvolvimento de um jogo 2D que aborda temas de saúde mental utilizando técnicas de IA
+
+tema do jogo
+	saúde mental, traumas e culpa
+
+público alvo
+	+16 anos
+
+ferramenta computacional
+	IA para os inimigos e npc
+
+
+definir as 3 coisas acima
+
+
+foca na escrita boa
+
+procedures SB games
+
+
+por que é importante jogos 2D
+
+
+artigos até 5 anos
+
+
+vê jogos sérios 2D que saíram recentemente
+
+
+ACM Siggraph Conference on Motion in Games 		MIG
+
+
+treinar apresentação (15 - 20 minutos)
+
+
+EU QUE TENHO ENTRAR EM CONTATO QUANDO DEFINIR CERTINHO O TEMA
+
+
+
+
+
+
+
+----------------------------------------
+
+
+IA para movimentação do boss ou dos inimigos (mãos malucas)

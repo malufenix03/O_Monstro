@@ -1,0 +1,55 @@
+Rosebud AI - 5 prompts por semana gratuito
+	3D pode passar para 2D? 
+	Não criou o sprite sheet quando pedi
+	
+
+https://sketch.metademolab.com
+	upload da imagem de um personagem estático, transforma isso em várias animações diferentes tendo o resultado como vídeo
+	tenta selecionar a área do personagem, pintar o corpo inteiro e selecionar as juntas principais (olhos, orelhas, ombros, quadris, cotovelos, pulsos, joelhos, tornozelos. Usuário pode editar o que foi detectado durante essas etapas
+	após isso pode ser selecionadas várias animações
+		não ficam muito boas com personagens pixelados
+	imagem deve tem braços e pernas não grudados com o corpo
+	grátis total, versão demo
+		não pode fazer nada para uso comercial
+
+https://www.godmodeai.cloud/ai-sprite-generator
+	achei em https://forums.solar2d.com/t/what-is-the-best-ai-tool-to-create-sprite-animation/357106/2
+	recente - 5 horas atrás hoje
+	3 sprites grátis 
+		(paga-se por sprite gerado)
+	tem específico para pixel art
+		transforma em algo de alta qualidade primeiro, faz vídeo, e depois gera pixelado
+			cada passo = 1 crédito
+	algumas opções de ação
+		escolher direção personagem está olhando
+		imagem personagem igual a do primeiro frame que ele está olhando
+			auto-reposicionamento
+				ajusta ângulo e pose
+		prompt sobre algo específico que quer ou não quer
+		animação + reposicionamento = 1 crédito
+	vídeo para vídeo pixelado = 1 crédito (pude fazer vários vídeos mesmo assim?)
+	andando 32 - 32 pixel 16 cores
+	andando 152 - 152 pixel 16 cores
+	andando 64 - 64 pixel 16 cores
+	andando 12 - 64 pixel 12 cores
+
+https://www.yeschat.ai/gpts-ZxWyYju4-SpriteSheetGPT
+	tentei pedir para criar o sprite sheet do personagem andando, mandando a imagem do personagem, porém a IA não mandou nenhuma imagem, apenas descreveu o que ela mesma ia fazer
+
+segmind
+	1$ de créditos grátis
+		1 pixelflow salvo
+		1 request por minuto
+	não forma imagem por falta de crédito?
+
+chatGPT
+	tentar pegar sprite sheet 
+	demora um tempo e faz 4 imagens sem realmente fazer o movimento
+
+vidu 2.0
+	imagem e descrição
+	80 créditos grátis
+	cada vídeo = 4 créditos
+
+pixellabai
+	fazer rotações

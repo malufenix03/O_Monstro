@@ -612,13 +612,13 @@ TextureImporter:
       name: mobilia2_pixel_18
       rect:
         serializedVersion: 2
-        x: 315
+        x: 350
         y: 225
-        width: 135
-        height: 50
+        width: 65
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 25, y: 15, z: 25, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -894,6 +894,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: mobilia2_pixel_31
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 255
+        width: 135
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4434a9f4a17d00944a6ab71a28c05127
+      internalID: -1302581006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -933,6 +955,8 @@ TextureImporter:
       mobilia2_pixel_29: -4465419419715267326
       mobilia2_pixel_3: 5935109560414963934
       mobilia2_pixel_30: 1602815857
+      mobilia2_pixel_31: -1302581006
+      mobilia2_pixel_32: 1481956168
       mobilia2_pixel_4: 6315984749086364534
       mobilia2_pixel_5: 7106724012902370317
       mobilia2_pixel_6: 4652493493754932767

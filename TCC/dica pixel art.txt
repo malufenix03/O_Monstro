@@ -1,0 +1,3 @@
+inclinar = horizontal x cosseno ângulo
+
+horizontal = inclinado / cosseno ângulo
