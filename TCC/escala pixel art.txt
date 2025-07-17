@@ -1,0 +1,55 @@
+cubo mágico é 5x5 -> 5,5/5,7cm == 5cm
+
+escala 2/5
+
+porta 84 pixels altura 30 pixels largura
+
+maçaneta -> 40 pixels do chão 2 pixels altura 8 pixel largura 1 pixel diâmetro
+
+boneca 30cm altura = 12 pixels			
+
+violao 90cm altura = 38 pixels, 40cm largura = 16 pixels
+
+placa 190cm altura chao = 76, 100 cm largura= 40 pixels, 60 cm altura= 24 pixels
+
+janela faculdade 215cm altura chao  = 86 pixel, 5cm moldura = 2 pixels
+
+skate 20 cm largura = 8 pixels, 80 cm comprimento = 32 pixels
+
+arma 20 cm = 8 pixels
+
+mochila 45cm altura=18 pixels, 30cm largura= 12 pixels
+
+escada 40cm largura = 16 pixels, 7 cm altura degrau = 2 pixels, 25cm entre degraus = 10  pixels
+
+bola 20 cm diametro 8 pixels
+
+chão/teto 5 pixels 
+
+parede 15 cm = 6 pixels
+
+vaso sanitário 35cm largura = 14 pixels, 40cm altura antes tampa  = 16 pixels, 30 cm altura tampa = 12 pixels 
+
+papel higiênico 8cm altura = 3 pixels, 10cm largura = 4 pixels 
+
+pia 55cm largura = 22 pixels, 80cm altura = 32 pixels, 20cm altura bacia = 8 pixels
+
+espelho 50cm largura = 20 pixels, 30cm altura = 12 pixels
+
+box 110cm altura registro=44 pixels, 90cm largura=36 pixels, 190cm altura = 76 pixels
+
+registro 5cm diametro=2 pixels
+
+chuveiro 215cm altura do chao= 86 pixels, 15cm largura= 6 pixels, 15cm altura= 6 pixels
+
+toalha 68cm largura = 26 pixels, 135 total cm altura /2 = 27 pixels
+
+suporte toalha 90cm do chao= 36 pixels, 9cm altura = 3 pixels, 50 cm largura = 20 pixels
+
+sofa 80cm largura= 36 pixels, 57cm altura braço = 23 pixels -> 19, 75cm altura = 30 pixels, 45cm altura assento = 18 pixels -> 13
+
+almofada 45cm = 18 pixels
+
+quadros 60cm largura = 24 pixels, 80cm altura = 32 pixels
+
+cama 205cm largura = 82 pixels, 160cm altura= 64 pixels, 77cm entre camas sem colchão = 31 pixels, 90cm altura cama baixo = 36, 25 altura pé cama = 10 pixels
