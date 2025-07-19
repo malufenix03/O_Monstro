@@ -7,19 +7,18 @@ using UnityEngine;
 
 public class Movement2D : MonoBehaviour
 {
+
+//VARIÁVEIS
+
     protected Rigidbody2D rig;
 
-    protected void Ini()
-    {
-        rig = GetComponent<Rigidbody2D>();
-        if (rig != null)
-        {
-            rig.freezeRotation = true;
-        }
-    }
+
+    
+//MOVIMENTO HORIZONTAL COM FÍSICA -----------------------------------------------------------------------------------------
+
     protected void RigidBodyMoveX(float dist)
     {
-   
+
         rig.linearVelocityX = dist;
     }
     protected void RigidBodyMoveX((int, int) pack)
@@ -27,6 +26,9 @@ public class Movement2D : MonoBehaviour
         (int speed, int dir) = pack;
         rig.linearVelocityX = speed * dir *Time.fixedDeltaTime;
     }
+
+//MOVIMENTO HORIZONTAL SEM FÍSICA -----------------------------------------------------------------------------------------
+
     protected void SimpleMoveX((int, int) pack)
     {
         (int speed, int dir) = pack;
@@ -37,9 +39,22 @@ public class Movement2D : MonoBehaviour
         transform.Translate(dist, 0, 0);
     }
 
+
+//INICIALIZAÇÃO -----------------------------------------------------------------------------------------------------------
+
+    protected void GetRig()
+    {
+        rig = GetComponent<Rigidbody2D>();
+        if (rig != null)
+        {
+            rig.freezeRotation = true;
+        }
+    }
+
+
     void Start()
     {
-        Ini();
+        GetRig();
     }
 
 }

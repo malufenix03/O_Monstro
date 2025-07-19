@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 493e7d56fca6db94c9fcb3166519cd1e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5372644316725960109
+    second: banheiro_ajustado_pixel_0
+  - first:
+      213: -7327711074428795487
+    second: banheiro_ajustado_pixel_1
+  - first:
+      213: 1581084963616701019
+    second: banheiro_ajustado_pixel_2
+  - first:
+      213: -2235033771906739993
+    second: banheiro_ajustado_pixel_3
+  - first:
+      213: 4565387560130601141
+    second: banheiro_ajustado_pixel_4
+  - first:
+      213: 1331114914947042286
+    second: banheiro_ajustado_pixel_5
+  - first:
+      213: -5160614653408155603
+    second: banheiro_ajustado_pixel_6
+  - first:
+      213: 8384353554364979823
+    second: banheiro_ajustado_pixel_7
+  - first:
+      213: -3871328587187816785
+    second: banheiro_ajustado_pixel_8
+  - first:
+      213: -7125625509353157677
+    second: banheiro_ajustado_pixel_9
+  - first:
+      213: 5561017139152407755
+    second: banheiro_ajustado_pixel_10
+  - first:
+      213: -6593960558805153538
+    second: banheiro_ajustado_pixel_11
+  - first:
+      213: -8503573178275804383
+    second: banheiro_ajustado_pixel_12
+  - first:
+      213: 4240593956897145500
+    second: banheiro_ajustado_pixel_13
+  - first:
+      213: -3984556822349151503
+    second: banheiro_ajustado_pixel_14
+  - first:
+      213: -5652575786391221504
+    second: banheiro_ajustado_pixel_15
+  - first:
+      213: -8900015926366318588
+    second: banheiro_ajustado_pixel_16
+  - first:
+      213: 242514952345382154
+    second: banheiro_ajustado_pixel_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 710
+        width: 182
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadd8f26a877f8a40800000000000000
+      internalID: 5372644316725960109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 773
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5c9f70a9dbe4a90800000000000000
+      internalID: -7327711074428795487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_2
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 782
+        width: 56
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ab510c56421f510800000000000000
+      internalID: 1581084963616701019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_3
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 755
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e05f7c40a09bf0e0800000000000000
+      internalID: -2235033771906739993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_4
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 17
+        width: 56
+        height: 758
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b062972cc38b5f30800000000000000
+      internalID: 4565387560130601141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 530
+        width: 200
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb84ac66f1197210800000000000000
+      internalID: 1331114914947042286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_6
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 431
+        width: 182
+        height: 308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d286ee89050d168b0800000000000000
+      internalID: -5160614653408155603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_7
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 8
+        width: 371
+        height: 686
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6a553fa2253b5470800000000000000
+      internalID: 8384353554364979823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 368
+        width: 74
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6fadf3927464ac0800000000000000
+      internalID: -3871328587187816785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 260
+        width: 128
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db0b883a51bc1d90800000000000000
+      internalID: -7125625509353157677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 279
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccc901ef93bc2d40800000000000000
+      internalID: 5561017139152407755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_11
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 278
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef88b7ddecb8d74a0800000000000000
+      internalID: -6593960558805153538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 233
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bc45b8f3d3df980800000000000000
+      internalID: -8503573178275804383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_13
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 242
+        width: 119
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92c5857cbd99da30800000000000000
+      internalID: 4240593956897145500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 128
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f205806ea204b8c0800000000000000
+      internalID: -3984556822349151503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 17
+        width: 11
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b4d2a55440e81b0800000000000000
+      internalID: -5652575786391221504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_16
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 44
+        width: 119
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400dd955baacc7480800000000000000
+      internalID: -8900015926366318588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 119
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d644370169d5300800000000000000
+      internalID: 242514952345382154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e3be4848391e84747a35adb6a2ada634
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      banheiro_ajustado_pixel_0: 5372644316725960109
+      banheiro_ajustado_pixel_1: -7327711074428795487
+      banheiro_ajustado_pixel_10: 5561017139152407755
+      banheiro_ajustado_pixel_11: -6593960558805153538
+      banheiro_ajustado_pixel_12: -8503573178275804383
+      banheiro_ajustado_pixel_13: 4240593956897145500
+      banheiro_ajustado_pixel_14: -3984556822349151503
+      banheiro_ajustado_pixel_15: -5652575786391221504
+      banheiro_ajustado_pixel_16: -8900015926366318588
+      banheiro_ajustado_pixel_17: 242514952345382154
+      banheiro_ajustado_pixel_2: 1581084963616701019
+      banheiro_ajustado_pixel_3: -2235033771906739993
+      banheiro_ajustado_pixel_4: 4565387560130601141
+      banheiro_ajustado_pixel_5: 1331114914947042286
+      banheiro_ajustado_pixel_6: -5160614653408155603
+      banheiro_ajustado_pixel_7: 8384353554364979823
+      banheiro_ajustado_pixel_8: -3871328587187816785
+      banheiro_ajustado_pixel_9: -7125625509353157677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: a1146a6a30415e8458b0fe1466915648
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8963033108064330353
+    second: cenario_tutorial_ajustado_pixel_0
+  - first:
+      213: -7138070464325338499
+    second: cenario_tutorial_ajustado_pixel_1
+  - first:
+      213: 5724762015302375885
+    second: cenario_tutorial_ajustado_pixel_2
+  - first:
+      213: 5306923365999732408
+    second: cenario_tutorial_ajustado_pixel_3
+  - first:
+      213: 1199685298461638118
+    second: cenario_tutorial_ajustado_pixel_4
+  - first:
+      213: 2911865441088007561
+    second: cenario_tutorial_ajustado_pixel_5
+  - first:
+      213: -5921942913267156223
+    second: cenario_tutorial_ajustado_pixel_6
+  - first:
+      213: 3135822900343347190
+    second: cenario_tutorial_ajustado_pixel_7
+  - first:
+      213: 1109991522428258094
+    second: cenario_tutorial_ajustado_pixel_8
+  - first:
+      213: -947436713634110766
+    second: cenario_tutorial_ajustado_pixel_9
+  - first:
+      213: -2997814724603070584
+    second: cenario_tutorial_ajustado_pixel_10
+  - first:
+      213: 1588894431026229801
+    second: cenario_tutorial_ajustado_pixel_11
+  - first:
+      213: -4665206324330195807
+    second: cenario_tutorial_ajustado_pixel_12
+  - first:
+      213: -3046175907301637100
+    second: cenario_tutorial_ajustado_pixel_13
+  - first:
+      213: 4215033093297893050
+    second: cenario_tutorial_ajustado_pixel_14
+  - first:
+      213: 2618261894075952431
+    second: cenario_tutorial_ajustado_pixel_15
+  - first:
+      213: 8754466013846248936
+    second: cenario_tutorial_ajustado_pixel_16
+  - first:
+      213: 1200361866430259783
+    second: cenario_tutorial_ajustado_pixel_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 710
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 37, y: 0, z: 37, w: 100}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d92cb50e8ec9380800000000000000
+      internalID: -8963033108064330353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 665
+        width: 281
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 56, y: 56, z: 56, w: 56}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a3e285bba70fc90800000000000000
+      internalID: -7138070464325338499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_2
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 692
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 73}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc95fb9c8b0727f40800000000000000
+      internalID: 5724762015302375885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 179
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2eca424570ad2f0800000000000000
+      internalID: -947436713634110766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_10
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 179
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887399d146f9566d0800000000000000
+      internalID: -2997814724603070584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_11
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 179
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9223ae21113ec0610800000000000000
+      internalID: 1588894431026229801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_12
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 89
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4946ab09bd14fb0800000000000000
+      internalID: -4665206324330195807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_13
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 89
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414cee1d62fc9b5d0800000000000000
+      internalID: -3046175907301637100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_14
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 89
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe6982244ece7a30800000000000000
+      internalID: 4215033093297893050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 53
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2da65d025fe55420800000000000000
+      internalID: 2618261894075952431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_16
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 17
+        width: 92
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed1989d47c1e7970800000000000000
+      internalID: 8754466013846248936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_17
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 53
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742208af1ca88a010800000000000000
+      internalID: 1200361866430259783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4f2e0a7ade217bc4ba1f413070f8db89
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cenario_tutorial_ajustado_pixel_0: -8963033108064330353
+      cenario_tutorial_ajustado_pixel_1: -7138070464325338499
+      cenario_tutorial_ajustado_pixel_10: -2997814724603070584
+      cenario_tutorial_ajustado_pixel_11: 1588894431026229801
+      cenario_tutorial_ajustado_pixel_12: -4665206324330195807
+      cenario_tutorial_ajustado_pixel_13: -3046175907301637100
+      cenario_tutorial_ajustado_pixel_14: 4215033093297893050
+      cenario_tutorial_ajustado_pixel_15: 2618261894075952431
+      cenario_tutorial_ajustado_pixel_16: 8754466013846248936
+      cenario_tutorial_ajustado_pixel_17: 1200361866430259783
+      cenario_tutorial_ajustado_pixel_2: 5724762015302375885
+      cenario_tutorial_ajustado_pixel_3: 5306923365999732408
+      cenario_tutorial_ajustado_pixel_4: 1199685298461638118
+      cenario_tutorial_ajustado_pixel_5: 2911865441088007561
+      cenario_tutorial_ajustado_pixel_6: -5921942913267156223
+      cenario_tutorial_ajustado_pixel_7: 3135822900343347190
+      cenario_tutorial_ajustado_pixel_8: 1109991522428258094
+      cenario_tutorial_ajustado_pixel_9: -947436713634110766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

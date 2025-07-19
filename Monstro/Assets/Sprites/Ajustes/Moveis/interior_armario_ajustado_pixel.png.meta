@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: bb8ccef677a25b74e9a1a955b1e2aaab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8872894366364002057
+    second: interior_armario_ajustado_pixel_0
+  - first:
+      213: 6600527170613987897
+    second: interior_armario_ajustado_pixel_1
+  - first:
+      213: 5926412097550231289
+    second: interior_armario_ajustado_pixel_2
+  - first:
+      213: -7582985144334261104
+    second: interior_armario_ajustado_pixel_3
+  - first:
+      213: -3787768001127780861
+    second: interior_armario_ajustado_pixel_4
+  - first:
+      213: -3308144567118890457
+    second: interior_armario_ajustado_pixel_5
+  - first:
+      213: 7665407471035241308
+    second: interior_armario_ajustado_pixel_6
+  - first:
+      213: -4502499176070322706
+    second: interior_armario_ajustado_pixel_7
+  - first:
+      213: 584672758470133246
+    second: interior_armario_ajustado_pixel_8
+  - first:
+      213: -1201670729842641784
+    second: interior_armario_ajustado_pixel_9
+  - first:
+      213: -6659189411708970723
+    second: interior_armario_ajustado_pixel_10
+  - first:
+      213: -3305733962018618416
+    second: interior_armario_ajustado_pixel_11
+  - first:
+      213: -108579870771091817
+    second: interior_armario_ajustado_pixel_12
+  - first:
+      213: 176014377754717506
+    second: interior_armario_ajustado_pixel_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 683
+        width: 47
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907e0b46a6ad22b70800000000000000
+      internalID: 8872894366364002057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 683
+        width: 38
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ac2c69d78c99b50800000000000000
+      internalID: 6600527170613987897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 224
+        width: 182
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f62f0b3768de3250800000000000000
+      internalID: 5926412097550231289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_3
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 449
+        width: 47
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09464e60033d3c690800000000000000
+      internalID: -7582985144334261104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 449
+        width: 20
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30eef2942152f6bc0800000000000000
+      internalID: -3787768001127780861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 458
+        width: 326
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a7d332b0c1712d0800000000000000
+      internalID: -3308144567118890457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 215
+        width: 38
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c535ea95b7ff06a60800000000000000
+      internalID: 7665407471035241308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 215
+        width: 38
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5e6d8cad8e381c0800000000000000
+      internalID: -4502499176070322706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_8
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 215
+        width: 47
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5c57ea6cc2d1800800000000000000
+      internalID: 584672758470133246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_9
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 386
+        width: 128
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884beb286dec25fe0800000000000000
+      internalID: -1201670729842641784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_10
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 233
+        width: 155
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d195b0f038ec593a0800000000000000
+      internalID: -6659189411708970723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 89
+        width: 119
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d38fefd97caf12d0800000000000000
+      internalID: -3305733962018618416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 17
+        width: 155
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7966eecce2f3e7ef0800000000000000
+      internalID: -108579870771091817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: interior_armario_ajustado_pixel_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 17
+        width: 83
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d6e6dd424517200800000000000000
+      internalID: 176014377754717506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      interior_armario_ajustado_pixel_0: 8872894366364002057
+      interior_armario_ajustado_pixel_1: 6600527170613987897
+      interior_armario_ajustado_pixel_10: -6659189411708970723
+      interior_armario_ajustado_pixel_11: -3305733962018618416
+      interior_armario_ajustado_pixel_12: -108579870771091817
+      interior_armario_ajustado_pixel_13: 176014377754717506
+      interior_armario_ajustado_pixel_2: 5926412097550231289
+      interior_armario_ajustado_pixel_3: -7582985144334261104
+      interior_armario_ajustado_pixel_4: -3787768001127780861
+      interior_armario_ajustado_pixel_5: -3308144567118890457
+      interior_armario_ajustado_pixel_6: 7665407471035241308
+      interior_armario_ajustado_pixel_7: -4502499176070322706
+      interior_armario_ajustado_pixel_8: 584672758470133246
+      interior_armario_ajustado_pixel_9: -1201670729842641784
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
