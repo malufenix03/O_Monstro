@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 65bdbecaa540b454ba26c464adadec09
+guid: 578d6ea7f037c7f4abd47e03d56baf7f
 SpriteAtlasImporter:
   externalObjects: {}
   textureSettings:
@@ -19,7 +19,7 @@ SpriteAtlasImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -36,7 +36,7 @@ SpriteAtlasImporter:
     enableTightPacking: 1
     enableAlphaDilation: 0
   secondaryTextureSettings: {}
-  variantMultiplier: 0.5
+  variantMultiplier: 1
   bindAsDefault: 1
   userData: 
   assetBundleName: 

@@ -47,8 +47,14 @@ TagManager:
   - name: Character
     uniqueID: 1348820371
     locked: 0
+  - name: Front
+    uniqueID: 803258405
+    locked: 0
   - name: Ground
     uniqueID: 2073501883
+    locked: 0
+  - name: Fog
+    uniqueID: 1736864799
     locked: 0
   m_RenderingLayers:
   - Default

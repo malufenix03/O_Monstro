@@ -138,10 +138,10 @@ TextureImporter:
       name: chao_banheiro_ajustado_pixel_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 755
-        width: 74
-        height: 47
+        x: 63
+        y: 756
+        width: 73
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 10, y: 10, z: 0, w: 10}
@@ -160,9 +160,9 @@ TextureImporter:
       name: chao_banheiro_ajustado_pixel_1
       rect:
         serializedVersion: 2
-        x: 152
+        x: 153
         y: 755
-        width: 74
+        width: 73
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -182,9 +182,9 @@ TextureImporter:
       name: chao_banheiro_ajustado_pixel_2
       rect:
         serializedVersion: 2
-        x: 242
+        x: 243
         y: 755
-        width: 74
+        width: 73
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -204,9 +204,9 @@ TextureImporter:
       name: chao_banheiro_ajustado_pixel_3
       rect:
         serializedVersion: 2
-        x: 332
+        x: 333
         y: 755
-        width: 74
+        width: 73
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

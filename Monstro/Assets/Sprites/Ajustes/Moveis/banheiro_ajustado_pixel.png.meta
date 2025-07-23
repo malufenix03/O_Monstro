@@ -202,13 +202,13 @@ TextureImporter:
       name: banheiro_ajustado_pixel_1
       rect:
         serializedVersion: 2
-        x: 575
-        y: 773
-        width: 11
-        height: 38
+        x: 233
+        y: 677
+        width: 182
+        height: 197
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 19, y: 0, z: 19, w: 29}
       customData: 
       outline: []
       physicsShape: []
@@ -221,79 +221,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: banheiro_ajustado_pixel_2
-      rect:
-        serializedVersion: 2
-        x: 593
-        y: 782
-        width: 56
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5ab510c56421f510800000000000000
-      internalID: 1581084963616701019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: banheiro_ajustado_pixel_3
-      rect:
-        serializedVersion: 2
-        x: 584
-        y: 755
-        width: 20
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e05f7c40a09bf0e0800000000000000
-      internalID: -2235033771906739993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: banheiro_ajustado_pixel_4
+      name: banheiro_ajustado_pixel_5
       rect:
         serializedVersion: 2
         x: 827
         y: 17
         width: 56
         height: 758
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b062972cc38b5f30800000000000000
-      internalID: 4565387560130601141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: banheiro_ajustado_pixel_5
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 530
-        width: 200
-        height: 164
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +246,10 @@ TextureImporter:
       name: banheiro_ajustado_pixel_6
       rect:
         serializedVersion: 2
-        x: 269
-        y: 431
-        width: 182
-        height: 308
+        x: 8
+        y: 530
+        width: 200
+        height: 164
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,7 +271,7 @@ TextureImporter:
         x: 440
         y: 8
         width: 371
-        height: 686
+        height: 838
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,9 +291,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 35
-        y: 368
-        width: 74
-        height: 47
+        y: 260
+        width: 218
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +312,10 @@ TextureImporter:
       name: banheiro_ajustado_pixel_9
       rect:
         serializedVersion: 2
-        x: 125
-        y: 260
-        width: 128
-        height: 263
+        x: 260
+        y: 440
+        width: 92
+        height: 74
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +334,10 @@ TextureImporter:
       name: banheiro_ajustado_pixel_10
       rect:
         serializedVersion: 2
-        x: 279
-        y: 279
-        width: 144
-        height: 144
+        x: 377
+        y: 449
+        width: 29
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,35 +353,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: banheiro_ajustado_pixel_11
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 278
-        width: 92
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef88b7ddecb8d74a0800000000000000
-      internalID: -6593960558805153538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: banheiro_ajustado_pixel_12
       rect:
         serializedVersion: 2
-        x: 53
-        y: 233
-        width: 29
-        height: 29
+        x: 278
+        y: 278
+        width: 146
+        height: 146
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,9 +423,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 161
-        y: 17
+        y: 18
         width: 11
-        height: 209
+        height: 207
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,11 +484,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 567
+        width: 182
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 54, y: 25, z: 0, w: 56}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e1b7509bbc7ab4caee01c98fbd45e2
+      internalID: 1581084963616701019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e3be4848391e84747a35adb6a2ada634
+    spriteID: cf4958f7b9b36e547b030ece5c056c33
     internalID: 0
     vertices: []
     indices: 

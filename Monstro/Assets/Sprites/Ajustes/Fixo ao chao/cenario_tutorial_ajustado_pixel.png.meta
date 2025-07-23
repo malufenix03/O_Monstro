@@ -56,6 +56,39 @@ TextureImporter:
   - first:
       213: 1200361866430259783
     second: cenario_tutorial_ajustado_pixel_17
+  - first:
+      213: -4454163148206466259
+    second: cenario_tutorial_ajustado_pixel_18
+  - first:
+      213: 5989780371228378109
+    second: cenario_tutorial_ajustado_pixel_19
+  - first:
+      213: 6763814956365341033
+    second: cenario_tutorial_ajustado_pixel_20
+  - first:
+      213: -8659614352202141661
+    second: cenario_tutorial_ajustado_pixel_21
+  - first:
+      213: -4848178106472473930
+    second: cenario_tutorial_ajustado_pixel_22
+  - first:
+      213: 3852067425191474672
+    second: cenario_tutorial_ajustado_pixel_23
+  - first:
+      213: -621838791331874895
+    second: cenario_tutorial_ajustado_pixel_24
+  - first:
+      213: -7975908988281506381
+    second: cenario_tutorial_ajustado_pixel_25
+  - first:
+      213: 2103482905947945845
+    second: cenario_tutorial_ajustado_pixel_26
+  - first:
+      213: 8605686113147905359
+    second: cenario_tutorial_ajustado_pixel_27
+  - first:
+      213: -5063644742899018253
+    second: cenario_tutorial_ajustado_pixel_28
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -180,13 +213,13 @@ TextureImporter:
       name: cenario_tutorial_ajustado_pixel_0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 710
-        width: 146
-        height: 146
+        x: 54
+        y: 729
+        width: 144
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 37, y: 0, z: 37, w: 100}
+      border: {x: 36, y: 0, z: 36, w: 99}
       customData: 
       outline: []
       physicsShape: []
@@ -208,7 +241,7 @@ TextureImporter:
         height: 218
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 56, y: 56, z: 56, w: 56}
+      border: {x: 29, y: 12, z: 29, w: 56}
       customData: 
       outline: []
       physicsShape: []
@@ -225,12 +258,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 665
-        y: 692
-        width: 146
-        height: 146
+        y: 693
+        width: 145
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 73}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
@@ -243,13 +276,35 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 162
+        width: 27
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27080e986b776f00800000000000000
+      internalID: 1109991522428258094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: cenario_tutorial_ajustado_pixel_9
       rect:
         serializedVersion: 2
-        x: 440
-        y: 179
-        width: 29
-        height: 74
+        x: 99
+        y: 162
+        width: 90
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +323,10 @@ TextureImporter:
       name: cenario_tutorial_ajustado_pixel_10
       rect:
         serializedVersion: 2
-        x: 530
-        y: 179
-        width: 92
-        height: 74
+        x: 252
+        y: 162
+        width: 27
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +345,10 @@ TextureImporter:
       name: cenario_tutorial_ajustado_pixel_11
       rect:
         serializedVersion: 2
-        x: 683
-        y: 179
-        width: 29
-        height: 74
+        x: 386
+        y: 161
+        width: 20
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +367,10 @@ TextureImporter:
       name: cenario_tutorial_ajustado_pixel_12
       rect:
         serializedVersion: 2
-        x: 440
-        y: 89
-        width: 29
-        height: 74
+        x: 539
+        y: 161
+        width: 20
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +389,10 @@ TextureImporter:
       name: cenario_tutorial_ajustado_pixel_13
       rect:
         serializedVersion: 2
-        x: 530
-        y: 89
-        width: 92
-        height: 74
+        x: 638
+        y: 161
+        width: 29
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +411,10 @@ TextureImporter:
       name: cenario_tutorial_ajustado_pixel_14
       rect:
         serializedVersion: 2
-        x: 683
-        y: 89
-        width: 29
-        height: 74
+        x: 836
+        y: 161
+        width: 38
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +433,10 @@ TextureImporter:
       name: cenario_tutorial_ajustado_pixel_15
       rect:
         serializedVersion: 2
-        x: 449
-        y: 53
-        width: 20
-        height: 20
+        x: 9
+        y: 72
+        width: 27
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +455,10 @@ TextureImporter:
       name: cenario_tutorial_ajustado_pixel_16
       rect:
         serializedVersion: 2
-        x: 530
-        y: 17
-        width: 92
-        height: 56
+        x: 99
+        y: 72
+        width: 90
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +477,10 @@ TextureImporter:
       name: cenario_tutorial_ajustado_pixel_17
       rect:
         serializedVersion: 2
-        x: 683
-        y: 53
-        width: 20
-        height: 20
+        x: 252
+        y: 72
+        width: 27
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -440,11 +495,275 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_18
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 89
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b94834732af22c0800000000000000
+      internalID: -4454163148206466259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_19
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 71
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3ccad2389ff1350800000000000000
+      internalID: 5989780371228378109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_20
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 71
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96161a8ddd5eddd50800000000000000
+      internalID: 6763814956365341033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_21
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 80
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320fd1590aed2d780800000000000000
+      internalID: -8659614352202141661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_22
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 98
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bad1ebe2bfc7bcb0800000000000000
+      internalID: -4848178106472473930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_23
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 71
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f534610aea457530800000000000000
+      internalID: 3852067425191474672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 35
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7fa17f9e8ce57f0800000000000000
+      internalID: -621838791331874895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5b2a88801ef4190800000000000000
+      internalID: -7975908988281506381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_26
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 35
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b3228ee82113d10800000000000000
+      internalID: 2103482905947945845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_27
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 35
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4561becce98d6770800000000000000
+      internalID: 8605686113147905359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_28
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 35
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5dab64fe15ab9b0800000000000000
+      internalID: -5063644742899018253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cenario_tutorial_ajustado_pixel_3
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 693
+        width: 144
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822461185fabfcb4ca7cd5164ed3cb35
+      internalID: 5306923365999732408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4f2e0a7ade217bc4ba1f413070f8db89
+    spriteID: 74184bf6813ad1d48a56c3c8482f050f
     internalID: 0
     vertices: []
     indices: 
@@ -464,7 +783,18 @@ TextureImporter:
       cenario_tutorial_ajustado_pixel_15: 2618261894075952431
       cenario_tutorial_ajustado_pixel_16: 8754466013846248936
       cenario_tutorial_ajustado_pixel_17: 1200361866430259783
+      cenario_tutorial_ajustado_pixel_18: -4454163148206466259
+      cenario_tutorial_ajustado_pixel_19: 5989780371228378109
       cenario_tutorial_ajustado_pixel_2: 5724762015302375885
+      cenario_tutorial_ajustado_pixel_20: 6763814956365341033
+      cenario_tutorial_ajustado_pixel_21: -8659614352202141661
+      cenario_tutorial_ajustado_pixel_22: -4848178106472473930
+      cenario_tutorial_ajustado_pixel_23: 3852067425191474672
+      cenario_tutorial_ajustado_pixel_24: -621838791331874895
+      cenario_tutorial_ajustado_pixel_25: -7975908988281506381
+      cenario_tutorial_ajustado_pixel_26: 2103482905947945845
+      cenario_tutorial_ajustado_pixel_27: 8605686113147905359
+      cenario_tutorial_ajustado_pixel_28: -5063644742899018253
       cenario_tutorial_ajustado_pixel_3: 5306923365999732408
       cenario_tutorial_ajustado_pixel_4: 1199685298461638118
       cenario_tutorial_ajustado_pixel_5: 2911865441088007561
