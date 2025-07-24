@@ -271,7 +271,7 @@ TextureImporter:
         x: 440
         y: 8
         width: 371
-        height: 838
+        height: 687
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,9 +313,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 260
-        y: 440
+        y: 450
         width: 92
-        height: 74
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,6 +506,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 441
+        width: 92
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd627600623dfc43938dd11bf41f680
+      internalID: -2235033771906739993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 782
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b18648a184c8714d8bc94a9d09819aa
+      internalID: 4565387560130601141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_11
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 8
+        width: 371
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0fba6421202dd0438acad0317a209eb
+      internalID: -6593960558805153538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banheiro_ajustado_pixel_18
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 35
+        width: 8
+        height: 658
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1043d939825884140b816c267860310a
+      internalID: 870702618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -530,6 +618,7 @@ TextureImporter:
       banheiro_ajustado_pixel_15: -5652575786391221504
       banheiro_ajustado_pixel_16: -8900015926366318588
       banheiro_ajustado_pixel_17: 242514952345382154
+      banheiro_ajustado_pixel_18: 870702618
       banheiro_ajustado_pixel_2: 1581084963616701019
       banheiro_ajustado_pixel_3: -2235033771906739993
       banheiro_ajustado_pixel_4: 4565387560130601141
