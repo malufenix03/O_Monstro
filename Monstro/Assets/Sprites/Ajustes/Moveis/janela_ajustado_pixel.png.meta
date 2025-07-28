@@ -213,10 +213,10 @@ TextureImporter:
       name: janela_ajustado_pixel_3
       rect:
         serializedVersion: 2
-        x: 521
-        y: 728
-        width: 146
-        height: 146
+        x: 314
+        y: 512
+        width: 362
+        height: 362
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

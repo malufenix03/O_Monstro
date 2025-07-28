@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: a841e384b3ea55344894a70ea54699d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1623864138805325009
+    second: cozinha_ajustado_pixel_0
+  - first:
+      213: 1704138556143892715
+    second: cozinha_ajustado_pixel_1
+  - first:
+      213: -8594256708840336943
+    second: cozinha_ajustado_pixel_2
+  - first:
+      213: 494221053050087563
+    second: cozinha_ajustado_pixel_3
+  - first:
+      213: 1820012221980496706
+    second: cozinha_ajustado_pixel_4
+  - first:
+      213: 3515166831657833685
+    second: cozinha_ajustado_pixel_5
+  - first:
+      213: -666478797677978080
+    second: cozinha_ajustado_pixel_6
+  - first:
+      213: 6449662369297199437
+    second: cozinha_ajustado_pixel_7
+  - first:
+      213: 7451412223050141408
+    second: cozinha_ajustado_pixel_8
+  - first:
+      213: -3462784973523341480
+    second: cozinha_ajustado_pixel_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 611
+        width: 488
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcacf4a4df198610800000000000000
+      internalID: 1623864138805325009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 602
+        width: 11
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8f007ecf056a710800000000000000
+      internalID: 1704138556143892715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_2
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 611
+        width: 11
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1dd01ce011bb880800000000000000
+      internalID: -8594256708840336943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 134
+        width: 92
+        height: 758
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 46, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88e193ed63dbd600800000000000000
+      internalID: 494221053050087563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_4
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 296
+        width: 173
+        height: 596
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243540a197bf14910800000000000000
+      internalID: 1820012221980496706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 306
+        width: 218
+        height: 289
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d45337fb9168c030800000000000000
+      internalID: 3515166831657833685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 296
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e131e801130c6f0800000000000000
+      internalID: -666478797677978080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 272
+        height: 290
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41f92bc0cdc18950800000000000000
+      internalID: 6449662369297199437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_8
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 197
+        width: 164
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee48e500fbb86760800000000000000
+      internalID: 7451412223050141408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cozinha_ajustado_pixel_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 53
+        width: 209
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fa497c967b1ffc0800000000000000
+      internalID: -3462784973523341480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8534749d2de78b649b40a04399a0471b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cozinha_ajustado_pixel_0: 1623864138805325009
+      cozinha_ajustado_pixel_1: 1704138556143892715
+      cozinha_ajustado_pixel_2: -8594256708840336943
+      cozinha_ajustado_pixel_3: 494221053050087563
+      cozinha_ajustado_pixel_4: 1820012221980496706
+      cozinha_ajustado_pixel_5: 3515166831657833685
+      cozinha_ajustado_pixel_6: -666478797677978080
+      cozinha_ajustado_pixel_7: 6449662369297199437
+      cozinha_ajustado_pixel_8: 7451412223050141408
+      cozinha_ajustado_pixel_9: -3462784973523341480
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
