@@ -1,3 +1,5 @@
 inclinar = horizontal x cosseno ângulo
 
 horizontal = inclinado / cosseno ângulo
+
+coloca sprites 8 vezes tamanho na hora de montar algo pois vira 1 pixel por unidade unity, e depois coloca num grupo onde tamanho é 8 e diminui para 1

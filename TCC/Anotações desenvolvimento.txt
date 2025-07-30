@@ -1,3 +1,19 @@
 erro sprite parar do nada andando no tile -> unir os collider
 
 https://www.finalparsec.com/blog_posts/why-should-i-use-a-sprite-sheet
+
+se poucos pixels unity faz imagem ficar embaçada
+
+ajuste sprites para facilitar cálculos = 8 pixels desenho = 1 unidade do unity
+					ppu = 9*8 = 72
+
+paredes e chao tem que ser divisel por 8
+
+
+character atlas tem compressão e muda o tamanho do arquivo
+
+Tela 21 tiles largura 8 blocos altura
+
+mesmo sem compressão, a imagem é deformada. Tem que abaixar cerca de 0.025 do tamanho para ajustarem ou colocar fundo atrás da mesma cor
+
+Não pode usa composite collider na parede, ou o collider2D.distance não funciona

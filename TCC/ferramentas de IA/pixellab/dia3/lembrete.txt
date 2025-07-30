@@ -1,0 +1,10 @@
+x_y_z_w
+x=angulo inicial
+y=angulo final
+z=fix original
+w=número teste com outros valores iguais
+* = quick rotate
+
+ordem cronológica
+	fix1 modificou fix_teste_3 
+	90 pelo 45 quick rotate

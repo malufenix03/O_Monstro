@@ -53,3 +53,57 @@ almofada 45cm = 18 pixels
 quadros 60cm largura = 24 pixels, 80cm altura = 32 pixels
 
 cama 205cm largura = 82 pixels, 160cm altura= 64 pixels, 77cm entre camas sem colchão = 31 pixels, 90cm altura cama baixo = 36, 25 altura pé cama = 10 pixels
+
+poltrona 70cm comprimento = 28 pixels, 80cm largura = 32 pixels, 40cm altura assento = 16 pixels, 75cm altura = 30 pixels
+
+gaveta 45cm largura = 18 pixels, 15cm altura = 6 pixels
+
+guarda roupa 190cm altura = 76 pixels, 110cm largura = 44 pixels ou 68cm largura = 27 pixels
+
+cabide 20cm altura = 8 pixels
+
+camiseta 65cm altura = 26 pixels, 50cm largura = 20 pixels
+
+mesa 75cm altura = 30 pixels, 135cm largura = 54 pixels, 75cm profundidade = 30 pixels
+
+cadeira 80cm altura = 32 pixels, 40cm largura= 16 pixels, 45cm altura perna = 18 pixels, 35cm profundidade = 14 pixels
+
+caderno 15cm largura página = 6 pixels, 20 cm altura = 8 pixels
+
+lixo 35cm altura = 14 pixels, ~=22cm largura = 11 pixels
+
+mesinha de canto 30cm altura = 12 pixels, 35cm largura = 14 pixels
+
+teto 300cm = 120 pixels -> 15
+
+janela quarto 100cm = 40 pixels
+
+varão 15cm maior que cortina = 6 pixels (3 cada lado) 2,8cm = 1 pixel, 15cm acima janela = 6 pixels
+
+relógio 37cm largura e altura = 15 pixels  
+
+cadeira 2 95cm altura = 38 pixels, 47cm altura assento = 19 pixels, 50cm comprimento = 20 pixels, 7cm espessura = 3 pixels, 12cm espessura assento = 5 pixels
+
+cadeira faculdade 95cm altura = 38 pixels, 40cm comprimento assento = 16 pixels, 50cm altura chao assento= 20 pixels, 30cm encosto = 12 pixels
+
+banco 120cm largura = 80 pixels, 87cm altura = 35 pixels, 44cm altura banco = 18cm
+
+abajur 30cm largura = 12 pixels, 20cm altura corpo = 8 pixels, 22cm altura cabeça = 9 pixels
+
+abajur de chão 165cm altura = 66 pixels, 40cm altura cabeça = 16 pixels, 47cm largura = 19 pixels
+
+armário cozinha (1 porta) 80cm altura = 32 pixels, 60cm largura = 24 pixels
+
+gaveta cozinha 20cm altura = 8 pixels, 70cm largura = 28 pixels
+
+mesa gaveta 48cm largura = 19 pixels, 20cm altura = 8 pixels
+
+forno + fogao 80cm altura= 32 pixels, 75cm largura = 30 pixels, 5cm altura acima botao depois boca = 2 pixels, 60cm largura forno = 24 pixels, 35cm altura forno = 14 pixels
+
+quadro psicóloga 40cm = 16 pixels
+
+estante livro 28,5cm altura entre estantes = 11 pixels, 65cm largura = 26 pixels
+
+geladeira 175cm altura = 70 pixels, 62cm largura = 25 pixels
+
+placa sala 30cm largura = 12 pixels, 10cm altura = 4 pixels

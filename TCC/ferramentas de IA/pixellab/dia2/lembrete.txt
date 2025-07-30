@@ -1,0 +1,43 @@
+x_y_z_w
+x=angulo inicial
+y=angulo final
+z=fix original
+w=número teste com outros valores iguais
+* = quick rotate
+
+ordem cronológica
+	rotacao 90 graus resultado 1 = 0_90_0_1
+	rotacao 90 graus resultado 2 = 0_90_0_2
+
+	rotacao 45 graus resultado 3 = 0_45_0_1
+	rotacao 90 graus resultado 3 usou 0_45_0_1 = 45_90_0_1
+
+	rotacao 45 graus resultado 4 = 0_45_0_2
+	rotacao 90 graus resultado 3 usou 0_45_0_2 = 45_90_0_2
+
+	rotacao 45 graus quick rotate = 0_45_0_1*
+	rotacao 90 graus quick rotate = 0_90_0_1*
+
+	fix_teste_4 modificou 0_45_0_2= 0_45_1_2
+	rotacao 45 graus fix4 res1 usou 0_45_1_2 = 45_90_2_1
+	rotacao 45 graus fix4 res2 usou 0_45_1_2 = 45_90_2_2
+
+	fix_teste_3 modificou 0_45_0_1 usando cabeça 0_45_0_2 = 0_45_1_1
+	rotacao 45 graus fix3 res1 usou 0_45_1_1 = 45_90_1_1
+	rotacao 45 graus fix3 res2 usou 0_45_1_1 = 45_90_1_2
+	rotacao 45 graus fix3 res3 usou 0_45_1_1 = 45_90_1_3
+
+	rotacao 45 graus fix4 quick rotate usou 0_45_1_2 = 45_90_2_1*
+	rotacao 45 graus fix3 quick rotate usou 0_45_1_1 = 45_90_1_1*
+
+	menu_fix_init rotaciona _0_45_1_1 e usa como init 0_90_0_1
+	rotacao 45 graus fix3 init1 res1 rotaciona 0_45_1_1 e usa como init 0_90_0_1 = 45_90_1_1 init 1_0
+	rotacao 45 graus fix3 init1 res2 rotaciona 0_45_1_1 e usa como init 0_90_0_1 = 45_90_1_2 init 1_0
+
+	fix_init_1 modificou 0_90_0_1 = 0_90_1_1
+	menu_fix3_fixinit1 rotaciona _0_45_1_1 e usa como init 0_90_1_1
+	rotacao 45 graus fix3 init1 res3 rotaciona 0_45_1_1 e usa como init 0_90_1_1 = 45_90_1_1 init 1_1
+	rotacao 45 graus fix3 init1 res4 rotaciona 0_45_1_1 e usa como init 0_90_1_1 = 45_90_1_2 init 1_1
+	rotacao 45 graus fix3 init1 res4 -1 desfaz um processo de 45_90_1_2 init 1_1
+
+	

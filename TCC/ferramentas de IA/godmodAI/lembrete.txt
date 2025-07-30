@@ -1,0 +1,8 @@
+andando 16 = 16 colors 64 pixels?
+
+andando 152 = 152 pixels
+
+andando 32 = 32 pixels
+
+andando 64 = 64 pixels
+

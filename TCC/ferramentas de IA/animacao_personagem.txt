@@ -1,7 +1,9 @@
 Rosebud AI - 5 prompts por semana gratuito
 	3D pode passar para 2D? 
 	Não criou o sprite sheet quando pedi
-	
+	serve mais para fazer o jogo completo?
+	só cria asset na parte separada para asset
+		não consegue criar uma animação da imagem já pronta
 
 https://sketch.metademolab.com
 	upload da imagem de um personagem estático, transforma isso em várias animações diferentes tendo o resultado como vídeo
@@ -32,9 +34,14 @@ https://www.godmodeai.cloud/ai-sprite-generator
 	andando 152 - 152 pixel 16 cores
 	andando 64 - 64 pixel 16 cores
 	andando 12 - 64 pixel 12 cores
+	modificação dia 27/07 -> sprite pixel art normalmente funciona sem dar upscale
+		pode fazer várias iterações com prompt para ajustar
+			não dá para selecionar regeração parcial
+	transformar video em pixel art é uma ferramenta separada 1 crédito
 
 https://www.yeschat.ai/gpts-ZxWyYju4-SpriteSheetGPT
 	tentei pedir para criar o sprite sheet do personagem andando, mandando a imagem do personagem, porém a IA não mandou nenhuma imagem, apenas descreveu o que ela mesma ia fazer
+	limitado
 
 segmind
 	1$ de créditos grátis
@@ -45,11 +52,80 @@ segmind
 chatGPT
 	tentar pegar sprite sheet 
 	demora um tempo e faz 4 imagens sem realmente fazer o movimento
+	faz rotação
+	tentar abordagem mais descritiva
+	tem modelo específico ilustre
+		e tem opção de selecionar algo para adicionar, remover ou substituir algo na imagem, editar ela
+	limite de conversa com arquivo anexado
+	não dá para regenerar resposta
+	sprite sheets ficam repetitivos
 
 vidu 2.0
 	imagem e descrição
 	80 créditos grátis
 	cada vídeo = 4 créditos
+	ganhei créditos de alguma forma?
+		10 referências por mês?
+	na real tu tem que falar o que a imagem está fazendo
 
 pixellabai
-	fazer rotações
+	fazer rotações = tem que ser 16x16, 32x32, 64x64 ou 128x128
+		usar pixilart para ajustar pixels da imagem
+	animação para animação grátis por um periodo limitado
+	várias opções de acesso
+		simple web creator -> gerar imagens
+		pixelLab pixelorama -> online para editar pixel art e recursos IA (usando esse)
+
+	init image
+		em vez de ser do zero, tem base a imagem inicial para cores e formas
+	descrição ajuda
+		força 0 a 900
+	
+	seed = geração é aleatória
+
+	inpaint = pintar as partes que quer mudar, para corrigir erros
+		fazer uma parte por vez
+	
+	rotate
+		gerar 7 (3) outras rotações onde a imagem inicial é a referência
+			menos preciso 
+		ou mudar a referência a cada rotação
+			melhor em fazer rotações menores, mas acumula erro a cada geração
+		tem que centralizar imagem
+		->rotação 90 graus direto = resultado 1, 2 e quick rotate
+		->fix teste 3 usa cabeça 45 graus teste 4
+		tem um processo visual de como monta imagem
+		uso init força 300 = resultado 1, 2 e 3
+		uso init força 600 = resultado 4
+		uso init força 180 = resultado 5
+	limite uso diário = 5 por dia,acumula até 20
+	animation para animation
+		única opção disponível grátis por tempo limitado. Pega a animação já feita de outro personagem fazendo uma ação, e faz o personagem que você quer fazer essa ação
+			PEGAR SPRITE SHEET GODMODAI
+		
+
+gemini pro
+	gratuito por 1 mês
+	tem um opção específica para Imagem (Imagen) e Video (Veo 3)
+	vídeo não é possível gerar novamente
+	limite diário criação vídeo
+		só pode anexar uma foto
+	falar para rotacionar o personagem funciona melhor do que falar para fazer o desenho do personagem olhando para a direita
+		no chat 4 a IA aparenta estar criando um prompt a ser enviado para o modelo de IA de geração de imagem, que não possui realmente o desenho original como referência, recriando o personagem do zero baseado nas características fornecidas pelo prompt feito pela a IA de texto
+		aparentemente uma abordagem direta funciona melhor que uma abordagem descritiva
+	sprite sheet ficam repetindo o frame várias vezes
+		mandar imagem na mesma mensagem aumenta chance de fazer o personagem certo
+
+	
+
+https://pixie.haus/	https://itch.io/t/4473913/pixiehaus-tool-for-sprite-generation-with-ai
+	a testar
+
+cgdream
+	100 créditos por dia = custo geração depende
+	imagem para imagem = 20 créditos flux (text to image model), 4 créditos juggernaut xl (modelo sdxl, serior of text-to-image systhesis models baseado na arquitetura sdxl, alta resolução e realista?)
+		jugger 1 e 2 = 5 guidance
+		jugger 3 e 4 = 9 guidance
+
+https://nmkd.itch.io/flowframes
+
