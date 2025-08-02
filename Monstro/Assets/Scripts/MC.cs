@@ -6,13 +6,15 @@ using UnityEngine.InputSystem.Controls;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
+//--------------------------------------------- CONTROLLER PERSONAGEM PRINCIPAL -------------------------------------------- 
+
 public class MC : Character
 {
 
-    //VARIÁVEIS
+    //VARIAVEIS
 
     //public Portrait hurt
-    
+
     //controles
     public Key interactButton = Key.W;
     public Key moveLeftButton = Key.A;
@@ -21,6 +23,9 @@ public class MC : Character
 
     //camera
     public GameObject charCamera;
+
+    //sprite
+    private SpriteRenderer sprite;
 
     //status
     public int maxLife = 10;
@@ -38,12 +43,13 @@ public class MC : Character
     //INICIALIZAÇÃO -----------------------------------------------------------------------------------------  
     void Ini()
     {
-        prevX = transform.position.x;
-        Pause(false);
+        prevX = transform.position.x;                //ultima posicao x
+        sprite = GetComponent<SpriteRenderer>();    //pega sprite renderer
+        Pause(false);                               //jogo despausado
 
     }
 
-     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Ini();
@@ -62,15 +68,37 @@ public class MC : Character
     void Move()
     {
         //print("Movendo x em " + dir);
-        SendMessage("RigidBodyMoveX",dir * Time.fixedDeltaTime* speed);         //mover
-        float dist = (float) (transform.position.x - prevX);                    //calcular distância que conseguiu mover
+        SendMessage("RigidBodyMoveX", dir * Time.fixedDeltaTime * speed);       //mover
+        float dist = (float)(transform.position.x - prevX);                     //calcular distância que conseguiu mover
         prevX = transform.position.x;                                           //salvar posição atual
         if (charCamera != null)
         {
             charCamera.SendMessage("HorizontalMove", dist);                     //mover câmera conectada ao personagem
         }
-        
+
     }
+
+    public void MoveAnimation()
+    {
+        print("Direcao: "+dir);
+        if (dir > 0)
+        {
+            SendMessage("CustomTrigger", "Right");
+            sprite.flipX = false;
+        }
+        else if (dir < 0)
+        {
+            SendMessage("CustomTrigger", "Left");
+            sprite.flipX = true;
+        }
+        else
+        {
+            SendMessage("CustomTrigger", "Still");
+            sprite.flipX = false;
+        }
+            
+    }
+
     public void PhysicalGameplay()
     {
         //print("Entrou cálculo física");
@@ -78,6 +106,7 @@ public class MC : Character
         {
             //print("Movimento habilitado");
             Move();                                                             //mover rig body
+            MoveAnimation();                                                    //iniciar animacao movimento
         }
     }
 
@@ -88,7 +117,7 @@ public class MC : Character
         print("Entrou gameplay");
         if (flagMove)
         {
-//            print("Movimento habilitado");
+            //            print("Movimento habilitado");
             dir = 0;
             if (Keyboard.current[moveLeftButton].isPressed)
                 dir += -1;

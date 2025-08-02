@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-//MOVIMENTAÇÃO GERAL
+//--------------------------------------------- MOVIMENTAÇÃO GERAL --------------------------------------------
 public class Movement2D : MonoBehaviour
 {
 

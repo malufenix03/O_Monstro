@@ -7,6 +7,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
 
+//--------------------------------------------- PIXELS NO SPRITE -------------------------------------------- 
 public class PixelInfo : MonoBehaviour
 {
     public int width;
@@ -20,6 +21,6 @@ public class PixelInfo : MonoBehaviour
         meio = new int[2];
         (meio[0], meio[1]) = (width / 2, height / 2);
     }
-    
-    
+
+
 }

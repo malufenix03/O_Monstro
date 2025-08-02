@@ -1,11 +1,13 @@
 
 using UnityEngine;
 
-//MOVIMENTAÇÃO LIGADA A OUTRO OBJETO 
+
+//--------------------------------------------- MOVIMENTAÇÃO LIGADA A OUTRO OBJETO -------------------------------------------- //
 
 public class MovedBy : Movement2D
 {
-
+    //VARIAVEIS
+    
     public float minDist = 30f;
     public Collider2D source;
     public Collider2D[] barrierX;
@@ -46,7 +48,7 @@ public class MovedBy : Movement2D
         return 0;
     }
 
-//CALCULA MOVIMENTO DO OBJETO ------------------------------------------
+    //CALCULA MOVIMENTO DO OBJETO ------------------------------------------
     float CheckMove(Collider2D[] barrier, float dist)
     {
         float newDist, distBarrier;
