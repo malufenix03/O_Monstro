@@ -7,6 +7,9 @@ public class AnimatorAnimation : MonoBehaviour
 {
     //VARIAVEIS
 
+    //animator
+    private Animator animator;
+
     //vetor animacoes em sequencia
     public UnityEngine.Object[] proximo;
     private Animator[] proximoAnimator;
@@ -26,9 +29,10 @@ public class AnimatorAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //pegar animator desse objeto
+        animator = GetComponent<Animator>();
 
         //pegar animator de todos objetos
-
         proximoAnimator = new Animator[proximo.Length];
         if(proximo.Length>0){
             for(int i=0;i<proximo.Length; i++){
@@ -44,13 +48,13 @@ public class AnimatorAnimation : MonoBehaviour
     void OnMouseDown()
     {
         if(DistanceFromCamera() <= TriggerDistance){
-            GetComponent<Animator>().SetTrigger("selectedTrigger");         //animacao ativada por clique
+            animator.SetTrigger("selectedTrigger");         //animacao ativada por clique
         }
     }
 
     //encostar no collider
     void OnTriggerEnter(){
-        GetComponent<Animator>().SetTrigger("collisionTrigger");            //animacao ativada por colisao
+        animator.SetTrigger("collisionTrigger");            //animacao ativada por colisao
     }
 
     void TriggerNext(){                                                     //serie de animacoes?
@@ -70,9 +74,14 @@ public class AnimatorAnimation : MonoBehaviour
 
     void CustomTrigger(string custom)
     {
-        GetComponent<Animator>().SetTrigger(custom);            //animacao ativada por trigger recebido
+        animator.SetTrigger(custom);            //animacao ativada por trigger recebido
     }
 
+    void CustomBool((string,bool)pack)
+    {
+        (string custom, bool value) = pack;
+        animator.SetBool(custom, value);
+    }
 
     //CONTROLAR SOM ANIMACAO -----------------------------------------------------------------------------------------
     /*

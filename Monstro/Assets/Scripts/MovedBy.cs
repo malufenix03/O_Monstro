@@ -15,9 +15,9 @@ public class MovedBy : Movement2D
 
     //MOVIMENTO HORIZONTAL ------------------------------------------
 
-    void HorizontalMove((int, int) pack)
+    void HorizontalMove((int, float) pack)
     {
-        (int speed, int dir) = pack;
+        (int speed, float dir) = pack;
         float dist = dir * Time.deltaTime * speed;          //distância outro objeto foi movido
         //print("Movendo pela velocidade e direção");
         dist = CheckMove(barrierX, dist);                   //calcular quanto vai movimentar objeto

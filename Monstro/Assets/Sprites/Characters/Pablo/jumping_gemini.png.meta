@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: 52759ba61d6ee174e80d35403c6ee96c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4281637774074219296
+    second: jump_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jumping_gemini_33
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 4050
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7343c260b237e4a94bb65ab3481b31
+      internalID: 904566606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_34
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 4050
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4651ecd75ff250249b81da708df1985f
+      internalID: 1483374236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_35
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3600
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0822590159931184c8ff178c36a56114
+      internalID: -1772845926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3600
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012d6cb4b79e1244699aeb00f96c8ddb
+      internalID: 1282063738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_37
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3600
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5b2437b5bc05b4cbf41b05d3cd8cda
+      internalID: -1542602812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_38
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3600
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bef0974626237942b4ba79f0d0fec8f
+      internalID: 94911148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_39
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 3600
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9258385a841c1764fb7bad8c33ff2679
+      internalID: 1925673597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3150
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ab96720d840d544bc37c1cbc722b74
+      internalID: -1694529432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_41
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3150
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b7ee5756e6c9f469feb68699b0bf86
+      internalID: 328354128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_42
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3150
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e07446bff038294899c3b8e62e4b6d6
+      internalID: -129164506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_43
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 3150
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c58bc90d0633a34aa3925af2b137985
+      internalID: 940193137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_44
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 3150
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b705ce0c7e7f0f044b978bcce6fd6dab
+      internalID: -660070606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_45
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2700
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ddddf4ac4c6d84bac9658194de66e5
+      internalID: 1628392656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_46
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2700
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001348792cb51a94c8d2576518f694ef
+      internalID: 1115439071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_47
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2700
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8790150ea1da91468bc71012c43ddad
+      internalID: 501596720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_48
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2700
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7322a9e51244824090312916a8790db
+      internalID: 165177033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jumping_gemini_49
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 2700
+        width: 400
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7e5b01995fb754ca492b0301e1ac80
+      internalID: 262670734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1d87bb05bf267f64593a99ab945927d2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jumping_gemini_0: 402648036
+      jumping_gemini_1: 1013966086
+      jumping_gemini_10: 829377995
+      jumping_gemini_11: -663702467
+      jumping_gemini_12: 664199248
+      jumping_gemini_13: 994485188
+      jumping_gemini_14: 1004628670
+      jumping_gemini_15: -706576573
+      jumping_gemini_16: 1419246676
+      jumping_gemini_17: 2121414804
+      jumping_gemini_18: -1648910643
+      jumping_gemini_19: -630467292
+      jumping_gemini_2: 213750940
+      jumping_gemini_20: 496712689
+      jumping_gemini_21: -627630954
+      jumping_gemini_22: -16489078
+      jumping_gemini_23: -1423023493
+      jumping_gemini_24: -810997737
+      jumping_gemini_25: 1234798965
+      jumping_gemini_26: 522722625
+      jumping_gemini_27: 619076504
+      jumping_gemini_28: -624732015
+      jumping_gemini_29: 2007143018
+      jumping_gemini_3: -1151737198
+      jumping_gemini_30: 2145385800
+      jumping_gemini_31: 1702055783
+      jumping_gemini_32: -1477563116
+      jumping_gemini_33: 904566606
+      jumping_gemini_34: 1483374236
+      jumping_gemini_35: -1772845926
+      jumping_gemini_36: 1282063738
+      jumping_gemini_37: -1542602812
+      jumping_gemini_38: 94911148
+      jumping_gemini_39: 1925673597
+      jumping_gemini_4: -1750504028
+      jumping_gemini_40: -1694529432
+      jumping_gemini_41: 328354128
+      jumping_gemini_42: -129164506
+      jumping_gemini_43: 940193137
+      jumping_gemini_44: -660070606
+      jumping_gemini_45: 1628392656
+      jumping_gemini_46: 1115439071
+      jumping_gemini_47: 501596720
+      jumping_gemini_48: 165177033
+      jumping_gemini_49: 262670734
+      jumping_gemini_5: 465954154
+      jumping_gemini_50: 1038198924
+      jumping_gemini_51: 343380273
+      jumping_gemini_52: -555872025
+      jumping_gemini_53: 1941950156
+      jumping_gemini_54: 1922433013
+      jumping_gemini_55: 949474057
+      jumping_gemini_56: 1872403652
+      jumping_gemini_57: -250581625
+      jumping_gemini_58: 1841503111
+      jumping_gemini_59: -41408311
+      jumping_gemini_6: -305070555
+      jumping_gemini_60: 1287423002
+      jumping_gemini_61: -654579531
+      jumping_gemini_62: 259633496
+      jumping_gemini_63: -269422847
+      jumping_gemini_64: -1174410097
+      jumping_gemini_65: 1429905410
+      jumping_gemini_66: 1541084026
+      jumping_gemini_67: 706605081
+      jumping_gemini_68: -421086761
+      jumping_gemini_69: 143036843
+      jumping_gemini_7: 1485405156
+      jumping_gemini_70: -360345527
+      jumping_gemini_71: -2029922358
+      jumping_gemini_72: 1025277057
+      jumping_gemini_73: -2049558232
+      jumping_gemini_74: -830729101
+      jumping_gemini_75: -792157322
+      jumping_gemini_76: 1531674799
+      jumping_gemini_77: 528696262
+      jumping_gemini_78: 103329506
+      jumping_gemini_79: 621642576
+      jumping_gemini_8: 142127631
+      jumping_gemini_9: 1488527431
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

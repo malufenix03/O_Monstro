@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: f2f608fcee0c16b46b00c764adf9b162
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -698041306667668290
+    second: jump_transparente_0
+  - first:
+      213: -4025713865191381893
+    second: jump_transparente_1
+  - first:
+      213: -6102189244401726578
+    second: jump_transparente_2
+  - first:
+      213: 6819353166950903813
+    second: jump_transparente_3
+  - first:
+      213: -7899416114349540518
+    second: jump_transparente_4
+  - first:
+      213: 4075886778389437802
+    second: jump_transparente_5
+  - first:
+      213: 3795981623764381900
+    second: jump_transparente_6
+  - first:
+      213: 6505509958546355329
+    second: jump_transparente_7
+  - first:
+      213: -7775206167857367962
+    second: jump_transparente_8
+  - first:
+      213: -163682906755024957
+    second: jump_transparente_9
+  - first:
+      213: -4997291897267678576
+    second: jump_transparente_10
+  - first:
+      213: 8093082970603908425
+    second: jump_transparente_11
+  - first:
+      213: 601595254156467861
+    second: jump_transparente_12
+  - first:
+      213: -6698175288123725557
+    second: jump_transparente_13
+  - first:
+      213: -8849756967131411374
+    second: jump_transparente_14
+  - first:
+      213: -9217829227666156623
+    second: jump_transparente_15
+  - first:
+      213: 6388012545328340828
+    second: jump_transparente_16
+  - first:
+      213: -7253779780379207503
+    second: jump_transparente_17
+  - first:
+      213: -5469043598661837048
+    second: jump_transparente_18
+  - first:
+      213: -5360334115603579841
+    second: jump_transparente_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 80
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jump_transparente_4
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 974
+        width: 100
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bf23b95e2af5290800000000000000
+      internalID: -7899416114349540518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 738
+        width: 100
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d1d921e65709830800000000000000
+      internalID: 4075886778389437802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 746
+        width: 101
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0f262cc290ea430800000000000000
+      internalID: 3795981623764381900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 752
+        width: 101
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184fbe1f6d6384a50800000000000000
+      internalID: 6505509958546355329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_8
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 755
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6647f656f2be81490800000000000000
+      internalID: -7775206167857367962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_9
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 756
+        width: 100
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c73017734b7abdf0800000000000000
+      internalID: -163682906755024957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 503
+        width: 101
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0921c680f7d06aab0800000000000000
+      internalID: -4997291897267678576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_11
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 496
+        width: 99
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94deb903518605070800000000000000
+      internalID: 8093082970603908425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_12
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 487
+        width: 99
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e9e8e32bb495800800000000000000
+      internalID: 601595254156467861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 472
+        width: 99
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09e51c501d4b03a0800000000000000
+      internalID: -6698175288123725557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_14
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 463
+        width: 98
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c08992de85f2580800000000000000
+      internalID: -8849756967131411374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 200
+        width: 98
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3deb4d721b31080800000000000000
+      internalID: -9217829227666156623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_16
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 197
+        width: 98
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fd8099097c6a850800000000000000
+      internalID: 6388012545328340828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_17
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 197
+        width: 99
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8169fc8b5655b90800000000000000
+      internalID: -7253779780379207503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_18
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 197
+        width: 100
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f13a0c2dd0a14b0800000000000000
+      internalID: -5469043598661837048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_transparente_19
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 197
+        width: 98
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c7a0aa5844c95b0800000000000000
+      internalID: -5360334115603579841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4873904f88ce508408457b98a93a4625
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jump_transparente_0: -698041306667668290
+      jump_transparente_1: -4025713865191381893
+      jump_transparente_10: -4997291897267678576
+      jump_transparente_11: 8093082970603908425
+      jump_transparente_12: 601595254156467861
+      jump_transparente_13: -6698175288123725557
+      jump_transparente_14: -8849756967131411374
+      jump_transparente_15: -9217829227666156623
+      jump_transparente_16: 6388012545328340828
+      jump_transparente_17: -7253779780379207503
+      jump_transparente_18: -5469043598661837048
+      jump_transparente_19: -5360334115603579841
+      jump_transparente_2: -6102189244401726578
+      jump_transparente_3: 6819353166950903813
+      jump_transparente_4: -7899416114349540518
+      jump_transparente_5: 4075886778389437802
+      jump_transparente_6: 3795981623764381900
+      jump_transparente_7: 6505509958546355329
+      jump_transparente_8: -7775206167857367962
+      jump_transparente_9: -163682906755024957
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

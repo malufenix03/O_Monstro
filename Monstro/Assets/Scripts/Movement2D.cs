@@ -32,17 +32,28 @@ public class Movement2D : MonoBehaviour
     {
         rig.linearVelocityX = dist;
     }
-    protected void RigidBodyMoveX((int, int) pack)
+    protected void RigidBodyMoveX((int, float) pack)
     {
-        (int speed, int dir) = pack;
+        (int speed, float dir) = pack;
         rig.linearVelocityX = speed * dir * Time.fixedDeltaTime;
+    }
+
+    //MOVIMENTO VERTICAL COM FÍSICA -----------------------------------------------------------------------------------------
+
+    protected void RigidBodyMoveY(float dist)
+    {
+        rig.linearVelocityY = dist;
+    }
+    protected void RigidBodyMoveY(int speed)
+    {
+        rig.linearVelocityY = speed * Time.fixedDeltaTime;
     }
 
     //MOVIMENTO HORIZONTAL SEM FÍSICA -----------------------------------------------------------------------------------------
 
-    protected void SimpleMoveX((int, int) pack)
+    protected void SimpleMoveX((int, float) pack)
     {
-        (int speed, int dir) = pack;
+        (int speed, float dir) = pack;
         transform.Translate(dir * Time.deltaTime * speed, 0, 0);
     }
     protected void SimpleMoveX(float dist)
