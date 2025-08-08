@@ -17,3 +17,25 @@ Tela 21 tiles largura 8 blocos altura
 mesmo sem compressão, a imagem é deformada. Tem que abaixar cerca de 0.025 do tamanho para ajustarem ou colocar fundo atrás da mesma cor
 
 Não pode usa composite collider na parede, ou o collider2D.distance não funciona
+
+colidder personagem é menor do que sprite na animação
+	windown animation modificar collider junto com o sprite
+
+animação pulo
+	pode ser só um estado - airborne state (se não está no chão)
+	pode ser 2 estados subida e descida (ligado a velocidade)
+			https://www.youtube.com/watch?v=kmRUUK30E6k&ab_channel=AdamCYounis
+
+
+input system -> detecta inputs que são responsáveis por uma ação global -> mover (a/d/</>) pular (espaço)
+		binding = teclas ligada a ação
+		player input para ação avisar o código quando pressionada a tecla
+
+flag ini jump pois só faz movimento físico do sprite depois do istouching
+
+parte interface e movimentação -> teste build
+
+pegar textMeshPro = TMP_Text
+
+.GetPersistentEventCount() != 0 ---> checa se unity event está nulo
+

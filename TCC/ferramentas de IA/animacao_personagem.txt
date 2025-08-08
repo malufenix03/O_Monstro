@@ -37,7 +37,20 @@ https://www.godmodeai.cloud/ai-sprite-generator
 	modificação dia 27/07 -> sprite pixel art normalmente funciona sem dar upscale
 		pode fazer várias iterações com prompt para ajustar
 			não dá para selecionar regeração parcial
+				dia seguinte deu para selecionar
+					custa 1 crédito
 	transformar video em pixel art é uma ferramenta separada 1 crédito
+	lado certo deu erro várias vezes
+
+
+
+	@software{godmodeanimation2024,
+  		author = {Gavin Li},
+  		title = {2D Game Animation Generation: All you need is repeat the same motion 1000 times},
+  		url = {https://github.com/lyogavin/godmodeanimation/},
+  		version = {1.0},
+  		year = {2024},
+		}
 
 https://www.yeschat.ai/gpts-ZxWyYju4-SpriteSheetGPT
 	tentei pedir para criar o sprite sheet do personagem andando, mandando a imagem do personagem, porém a IA não mandou nenhuma imagem, apenas descreveu o que ela mesma ia fazer
@@ -67,10 +80,19 @@ vidu 2.0
 	ganhei créditos de alguma forma?
 		10 referências por mês?
 	na real tu tem que falar o que a imagem está fazendo
+	criar referências (objeto, pessoa, lugar)
+		editei referência pablo 2 vezes, a segunda depois da tela 9
+			não funciona tão bem sem cenário, coloca porta como se fosse chão
+				tem que descrever o cenário mesmo que seja só um fundo
+			mostra perspectiva que não tem que mostra
+	como fazer os prompts
+		https://shengshu.feishu.cn/docx/MtKHd8OhNokOtaxzxQHcdUDPnKh
 
 pixellabai
 	fazer rotações = tem que ser 16x16, 32x32, 64x64 ou 128x128
 		usar pixilart para ajustar pixels da imagem
+			extremamente importante para as imagens de outras IA a serem usadas de base aqui
+		tem que estar no meio da tela se não buga
 	animação para animação grátis por um periodo limitado
 	várias opções de acesso
 		simple web creator -> gerar imagens
@@ -102,6 +124,18 @@ pixellabai
 	animation para animation
 		única opção disponível grátis por tempo limitado. Pega a animação já feita de outro personagem fazendo uma ação, e faz o personagem que você quer fazer essa ação
 			PEGAR SPRITE SHEET GODMODAI
+				transformar em pixel e frames separados com pixilart
+		máximo 15 frames
+		ai freedom é relacionado a quanto imita a animação referência, e guidance é relacionada a descrição
+		manter forma corpo animação original
+		fez todo processo e apagou o desenho
+	reduzir cores, quantizar
+		facilita para consertar detalhes e erros
+		bota primeiro frame nas cores certas e limitar as cores à imagem inicial
+			faz as cores irem para lugares errados já que percebe mudança frame inicial para resto da animação
+	editar imagem
+		mudar expressão, roupa
+			tentar mudar pose, movement
 		
 
 gemini pro
@@ -111,10 +145,12 @@ gemini pro
 	limite diário criação vídeo
 		só pode anexar uma foto
 	falar para rotacionar o personagem funciona melhor do que falar para fazer o desenho do personagem olhando para a direita
+		rotação 90° graus melhor que rotação quebrada
 		no chat 4 a IA aparenta estar criando um prompt a ser enviado para o modelo de IA de geração de imagem, que não possui realmente o desenho original como referência, recriando o personagem do zero baseado nas características fornecidas pelo prompt feito pela a IA de texto
 		aparentemente uma abordagem direta funciona melhor que uma abordagem descritiva
 	sprite sheet ficam repetindo o frame várias vezes
 		mandar imagem na mesma mensagem aumenta chance de fazer o personagem certo
+	video só pode anexar uma imagem
 
 	
 
@@ -129,3 +165,15 @@ cgdream
 
 https://nmkd.itch.io/flowframes
 
+
+https://ezgif.com/
+	videos para gif para sprite sheet
+
+https://app.photoroom.com/u/edit/69911d3f-bdc4-4f54-aa15-569400c487da?sourcePath=%2Fyour-content%2Fdesigns
+	remover fundo e também editar
+
+https://www.remove.bg/upload
+	remover fundo, 1 crédito para manter qualidade imagem
+
+https://giventofly.github.io/pixelit/#tryit
+	imagem para pixel
