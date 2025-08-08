@@ -1,6 +1,5 @@
 using System;
 using NUnit.Framework.Constraints;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
@@ -16,11 +15,13 @@ public class MC : Character
 
     //public Portrait hurt
 
+/*
     //controles
     public Key interactButton = Key.W;
     public Key moveLeftButton = Key.A;
     public Key moveRightButton = Key.D;
     public Key jumpButton = Key.Space;
+    */
 
     //camera
     public GameObject charCamera;
@@ -55,11 +56,14 @@ public class MC : Character
     {
         prevX = transform.position.x;                //ultima posicao x
         sprite = GetComponent<SpriteRenderer>();    //pega sprite renderer
-
         spriteCollider = GetComponent<Collider2D>();
+
+        VarGlobal.Pause.AddListener(OnPause);                                           //adiciona OnPause ao evento pause
+        VarGlobal.Unpause.AddListener(OnUnpause);                                           //adiciona OnUnpause ao evento unpause
         Pause(false);                               //jogo despausado
         iniJump = false;                            //nao esta iniciando um pulo
-    //    sprite.sprite = SideView;
+        Life = maxLife;                             //vida inicial = vida maxima
+
 
     }
 
@@ -76,6 +80,15 @@ public class MC : Character
         flagInteractable = !paused;
         flagJump = !paused;
         flagMove = !paused;
+    }
+    void OnPause()
+    {
+        Pause(true);
+    }
+
+    void OnUnpause()
+    {
+        Pause(false);
     }
 
     //REALIZAR MOVIMENTO -----------------------------------------------------------------------------------------
@@ -128,7 +141,6 @@ public class MC : Character
         }
         if (OnGround())                                             //se estiver no chao e nao estiver iniciando pulo
         {
-            Debug.LogWarning("chao");
             if (!iniJump)
             {
                 SendMessage("CustomBool", ("Airborne", false));    //parar animacao pulo 
@@ -137,10 +149,8 @@ public class MC : Character
                                                
         }
         else
-        {
-            iniJump = false;                                                    //terminou de iniciar pulo
-            Debug.LogWarning("ceu");
-        }
+            iniJump = false;                                                    //terminou de iniciar pulo (detectou que saiu do chao) --> erro se pular e nao conseguir sair chao
+        
     }
 
     //CHECAR SE ESTÁ NO CHAO -----------------------------------------------------------------------------------------
@@ -177,9 +187,11 @@ public class MC : Character
         if (flagInteract)
         {
             SendMessage("CustomTrigger", "Interact");
+            SendMessage("Interact");
         }
     }
 
+/*
     public void Gameplay()
     {
         print("Entrou gameplay");
@@ -203,6 +215,7 @@ public class MC : Character
                 dir += 1;
         }
     }
+    */
 
     // Update is called once per frame
     void Update()

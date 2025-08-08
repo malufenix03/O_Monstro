@@ -11,8 +11,15 @@ public abstract class Character : MonoBehaviour
 
     //public Portrait portrait
     public Sprite FrontView;
-    protected bool flagInteract = false;
-    protected bool flagInteractable = false;
+
+    //flags
+    [SerializeField]
+    protected bool interact = false;                         //se pode interagir fora do pause ou nao
+    protected bool flagInteract = false;                     //se pode interagir nesse segundo
+    [SerializeField]
+    protected bool interactable = false;                    //se player pode interagir com esse personagem fora do pause
+    protected bool flagInteractable = false;                //se player pode interagir com esse personagem agora
+    
     public abstract void Pause(bool paused);
 
 }
