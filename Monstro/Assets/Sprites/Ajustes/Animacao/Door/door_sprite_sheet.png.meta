@@ -1,0 +1,2078 @@
+fileFormatVersion: 2
+guid: b9d33081c6e6cf84485c391aa25e9480
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5277199136048714632
+    second: door_sprite_sheet_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 36
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: door_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4950
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8839e2987a06c3940800000000000000
+      internalID: 5277199136048714632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4950
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decd22afbe859ec4b9562f029b81c5ea
+      internalID: -1413354028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4950
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2583b2692f4c64f8f7ac88014ce1d3
+      internalID: -738976509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4950
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c222f879aa273264d85165e92d2e57c0
+      internalID: -281569115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4950
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1292b2c0766ff7448b66394282fc8b76
+      internalID: 1574464538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4950
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c34ab72139fc954a8462dffb45760fe
+      internalID: -777022867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4950
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c162fd509b1c21b4a8087afe5157a6c9
+      internalID: -26781558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3505b15f06efba4ab510f8aacdf64e2
+      internalID: -1441492450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4500
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e9e0554d5cf8341b9f508e894350ca
+      internalID: 1740923090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4500
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a281d312a3494140a6f6308267573d2
+      internalID: -488554867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4500
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c6e417c14def24eab7bfa15cd92e92
+      internalID: -212305818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4500
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500b16e8a2167d944b591971c2835488
+      internalID: -726278477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4500
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6ee55c0742ec2419abbee3a627f29f
+      internalID: 934379194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4500
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ec889af54053b4789dd08ac3c89443
+      internalID: -553789000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4050
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b080a21309fd594e900c809a46687a2
+      internalID: -1665451206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4050
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4a499b84a893e48a7f6a198bac703f
+      internalID: 1722383524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 4050
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb30739f0f474ca428ebaaecb755e0e0
+      internalID: -919516073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4050
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425d7c306d834084f9ec3c71e9ce0786
+      internalID: -1225421857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4050
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c89bcfc14c217a429d0673aedd7d4ff
+      internalID: -734567015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4050
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f9f673738ebc346b71385206302754
+      internalID: -459676209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4050
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a07146ecfe5d944906980faff9919d
+      internalID: -275951633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd402f2c7b1f1d4429ac049ed09a085b
+      internalID: -183233319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3600
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3e585e7226c3e4b81f55351f54d978
+      internalID: 1313275670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3600
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9616347dd19b836438fd9db0da246fcb
+      internalID: -1555268990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3600
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb568790ff6b32b44b1f90ec42d8cf9a
+      internalID: -1234885376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3600
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6a889c7c92daa4196a6c9f2a286ba6
+      internalID: 1819035427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3600
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ba4ee2bd5707d47a8a3bd27f681ca6
+      internalID: -968374101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3600
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92aeac1bfca952043b2b210de1bd3b55
+      internalID: 1027395635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3150
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0c9db697dff7d4680228308c1ae2aa
+      internalID: 466998307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 3150
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a877460b83630ff4c81b5fcc076df11b
+      internalID: 1876058646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 3150
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31848d4208880f4bbce988f26dee2f6
+      internalID: 440825419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3150
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825e2d7b214334e47a438e6714f7b733
+      internalID: 1482735024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3150
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006465f2d16c5c14980e6f7ba285990f
+      internalID: -1201927782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3150
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a5998f9c636d94ca27c0336eda7cd3
+      internalID: -1458311435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3150
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0230f12f0ed67cc4cbdec27ee6c65285
+      internalID: 635553698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2207da1fd7ef044eaac17f9737136b8
+      internalID: 1936552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2700
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f293f5184a10d4f8b1841f582e087f
+      internalID: 1278875686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2700
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7bd6ac477d4a04d9255eb802b82efa
+      internalID: -1267904115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2700
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a887c718be234844588f43a9d4facaec
+      internalID: 1077077213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2700
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19018b283e82ce741a3207109afe0832
+      internalID: -1569865742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2700
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34db06877b47fd47901fe71b09fed83
+      internalID: -1267552555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2700
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ace689df1e26140b5fe3185d086ba8
+      internalID: 196171831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f13a01d8b444f46b972b3ad4268ed4
+      internalID: 1463232996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2250
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72b2e8db02787c48bee9e4612e492a1
+      internalID: -973548964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2250
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24ff6544ac32f1438bb1e0356e17b43
+      internalID: 1611550585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2250
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4977b11d13b5964c80e9c2cf386c05e
+      internalID: 1621567057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2250
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c8f51c3078a944da0b319b78f565e2
+      internalID: -141268119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2250
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f1486fc8d66594ba241d22c62b1eca
+      internalID: -1881118588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2250
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccd50f4b48a8c746983003615789728
+      internalID: -1167263982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f930bc6d302eb5b4db884eb945bafb0f
+      internalID: -1363760419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1800
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3b876a294743d4693c9c0444894cf8
+      internalID: -757248992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1800
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a43fb5498e6904e9c79eedfe6e71c6
+      internalID: -1824845873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1800
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c878b4315291c4aa2ba2ced257ec3c
+      internalID: -274483313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1800
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0963acb6949bfa9448c1c673f1ab2ec5
+      internalID: -478697262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1800
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1487e5dcfdbae21448f0f169507867f3
+      internalID: -1214801773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1800
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a84b573ad1fb0a4cbc5436c156957b6
+      internalID: -1102994605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454265a65364ad148aa5b5b842c11674
+      internalID: 292639797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1350
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50cbdc5d2ceadd4b9038b348155e266
+      internalID: 1152069264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1350
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e05156d41ceff14485ec40077c8fcbf
+      internalID: 779063191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1350
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5b67827f17a84da5d5f860ed45029
+      internalID: -1868252774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1350
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfca0349d1c6e1641af0c84438a8060a
+      internalID: -717308401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1350
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea9c93596337a542834eacd35043871
+      internalID: -2102828563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1350
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851d27337714bd442a7b65643b20948f
+      internalID: -1819686306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc416039c71854a48ac4ae32c4f42ae1
+      internalID: 1594474067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00826751cdcc5e645abd4eb2baec32c2
+      internalID: -1875971874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 900
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e7705672dd13049ac654066b8d0cfd
+      internalID: 895935978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 900
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f43ed797ccc6b4199367bea8f2e0ce
+      internalID: -2029415538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 900
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5188cc4bb0ab64c8d78db335eb9af7
+      internalID: -649286288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 900
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7168aef3983c7b49a3eb5a0a01a4e46
+      internalID: 1937549118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 900
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2608b205350736429d3776cae15c4df
+      internalID: -733953649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdf68e0dab9f0d4ba9c8b6d87d62f8f
+      internalID: 2061690324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 450
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99db4ff21d19b342bf8836d5ec19d45
+      internalID: 1542059995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 450
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11079197692bc3a4abe565d0df9e517e
+      internalID: -816072564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 450
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4830f463639334f85ae59c9cc2e356
+      internalID: -1067220189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 450
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ab2f2f1e12afd42852c7e27a617198
+      internalID: -1987065356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 450
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840b442cb6fca3440a0df281681d33a4
+      internalID: 287890205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 450
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266723b7837946f43a09ec901c9f0ade
+      internalID: 836460644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f418b688ffc8f5046ab3c5c75f32c516
+      internalID: 501280023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007b5dd06ef37b644b6d0446349f884b
+      internalID: 1044928273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53afcad6b27e3446829f34502b0b1b3
+      internalID: -1652679977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb1033934bca9e479ab0c6869b73a48
+      internalID: -302801346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2764770d8b75146a2a2f0149d1263e
+      internalID: -1973267687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddca2b62fdf560408977b5f1524b493
+      internalID: -588393180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_sprite_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 800
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e44aedd659f0847b2da8f814048b19
+      internalID: -544856909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eecd29fde33d4ca4ab9d711756db194f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      door_sprite_sheet_0: 5277199136048714632
+      door_sprite_sheet_1: -1413354028
+      door_sprite_sheet_10: -212305818
+      door_sprite_sheet_11: -726278477
+      door_sprite_sheet_12: 934379194
+      door_sprite_sheet_13: -553789000
+      door_sprite_sheet_14: -1665451206
+      door_sprite_sheet_15: 1722383524
+      door_sprite_sheet_16: -919516073
+      door_sprite_sheet_17: -1225421857
+      door_sprite_sheet_18: -734567015
+      door_sprite_sheet_19: -459676209
+      door_sprite_sheet_2: -738976509
+      door_sprite_sheet_20: -275951633
+      door_sprite_sheet_21: -183233319
+      door_sprite_sheet_22: 1313275670
+      door_sprite_sheet_23: -1555268990
+      door_sprite_sheet_24: -1234885376
+      door_sprite_sheet_25: 1819035427
+      door_sprite_sheet_26: -968374101
+      door_sprite_sheet_27: 1027395635
+      door_sprite_sheet_28: 466998307
+      door_sprite_sheet_29: 1876058646
+      door_sprite_sheet_3: -281569115
+      door_sprite_sheet_30: 440825419
+      door_sprite_sheet_31: 1482735024
+      door_sprite_sheet_32: -1201927782
+      door_sprite_sheet_33: -1458311435
+      door_sprite_sheet_34: 635553698
+      door_sprite_sheet_35: 1936552
+      door_sprite_sheet_36: 1278875686
+      door_sprite_sheet_37: -1267904115
+      door_sprite_sheet_38: 1077077213
+      door_sprite_sheet_39: -1569865742
+      door_sprite_sheet_4: 1574464538
+      door_sprite_sheet_40: -1267552555
+      door_sprite_sheet_41: 196171831
+      door_sprite_sheet_42: 1463232996
+      door_sprite_sheet_43: -973548964
+      door_sprite_sheet_44: 1611550585
+      door_sprite_sheet_45: 1621567057
+      door_sprite_sheet_46: -141268119
+      door_sprite_sheet_47: -1881118588
+      door_sprite_sheet_48: -1167263982
+      door_sprite_sheet_49: -1363760419
+      door_sprite_sheet_5: -777022867
+      door_sprite_sheet_50: -757248992
+      door_sprite_sheet_51: -1824845873
+      door_sprite_sheet_52: -274483313
+      door_sprite_sheet_53: -478697262
+      door_sprite_sheet_54: -1214801773
+      door_sprite_sheet_55: -1102994605
+      door_sprite_sheet_56: 292639797
+      door_sprite_sheet_57: 1152069264
+      door_sprite_sheet_58: 779063191
+      door_sprite_sheet_59: -1868252774
+      door_sprite_sheet_6: -26781558
+      door_sprite_sheet_60: -717308401
+      door_sprite_sheet_61: -2102828563
+      door_sprite_sheet_62: -1819686306
+      door_sprite_sheet_63: 1594474067
+      door_sprite_sheet_64: -1875971874
+      door_sprite_sheet_65: 895935978
+      door_sprite_sheet_66: -2029415538
+      door_sprite_sheet_67: -649286288
+      door_sprite_sheet_68: 1937549118
+      door_sprite_sheet_69: -733953649
+      door_sprite_sheet_7: -1441492450
+      door_sprite_sheet_70: 2061690324
+      door_sprite_sheet_71: 1542059995
+      door_sprite_sheet_72: -816072564
+      door_sprite_sheet_73: -1067220189
+      door_sprite_sheet_74: -1987065356
+      door_sprite_sheet_75: 287890205
+      door_sprite_sheet_76: 836460644
+      door_sprite_sheet_77: 501280023
+      door_sprite_sheet_78: 1044928273
+      door_sprite_sheet_79: -1652679977
+      door_sprite_sheet_8: 1740923090
+      door_sprite_sheet_80: -302801346
+      door_sprite_sheet_81: -1973267687
+      door_sprite_sheet_82: -588393180
+      door_sprite_sheet_83: -544856909
+      door_sprite_sheet_9: -488554867
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.VisualScripting;
+using UnityEngine.Events;
 
 public class AnimatorAnimation : MonoBehaviour
 {
@@ -17,6 +18,10 @@ public class AnimatorAnimation : MonoBehaviour
     
     //distancia trigger animacao
     public float TriggerDistance = 7f;
+
+    //evento se animacao acabar
+    public UnityEvent End;
+    public UnityEvent Begin;
 
 
     public bool flagNext = true;
@@ -82,6 +87,18 @@ public class AnimatorAnimation : MonoBehaviour
         (string custom, bool value) = pack;
         animator.SetBool(custom, value);
     }
+
+    //EVENTOS ANIMACAO -----------------------------------------------------------------------------------------
+    void OnAnimationEnd()
+    {
+        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+        float speed = state.speed * state.speedMultiplier;
+        if (speed > 0)
+        {
+            End?.Invoke();                  //se tem funcao para ser invocada, invoca
+        }
+    }
+
 
     //CONTROLAR SOM ANIMACAO -----------------------------------------------------------------------------------------
     /*

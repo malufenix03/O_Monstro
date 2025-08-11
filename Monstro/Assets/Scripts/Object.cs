@@ -15,7 +15,7 @@ public class Object : MonoBehaviour
 
     //flags
     [SerializeField]
-    protected bool interactable = true;                    //se player pode interagir com esse objeto fora do pause
+    protected bool interactable = true;                     //se player pode interagir com esse objeto fora do pause
     protected bool flagInteractable = false;                //se player pode interagir com esse objeto agora
     protected bool inventory = false;                       //se objeto esta no inventario
     [SerializeField]
@@ -28,7 +28,7 @@ public class Object : MonoBehaviour
 
 
     //INICIALIZAÇÃO -----------------------------------------------------------------------------------------  
-    void Ini()
+    protected void Ini()
     {
 
         VarGlobal.Pause.AddListener(OnPause);               //adiciona OnPause ao evento pause
@@ -62,8 +62,12 @@ public class Object : MonoBehaviour
     //INTERACAO -----------------------------------------------------------------------------------------
     public void Interact()
     {
-        interactMenu.Interact(!open);
-        VarGlobal.Pause.Invoke();
+        if (flagInteractable)
+        {
+            interactMenu.Interact(!open);
+            VarGlobal.Pause.Invoke();
+        }
+        
     }
 
 }

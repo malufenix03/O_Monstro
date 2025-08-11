@@ -29,11 +29,12 @@ public class MC : Character
     //chao
     public Collider2D ground;
 
+    //objeto interacao
+    public GameObject Target { private get; set; }
+
     //sprite
     private SpriteRenderer sprite;
     private Collider2D spriteCollider;
-    //public Sprite SideView;
-    //public Sprite BackView;
 
     //status
     public int maxLife = 10;
@@ -46,6 +47,8 @@ public class MC : Character
     protected bool flagMove = false;
     protected bool flagJump = false;
 
+    
+
     //auxiliares
     private double prevX;
     private Vector2 moveAmount;
@@ -54,15 +57,15 @@ public class MC : Character
     //INICIALIZAÇÃO -----------------------------------------------------------------------------------------  
     void Ini()
     {
-        prevX = transform.position.x;                //ultima posicao x
-        sprite = GetComponent<SpriteRenderer>();    //pega sprite renderer
-        spriteCollider = GetComponent<Collider2D>();
+        prevX = transform.position.x;                                                   //ultima posicao x
+        sprite = GetComponent<SpriteRenderer>();                                        //pega sprite renderer
+        spriteCollider = GetComponent<Collider2D>();                                    //pega collider
 
         VarGlobal.Pause.AddListener(OnPause);                                           //adiciona OnPause ao evento pause
-        VarGlobal.Unpause.AddListener(OnUnpause);                                           //adiciona OnUnpause ao evento unpause
-        Pause(false);                               //jogo despausado
-        iniJump = false;                            //nao esta iniciando um pulo
-        Life = maxLife;                             //vida inicial = vida maxima
+        VarGlobal.Unpause.AddListener(OnUnpause);                                       //adiciona OnUnpause ao evento unpause
+        Pause(false);                                                                   //jogo despausado
+        iniJump = false;                                                                //nao esta iniciando um pulo
+        Life = maxLife;                                                                 //vida inicial = vida maxima
 
 
     }
@@ -91,6 +94,14 @@ public class MC : Character
         Pause(false);
     }
 
+
+    //REALIZAR TELEPORTE -----------------------------------------------------------------------------------------
+    void MoveTo(Vector3 newPos)
+    {
+        prevX = newPos.x;
+        SendMessage("Teleport", newPos); 
+    }
+
     //REALIZAR MOVIMENTO -----------------------------------------------------------------------------------------
     void Move()
     {
@@ -101,13 +112,13 @@ public class MC : Character
         if (charCamera != null)
         {
             charCamera.SendMessage("HorizontalMove", dist);                     //mover câmera conectada ao personagem
+            charCamera.SendMessage("VerticalMove", dist);
         }
 
     }
 
     public void MoveAnimation()
     {
-        print("Direcao: "+dir);
         if (dir > 0)
         {
         //    sprite.sprite = SideView;
@@ -160,6 +171,8 @@ public class MC : Character
     }
 
 
+
+
     //DETECTAR INPUTS -----------------------------------------------------------------------------------------
 
     public void OnMove(InputAction.CallbackContext context)                    //detecta input de movimento
@@ -178,44 +191,44 @@ public class MC : Character
             iniJump = true;
             SendMessage("RigidBodyMoveY", jumpSpeed);
             SendMessage("CustomBool",("Airborne", true));
-            print("PULOOOOOOOOOOOOOOOOOOOO");
         }
     }
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        if (flagInteract)
+        if (flagInteract && Target!=null)
         {
             SendMessage("CustomTrigger", "Interact");
-            SendMessage("Interact");
+            Target.SendMessage("Interact");
         }
     }
+    
 
 /*
-    public void Gameplay()
-    {
-        print("Entrou gameplay");
-        if (flagInteract)
-        {
-            //            print("Interacao habilitado");
-            if (Keyboard.current[interactButton].isPressed)
+            public void Gameplay()
             {
-                SendMessage("CustomTrigger", "Interact");
+                print("Entrou gameplay");
+                if (flagInteract)
+                {
+                    //            print("Interacao habilitado");
+                    if (Keyboard.current[interactButton].isPressed)
+                    {
+                        SendMessage("CustomTrigger", "Interact");
+                    }
+                }
+
+
+                if (flagMove)
+                {
+                    //            print("Movimento habilitado");
+                    dir = 0;
+                    if (Keyboard.current[moveLeftButton].isPressed)
+                        dir += -1;
+                    if (Keyboard.current[moveRightButton].isPressed)
+                        dir += 1;
+                }
             }
-        }
-
-
-        if (flagMove)
-        {
-            //            print("Movimento habilitado");
-            dir = 0;
-            if (Keyboard.current[moveLeftButton].isPressed)
-                dir += -1;
-            if (Keyboard.current[moveRightButton].isPressed)
-                dir += 1;
-        }
-    }
-    */
+            */
 
     // Update is called once per frame
     void Update()
