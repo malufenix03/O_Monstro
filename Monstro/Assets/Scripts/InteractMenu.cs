@@ -83,7 +83,7 @@ public class InteractMenu
         //setar botao
         Button btn = opcao[op].GetComponent<Button>();                              //pegar botao
         btn.onClick.RemoveAllListeners();                                           //limpar listeners objeto antigo
-        btn.onClick.AddListener(() => function?.Invoke());                                          //adicionar funcao anonima a ser chamada se clicar
+        btn.onClick.AddListener(() => function?.Invoke());                          //adicionar funcao anonima a ser chamada se clicar
 
         //setar texto
         TMP_Text txt = opcao[op].GetComponentInChildren<TMP_Text>();
@@ -99,6 +99,8 @@ public class InteractMenu
     {
         opcoes.SetActive(false);
         VarGlobal.Unpause.Invoke();
+
+        
     }
 
 

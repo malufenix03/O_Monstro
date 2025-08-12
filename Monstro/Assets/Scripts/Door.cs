@@ -14,11 +14,6 @@ public class Door : Object
     Collider2D doorCollider;                                     //collider da porta
 
 
-    //para onde leva
-    public GameObject destination;                              //para onde a porta leva
-    public Vector3 newPosition;                               //posicao personagem deve estar
-
-
     //--------------------------------------------- INICIALIZACAO -------------------------------------------- 
     void Start()
     {
@@ -30,19 +25,37 @@ public class Door : Object
     //--------------------------------------------- ABRIR PORTA -------------------------------------------- 
     public void OnOpen()
     {
+        open = true;
+        interactMenu.Leave();                                               //tirar menu
         SendMessage("CustomTrigger", "Open");                               //animacao porta abrindo
     }
 
-    public void afterAnimation()
+    public void OnClose()
     {
-        if (doorCollider.isTrigger != true)                                           //se porta tem
+        open = false;
+        interactMenu.Leave();                                               //tirar menu
+        SendMessage("CustomTrigger", "Open");                               //animacao porta abrindo
+    }
+
+
+    //--------------------------------------------- DEPOIS ANIMACAO -------------------------------------------- 
+    public void afterAnimationOpen()
+    {
+        //RESETAR
+        VarGlobal.player.SendMessage("CustomTrigger", "Reset");                    //resetar animacao player
+        if (doorCollider.isTrigger != true)                                           //se porta tem collider 
         {
             ChangeDoorCollider();
         }
         else
         {
-            moveAnotherRoom();
+            SendMessage("MoveAnotherRoom");
         }
+    }
+
+    public void afterAnimationClose()
+    {
+        VarGlobal.player.SendMessage("CustomTrigger", "Reset");                    //resetar animacao player
     }
 
     void ChangeDoorCollider()
@@ -50,24 +63,6 @@ public class Door : Object
         doorCollider.enabled = !doorCollider.enabled;
     }
 
-    void moveAnotherRoom()
-    {
-        GameObject auxP = VarGlobal.player;
-        GameObject auxC = auxP.GetComponent<MC>().charCamera;
-        float altura = auxC.transform.position.y - auxP.transform.position.y;
-        auxP.SendMessage("MoveTo", newPosition);                                                    //teleporta player para lugar novo
-        auxC.SendMessage("Teleport", new Vector3(newPosition.x, newPosition.y + altura,-10));      //teleporta camera player para lugar novo, tem que estar profundidade -10 para pegar tudo
-        changePlace();
-        auxP.SendMessage("CustomTrigger", "Reset");
-    }
-
-    //--------------------------------------------- IR PARA O PROXIMO COMODO -------------------------------------------- 
-    void changePlace()
-    {
-        VarGlobal.currentPlace = destination;
-        VarGlobal.OnChangeScene();
-        interactMenu.Leave();
-    }
 
 
 }

@@ -29,6 +29,8 @@ public class VarGlobal : MonoBehaviour
     public enum languages { Portugues, Ingles };
     public static languages currentLanguage = languages.Portugues;
 
+    public static float screenWidth = 32;
+
 
 
     //INICIALIZACAO VARIAVEIS GLOBAIS E ESTATICAS APENAS UMA VEZ-----------------------------------------------------------------------------------------
@@ -57,14 +59,39 @@ public class VarGlobal : MonoBehaviour
     //MUDANCA DE COMODO/CENA-----------------------------------------------------------------------------------------
     public static void OnChangeScene()
     {
-        MovedBy camera = player.GetComponent<MC>().charCamera.GetComponent<MovedBy>();
-        int i = 0;
-        Transform barrierX = currentPlace.transform.Find("Structure/Side walls");
+
+
+        //INICIAR VARIAVEIS
+        MC mc = player.GetComponent<MC>();                                                                  //pega script anexado a player
+        MovedBy camera = mc.charCamera.GetComponent<MovedBy>();                                             //pega script anexado a camera
+        int i = 0;                                                                                          //indice
+
+
+        //SETAR PAREDES COMO LIMITE DA CAMERA
+        Transform barrierX = currentPlace.transform.Find("Structure/Side walls");                           //acha as paredes / obstaculos verticais
         foreach (Transform child in barrierX)
         {
-            camera.barrierX[i++] =child.GameObject().GetComponent<Collider2D>();
+            camera.barrierX[i++] = child.GameObject().GetComponent<Collider2D>();                           //coloca as paredes como obstaculos para a camera parar
         }
-        
+
+        //SETAR CHAO COMO PLATAFORMA PARA PULO
+        Collider2D ground = currentPlace.transform.Find("Structure/Ground/Tilemap").GameObject().GetComponent<Collider2D>();        //pega o chao do novo lugar
+        mc.ground[0] = ground;                                                                              //seta chao como lugar que personagem tem que tocar para pular
+
+        //SETAR INTERFACE NOVA SE NECESSARIO
+        GameObject backTxt = currentPlace.transform.Find("Back interface").GameObject();                    //pega interface back para voltar
+        mc.back = backTxt ? backTxt : null;                                                                 //conecta player à interface
+
+        //CALCULAR SE PRECISA TRANCAR A CAMERA E CENTRO DO NOVO LUGAR
+        if (ground.bounds.size.x < screenWidth)                                                             //se lugar inteiro ja cabe na tela da camera
+        {
+            print(ground.bounds.size.x+" lockou");
+            mc.camLock = true;                                                                              //tranca o movimento da camera
+            mc.charCamera.SendMessage("TeleportX", ground.bounds.center.x);                                 //teleporta camera para o centro
+        }
+        else
+            mc.camLock = false;                                                                             //se lugar for grande, destranca movimento da camera
+            
     }
 }
 

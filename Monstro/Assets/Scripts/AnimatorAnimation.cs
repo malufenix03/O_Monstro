@@ -20,8 +20,8 @@ public class AnimatorAnimation : MonoBehaviour
     public float TriggerDistance = 7f;
 
     //evento se animacao acabar
-    public UnityEvent End;
-    public UnityEvent Begin;
+    public UnityEvent[] End;     //vetor eventos apos fim animacao
+    public UnityEvent[] Begin;
 
 
     public bool flagNext = true;
@@ -89,15 +89,27 @@ public class AnimatorAnimation : MonoBehaviour
     }
 
     //EVENTOS ANIMACAO -----------------------------------------------------------------------------------------
-    void OnAnimationEnd()
+    void OnAnimationEnd(int id)                                                                   //chama evento do id apos animacao nao invertida terminar 
     {
         AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
         float speed = state.speed * state.speedMultiplier;
         if (speed > 0)
         {
-            End?.Invoke();                  //se tem funcao para ser invocada, invoca
+            End[id]?.Invoke();                  //se tem funcao para ser invocada, invoca
         }
     }
+
+    void OnInverseAnimationEnd(int id)                                                            //chama evento apos animacao invertida terminar 
+    {
+        AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
+        float speed = state.speed * state.speedMultiplier;
+        if (speed < 0)
+        {
+            End[id]?.Invoke();                  //se tem funcao para ser invocada, invoca
+        }
+    }
+
+
 
 
     //CONTROLAR SOM ANIMACAO -----------------------------------------------------------------------------------------

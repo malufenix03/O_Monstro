@@ -27,10 +27,11 @@ public class MC : Character
     public GameObject charCamera;
 
     //chao
-    public Collider2D ground;
+    public Collider2D[] ground;
 
-    //objeto interacao
+    //objeto alvo interacao
     public GameObject Target { private get; set; }
+    public GameObject back;
 
     //sprite
     private SpriteRenderer sprite;
@@ -46,6 +47,7 @@ public class MC : Character
     //flags
     protected bool flagMove = false;
     protected bool flagJump = false;
+    public bool camLock = false;
 
     
 
@@ -109,10 +111,10 @@ public class MC : Character
         SendMessage("RigidBodyMoveX", dir * Time.fixedDeltaTime * speed);       //mover
         float dist = (float)(transform.position.x - prevX);                     //calcular distância que conseguiu mover
         prevX = transform.position.x;                                           //salvar posição atual
-        if (charCamera != null)
+        if (charCamera != null && !camLock)                                     //se tem camera e esta destrancada
         {
             charCamera.SendMessage("HorizontalMove", dist);                     //mover câmera conectada ao personagem
-            charCamera.SendMessage("VerticalMove", dist);
+            //charCamera.SendMessage("VerticalMove", dist);
         }
 
     }
@@ -167,7 +169,10 @@ public class MC : Character
     //CHECAR SE ESTÁ NO CHAO -----------------------------------------------------------------------------------------
     bool OnGround()
     {
-        return spriteCollider.IsTouching(ground);                               //checa se esse collider está tocando o chão
+        foreach (Collider2D part in ground)
+            if (spriteCollider.IsTouching(part))
+                return true;                                //checa se esse collider está tocando o chão
+        return false;                                       //se nao tocando nada que e chao nessa cena
     }
 
 
@@ -177,58 +182,71 @@ public class MC : Character
 
     public void OnMove(InputAction.CallbackContext context)                    //detecta input de movimento
     {
+        moveAmount = context.ReadValue<Vector2>();                              //para nao ler depois com atraso se estava pressionado
         if (flagMove)
         {
-            moveAmount = context.ReadValue<Vector2>();
             dir = moveAmount[0];
         }
     }
 
     public void OnJump(InputAction.CallbackContext context)                     //detecta input de pulo
     {
+        print("Apertou espaco flag= "+ flagJump + " no chao=" + OnGround());
         if (flagJump && OnGround())
         {
+            print("Entrou if");
             iniJump = true;
             SendMessage("RigidBodyMoveY", jumpSpeed);
-            SendMessage("CustomBool",("Airborne", true));
+            SendMessage("CustomBool", ("Airborne", true));
         }
     }
 
-    public void OnInteract(InputAction.CallbackContext context)
+    public void OnInteract(InputAction.CallbackContext context)                 //detecta input interacao
     {
         if (flagInteract && Target!=null)
         {
+            sprite.flipX =false;
             SendMessage("CustomTrigger", "Interact");
             Target.SendMessage("Interact");
+        }
+    }
+
+    public void OnBack(InputAction.CallbackContext context)                     //detecta input voltar de onde veio
+    {
+        if (flagInteract && back != null)
+        {
+            SendMessage("CustomTrigger", "Reset"); 
+            sprite.flipX =false;
+            back?.SendMessage("MoveAnotherRoom");                                   //ativa evento voltar de onde veio
         }
     }
     
 
 /*
-            public void Gameplay()
-            {
-                print("Entrou gameplay");
-                if (flagInteract)
-                {
-                    //            print("Interacao habilitado");
-                    if (Keyboard.current[interactButton].isPressed)
+                    public void Gameplay()
                     {
-                        SendMessage("CustomTrigger", "Interact");
+                        print("Entrou gameplay");
+                        if (flagInteract)
+                        {
+                            //            print("Interacao habilitado");
+                            if (Keyboard.current[interactButton].isPressed)
+                            {
+                                SendMessage("CustomTrigger", "Interact");
+                            }
+                        }
+
+
+                        if (flagMove)
+                        {
+                            //            print("Movimento habilitado");
+                            dir = 0;
+                            if (Keyboard.current[moveLeftButton].isPressed)
+                                dir += -1;
+                            if (Keyboard.current[moveRightButton].isPressed)
+                                dir += 1;
+                        }
                     }
-                }
-
-
-                if (flagMove)
-                {
-                    //            print("Movimento habilitado");
-                    dir = 0;
-                    if (Keyboard.current[moveLeftButton].isPressed)
-                        dir += -1;
-                    if (Keyboard.current[moveRightButton].isPressed)
-                        dir += 1;
-                }
-            }
-            */
+                    */
 
     // Update is called once per frame
     void Update()
