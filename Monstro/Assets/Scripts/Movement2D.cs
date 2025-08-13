@@ -55,12 +55,12 @@ public class Movement2D : MonoBehaviour
     {
         (int speed, float dir) = pack;
         transform.Translate(dir * Time.deltaTime * speed, 0, 0);
-        print("Mover para " + transform.position);
+        //print("Mover para " + transform.position);
     }
     protected void SimpleMoveX(float dist)
     {
         transform.Translate(dist, 0, 0);
-        print("Mover para " + transform.position);
+        //print("Mover para " + transform.position);
     }
 
     //TELEPORTE -----------------------------------------------------------------------------------------

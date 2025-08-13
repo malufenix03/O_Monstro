@@ -14,7 +14,7 @@ using UnityEngine.UI;
 
 
 [Serializable]
-public class InteractMenu
+public class InteractMenu:Menu
 {
     //VARIAVEIS
 
@@ -43,7 +43,7 @@ public class InteractMenu
 
 
     //menu de interacao
-    public static GameObject opcoes;
+    public static new GameObject menu;
     public static GameObject[] opcao;
 
     //auxiliar
@@ -52,11 +52,11 @@ public class InteractMenu
 
 
     //ATIVANDO E CONFIGURANDO MENU OPCAOS PARA INTERAGIR -----------------------------------------------------------------------------------------
-    public void Interact(bool closed = false)                                   //player interagiu com objeto
+    public void Enter(bool closed = false)                                   //player interagiu com objeto
     {
-
-        op = 0;                                                                 //id opcao
-        opcoes.SetActive(true);                                                 //ativar menu opcoes
+        base.menu = menu;
+        op = 0;                                                                      //id opcao
+        base.Enter();                                                                //entrar menu opcoes
         if (open.GetPersistentEventCount() != 0 || close.GetPersistentEventCount() != 0)           //se não foi adicionado nenhuma action ao evento, nao tem essa opcao
             Opcao(txtOpen.GetTxt(), (closed == true ? open : close));                              //se estiver fechado pode tentar abrir, se não estiver fechado pode tentar fechar
 
@@ -94,14 +94,7 @@ public class InteractMenu
     }
 
 
-    ////SAIR MENU -----------------------------------------------------------------------------------------
-    public void Leave()
-    {
-        opcoes.SetActive(false);
-        VarGlobal.Unpause.Invoke();
 
-        
-    }
 
 
 }

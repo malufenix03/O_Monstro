@@ -63,10 +63,7 @@ public class Object : MonoBehaviour
     public void Interact()
     {
         if (flagInteractable)
-        {
-            interactMenu.Interact(!open);
-            VarGlobal.Pause.Invoke();
-        }
+            interactMenu.Enter(!open);  
         
     }
 

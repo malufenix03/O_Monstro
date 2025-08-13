@@ -25,6 +25,7 @@ public class VarGlobal : MonoBehaviour
     public static GameObject player;
     public static GameObject currentPlace;
 
+
     //linguagem
     public enum languages { Portugues, Ingles };
     public static languages currentLanguage = languages.Portugues;
@@ -36,12 +37,12 @@ public class VarGlobal : MonoBehaviour
     //INICIALIZACAO VARIAVEIS GLOBAIS E ESTATICAS APENAS UMA VEZ-----------------------------------------------------------------------------------------
     void Awake()
     {
-        InteractMenu.opcoes = GameObject.Find("Interact interface").transform.Find("Opcoes").GameObject();                        //pega menu interact
+        InteractMenu.menu = GameObject.Find("Interact interface").transform.Find("Opcoes").GameObject();                        //pega menu interact
 
         InteractMenu.opcao = new GameObject[4];                                                                                     //pega cada opcao do menu interact
         for (int i = 0; i < 4; i++)
         {
-            InteractMenu.opcao[i] = InteractMenu.opcoes.transform.GetChild(i).GameObject();
+            InteractMenu.opcao[i] = InteractMenu.menu.transform.GetChild(i).GameObject();
         }
 
 
@@ -85,13 +86,17 @@ public class VarGlobal : MonoBehaviour
         //CALCULAR SE PRECISA TRANCAR A CAMERA E CENTRO DO NOVO LUGAR
         if (ground.bounds.size.x < screenWidth)                                                             //se lugar inteiro ja cabe na tela da camera
         {
-            print(ground.bounds.size.x+" lockou");
+            print(ground.bounds.size.x + " lockou");
             mc.camLock = true;                                                                              //tranca o movimento da camera
             mc.charCamera.SendMessage("TeleportX", ground.bounds.center.x);                                 //teleporta camera para o centro
         }
         else
             mc.camLock = false;                                                                             //se lugar for grande, destranca movimento da camera
-            
+
+    }
+    public void Leave()
+    {
+        Application.Quit();
     }
 }
 

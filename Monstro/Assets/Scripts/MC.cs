@@ -30,8 +30,12 @@ public class MC : Character
     public Collider2D[] ground;
 
     //objeto alvo interacao
-    public GameObject Target { private get; set; }
-    public GameObject back;
+    public GameObject Target { private get; set; }          //objeto que esta na frente para interagir
+    public GameObject back;                                 //objeto que aparece para voltar na cena
+
+    //menu
+    public Menu activeMenu;                           //menu que está ativo na tela
+    public Menu pauseMenu;                            //menu de pause
 
     //sprite
     private SpriteRenderer sprite;
@@ -49,7 +53,6 @@ public class MC : Character
     protected bool flagJump = false;
     public bool camLock = false;
 
-    
 
     //auxiliares
     private double prevX;
@@ -187,6 +190,8 @@ public class MC : Character
         {
             dir = moveAmount[0];
         }
+        else
+            dir = 0;                                                            //para de andar se nao pode mover
     }
 
     public void OnJump(InputAction.CallbackContext context)                     //detecta input de pulo
@@ -220,33 +225,56 @@ public class MC : Character
             back?.SendMessage("MoveAnotherRoom");                                   //ativa evento voltar de onde veio
         }
     }
+
+    public void OnEscape(InputAction.CallbackContext context)                     //detecta input pause/sair menu de onde veio
+    {
+        if(context.canceled)                                                                                        //se deixou de pressionar o botao
+            if (activeMenu != null && activeMenu?.menu != null)                                                     //se tem um menu aberto
+            {
+            print("Sai");
+            SendMessage("CustomTrigger", "Reset");
+            sprite.flipX = false;
+            activeMenu.Leave();                                                     //fecha menu
+            }
+            else
+            {
+                print("Pausa");
+                pauseMenu.Enter();
+            }
+    }
+    public void Return()                     //retornar ao jogo
+    {                          
+        SendMessage("CustomTrigger", "Reset");
+        sprite.flipX = false;
+        activeMenu.Leave();                                                     //fecha menu
+    }
     
 
 /*
-                    public void Gameplay()
-                    {
-                        print("Entrou gameplay");
-                        if (flagInteract)
-                        {
-                            //            print("Interacao habilitado");
-                            if (Keyboard.current[interactButton].isPressed)
-                            {
-                                SendMessage("CustomTrigger", "Interact");
-                            }
-                        }
+                                public void Gameplay()
+                                {
+                                    print("Entrou gameplay");
+                                    if (flagInteract)
+                                    {
+                                        //            print("Interacao habilitado");
+                                        if (Keyboard.current[interactButton].isPressed)
+                                        {
+                                            SendMessage("CustomTrigger", "Interact");
+                                        }
+                                    }
 
 
-                        if (flagMove)
-                        {
-                            //            print("Movimento habilitado");
-                            dir = 0;
-                            if (Keyboard.current[moveLeftButton].isPressed)
-                                dir += -1;
-                            if (Keyboard.current[moveRightButton].isPressed)
-                                dir += 1;
-                        }
-                    }
-                    */
+                                    if (flagMove)
+                                    {
+                                        //            print("Movimento habilitado");
+                                        dir = 0;
+                                        if (Keyboard.current[moveLeftButton].isPressed)
+                                            dir += -1;
+                                        if (Keyboard.current[moveRightButton].isPressed)
+                                            dir += 1;
+                                    }
+                                }
+                                */
 
     // Update is called once per frame
     void Update()
