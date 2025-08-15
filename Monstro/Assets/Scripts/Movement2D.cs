@@ -71,19 +71,26 @@ public class Movement2D : MonoBehaviour
     }
     protected void TeleportX(float pos)
     {
-        transform.position = new Vector3(pos,transform.position.y,transform.position.z);
+        transform.position = new Vector3(pos, transform.position.y, transform.position.z);
         //print("Teleporte para " + pos);
     }
 
     protected void TeleportY(float pos)
     {
-        transform.position = new Vector3(transform.position.x,pos,transform.position.z);
+        transform.position = new Vector3(transform.position.x, pos, transform.position.z);
         //print("Teleporte para " + pos);
     }
 
     protected void Teleport(Vector2 pos)
     {
-        transform.position = new Vector3(pos.x,pos.y,transform.position.z);
+        transform.position = new Vector3(pos.x, pos.y, transform.position.z);
+    }
+
+    //DESLIZAR -----------------------------------------------------------------------------------------
+    protected void SlideX((float,float) pack)
+    {
+        (float speed, float pos) = pack;
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(pos, transform.position.y, transform.position.z), speed * Time.deltaTime);
     }
 
 

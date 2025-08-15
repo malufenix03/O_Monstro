@@ -10,15 +10,12 @@ public class Door : Object
 
     //VARIAVEIS
 
-    //collider
-    Collider2D doorCollider;                                     //collider da porta
 
 
     //--------------------------------------------- INICIALIZACAO -------------------------------------------- 
     void Start()
     {
         Ini();
-        doorCollider = GetComponent<Collider2D>();
 
     }
 
@@ -34,34 +31,23 @@ public class Door : Object
     {
         open = false;
         interactMenu.Leave();                                               //tirar menu
-        SendMessage("CustomTrigger", "Open");                               //animacao porta abrindo
+        SendMessage("CustomTrigger", "Open");                               //animacao porta fechando
     }
 
 
     //--------------------------------------------- DEPOIS ANIMACAO -------------------------------------------- 
-    public void afterAnimationOpen()
+    public void AfterAnimationOpen()
     {
         //RESETAR
-        VarGlobal.player.SendMessage("CustomTrigger", "Reset");                    //resetar animacao player
-        if (doorCollider.isTrigger != true)                                           //se porta tem collider 
-        {
-            ChangeDoorCollider();
-        }
-        else
-        {
-            SendMessage("MoveAnotherRoom");
-        }
+        VarGlobal.ResetPlayer();                    //resetar animacao player
+        SendMessage("MoveAnotherRoom");
     }
 
-    public void afterAnimationClose()
+    public void AfterAnimationClose()
     {
-        VarGlobal.player.SendMessage("CustomTrigger", "Reset");                    //resetar animacao player
+        VarGlobal.ResetPlayer();                    //resetar animacao player
     }
 
-    void ChangeDoorCollider()
-    {
-        doorCollider.enabled = !doorCollider.enabled;
-    }
 
 
 

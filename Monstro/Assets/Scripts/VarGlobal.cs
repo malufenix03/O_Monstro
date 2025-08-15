@@ -80,21 +80,50 @@ public class VarGlobal : MonoBehaviour
         mc.ground[0] = ground;                                                                              //seta chao como lugar que personagem tem que tocar para pular
 
         //SETAR INTERFACE NOVA SE NECESSARIO
+        if(mc.back !=null)
+            mc.back.SetActive(false);                                                                          //desligar interface back
         GameObject backTxt = currentPlace.transform.Find("Back interface").GameObject();                    //pega interface back para voltar
         mc.back = backTxt ? backTxt : null;                                                                 //conecta player à interface
+        if(backTxt!=null)
+            backTxt.SetActive(true);                                                                            //ligar interface back para aparecer na tela
 
         //CALCULAR SE PRECISA TRANCAR A CAMERA E CENTRO DO NOVO LUGAR
         if (ground.bounds.size.x < screenWidth)                                                             //se lugar inteiro ja cabe na tela da camera
         {
-            print(ground.bounds.size.x + " lockou");
+            //print(ground.bounds.size.x + " lockou");
             mc.camLock = true;                                                                              //tranca o movimento da camera
             mc.charCamera.SendMessage("TeleportX", ground.bounds.center.x);                                 //teleporta camera para o centro
         }
         else
+        {
             mc.camLock = false;                                                                             //se lugar for grande, destranca movimento da camera
+            /*    if (mc.charCamera.transform.position.x != player.transform.position.x)                 //se camera nao estiver na mesma posicao do outro fazer ela deslizar ate ele
+                {
+                    mc.charCamera.AddComponent<SlideMove>();                                          //conect script de deslizar na camera
+                    SlideMove adjustCam;
+                    adjustCam = mc.charCamera.GetComponent<SlideMove>();
+
+                    //setar as variaveis
+                    adjustCam.Target = player;
+                    adjustCam.autoDestruction = true;
+                }*/
+
+
+            mc.charCamera.SendMessage("TeleportX", player.transform.position.x);
+        }
+                                                                                                            
 
     }
-    public void Leave()
+
+
+    public static void ResetPlayer() {
+        player.SendMessage("ResetSprite");                                                   //resetar animacao player
+    }
+
+     
+
+    //FECHAR JOGO-----------------------------------------------------------------------------------------
+    public static void Leave()
     {
         Application.Quit();
     }

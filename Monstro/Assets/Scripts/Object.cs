@@ -33,6 +33,7 @@ public class Object : MonoBehaviour
 
         VarGlobal.Pause.AddListener(OnPause);               //adiciona OnPause ao evento pause
         VarGlobal.Unpause.AddListener(OnUnpause);           //adiciona OnUnpause ao evento unpause
+        interactMenu.Ini();                                 //inicializa menu interacao
         Pause(false);                                       //jogo despausado
     }
 

@@ -1,0 +1,458 @@
+fileFormatVersion: 2
+guid: 9a0cf8ac02e42d9479e5eeab58d833ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6391379260267831272
+    second: side_door_pixel_vidu_0
+  - first:
+      213: -2414467132683995474
+    second: side_door_pixel_vidu_1
+  - first:
+      213: 6981967548126553656
+    second: side_door_pixel_vidu_2
+  - first:
+      213: 3596704315326618562
+    second: side_door_pixel_vidu_3
+  - first:
+      213: 5065299224562324156
+    second: side_door_pixel_vidu_4
+  - first:
+      213: 2593973228591784288
+    second: side_door_pixel_vidu_5
+  - first:
+      213: 3082139053701830735
+    second: side_door_pixel_vidu_6
+  - first:
+      213: -3541933046376106808
+    second: side_door_pixel_vidu_7
+  - first:
+      213: 6771037369597404073
+    second: side_door_pixel_vidu_8
+  - first:
+      213: 314794764928814030
+    second: side_door_pixel_vidu_9
+  - first:
+      213: 7752416431786397156
+    second: side_door_pixel_vidu_10
+  - first:
+      213: 1467159438603538024
+    second: side_door_pixel_vidu_11
+  - first:
+      213: -6875001378184231644
+    second: side_door_pixel_vidu_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3051
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef1011039db2b850800000000000000
+      internalID: 6391379260267831272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_1
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 3051
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6b38a6fe61e7ed0800000000000000
+      internalID: -2414467132683995474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_2
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 3051
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83663633e7ee4e060800000000000000
+      internalID: 6981967548126553656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2034
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb5825c48f0ae130800000000000000
+      internalID: 3596704315326618562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_4
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 2034
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb25911cece8b4640800000000000000
+      internalID: 5065299224562324156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_5
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 2034
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061261f68e4aff320800000000000000
+      internalID: 2593973228591784288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1017
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f489144b325f5ca20800000000000000
+      internalID: 3082139053701830735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_7
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 1017
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4f88809a688dec0800000000000000
+      internalID: -3541933046376106808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_8
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1017
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3afb7fc9e87fd50800000000000000
+      internalID: 6771037369597404073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb0cbcbb206e5400800000000000000
+      internalID: 314794764928814030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_10
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 0
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed878fabad169b60800000000000000
+      internalID: 7752416431786397156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: side_door_pixel_vidu_11
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 0
+        width: 1017
+        height: 1017
+      alignment: 9
+      pivot: {x: 0.37, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e43de6cb56c5410800000000000000
+      internalID: 1467159438603538024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1972b3f6615872847bd8b6986eb93998
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      side_door_pixel_vidu_0: 6391379260267831272
+      side_door_pixel_vidu_1: -2414467132683995474
+      side_door_pixel_vidu_10: 7752416431786397156
+      side_door_pixel_vidu_11: 1467159438603538024
+      side_door_pixel_vidu_2: 6981967548126553656
+      side_door_pixel_vidu_3: 3596704315326618562
+      side_door_pixel_vidu_4: 5065299224562324156
+      side_door_pixel_vidu_5: 2593973228591784288
+      side_door_pixel_vidu_6: 3082139053701830735
+      side_door_pixel_vidu_7: -3541933046376106808
+      side_door_pixel_vidu_8: 6771037369597404073
+      side_door_pixel_vidu_9: 314794764928814030
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

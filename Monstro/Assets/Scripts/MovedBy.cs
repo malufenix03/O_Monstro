@@ -73,7 +73,7 @@ public class MovedBy : Movement2D
             if (aux < minDist)                                          //se objeto distancia menor que minima da barreira
             {
                 outBound = true;                                        //esta alem da distancia minima
-                print(pos);
+//                print(pos);
                 Vector2 thisDist =(Vector2)pos - i.ClosestPoint(pos);   //distancia esse objeto antes e barreira
                 if (Mathf.Abs(thisDist.x) < minDist)               //se ja estava na menor distancia
 //                    print("camera a " + thisDist.x);

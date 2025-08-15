@@ -49,12 +49,16 @@ public class InteractMenu:Menu
     //auxiliar
     private int op;
 
+    public void Ini()
+    {
+        base.menu = menu;
+    }
+
 
 
     //ATIVANDO E CONFIGURANDO MENU OPCAOS PARA INTERAGIR -----------------------------------------------------------------------------------------
     public void Enter(bool closed = false)                                   //player interagiu com objeto
     {
-        base.menu = menu;
         op = 0;                                                                      //id opcao
         base.Enter();                                                                //entrar menu opcoes
         if (open.GetPersistentEventCount() != 0 || close.GetPersistentEventCount() != 0)           //se não foi adicionado nenhuma action ao evento, nao tem essa opcao
