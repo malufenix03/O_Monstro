@@ -37,6 +37,7 @@ public class MovedBy : Movement2D
     {
         //print("Movendo pela distância");
         dist = CheckMove(barrierX, dist,minDistX);                   //calcular quanto vai movimentar objeto
+        print(dist);
         SimpleMoveX(dist);
     }
 
@@ -69,15 +70,18 @@ public class MovedBy : Movement2D
         foreach (Collider2D i in barrier)
         {
             ColliderDistance2D a = source.Distance(i);                  
-            aux = source.Distance(i).distance;
+            //aux = source.Distance(i).distance;
+            aux = Mathf.Abs(source.transform.position.x - i.ClosestPoint(pos).x);  //calcular distancia do centro do player (onde camera fica) e da barreira
             if (aux < minDist)                                          //se objeto distancia menor que minima da barreira
             {
                 outBound = true;                                        //esta alem da distancia minima
-//                print(pos);
-                Vector2 thisDist =(Vector2)pos - i.ClosestPoint(pos);   //distancia esse objeto antes e barreira
+                                                                        //                print(pos);
+                Vector2 thisDist = (Vector2)pos - i.ClosestPoint(pos);   //distancia esse objeto antes e barreira
                 if (Mathf.Abs(thisDist.x) < minDist)               //se ja estava na menor distancia
-//                    print("camera a " + thisDist.x);
+                                                                   //                    print("camera a " + thisDist.x);
                     return 0;                                           //mover mesma quantidade que fonte
+                print("Teoria correta " + aux + " " + Mathf.Abs(thisDist.x));
+                print("UE Camera: " + transform.position.x + " Pablo: " + source.transform.position.x);
                 return aux;
             }
                 
@@ -98,7 +102,7 @@ public class MovedBy : Movement2D
                 outBound = false;                                           //nao esta alem da distancia minima
                 return source.transform.position.x - transform.position.x ;               //objeto move distancia que estava da borda
             } 
-            outBound = false;
+            //outBound = false;
             return dist; 
         }
                                                            //move mesmo tanto que fonte
