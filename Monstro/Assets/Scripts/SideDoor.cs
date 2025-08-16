@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
 //--------------------------------------------- PORTA -------------------------------------------- 
 
 public class SideDoor : Door
@@ -19,7 +18,7 @@ public class SideDoor : Door
     {
         open = false;
         interactMenu.Leave();                                               //tirar menu
-        SendMessage("CustomTrigger", "Close");                              //animacao porta abrindo
+        SendMessage("CustomTrigger", "Close");                              //animacao porta fechando
     }
 
 

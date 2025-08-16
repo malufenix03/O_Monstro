@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -27,7 +28,7 @@ public class MC : Character
     public GameObject charCamera;
 
     //chao
-    public Collider2D[] ground;
+    public List <Collider2D> ground;
 
     //objeto alvo interacao
     public GameObject Target { private get; set; }          //objeto que esta na frente para interagir
@@ -102,6 +103,7 @@ public class MC : Character
     //RESETAR SPRITE -----------------------------------------------------------------------------------------    
     public void ResetSprite()                     //RESETAR SPRITE PARA FRENTE NAO INVERTIDO
     {
+        Debug.LogWarning("mandou trigger reset");
         SendMessage("CustomTrigger", "Reset");
         sprite.flipX = false;
 
@@ -205,15 +207,16 @@ public class MC : Character
 
     //DETECTAR INPUTS -----------------------------------------------------------------------------------------
 
-    public void OnMove(InputAction.CallbackContext context)                    //detecta input de movimento
+    public void OnMove(InputAction.CallbackContext context)                     //detecta input de movimento
     {
-        moveAmount = context.ReadValue<Vector2>();                              //para nao ler depois com atraso se estava pressionado
-        if (flagMove)
-        {
-            dir = moveAmount[0];
-        }
-        else
-            dir = 0;                                                            //para de andar se nao pode mover
+                                     
+            if (flagMove && context.performed)                                 //se estiver pressionado, pode mover
+            {
+                moveAmount = context.ReadValue<Vector2>();
+                dir = moveAmount[0];
+            }
+            else
+                dir = 0;                                                      //para de andar se nao pode mover      
     }
 
     public void OnJump(InputAction.CallbackContext context)                     //detecta input de pulo
@@ -230,7 +233,7 @@ public class MC : Character
 
     public void OnInteract(InputAction.CallbackContext context)                 //detecta input interacao
     {
-        if (flagInteract && Target!=null)
+        if (flagInteract && Target!=null && context.started)                    //se estiver na frente de um objeto, puder interagir e acabou de pressionar botao
         {
             sprite.flipX =false;
             SendMessage("CustomTrigger", "Interact");
@@ -240,7 +243,7 @@ public class MC : Character
 
     public void OnBack(InputAction.CallbackContext context)                     //detecta input voltar de onde veio
     {
-        if (flagInteract && back != null)
+        if (flagInteract && back != null && context.started)                    //se estiver na sala da interface back, puder interagir e acabou de pressionar botao
         {
             ResetSprite(); 
             back?.SendMessage("MoveAnotherRoom");                                   //ativa evento voltar de onde veio

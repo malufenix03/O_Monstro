@@ -37,7 +37,6 @@ public class MovedBy : Movement2D
     {
         //print("Movendo pela distância");
         dist = CheckMove(barrierX, dist,minDistX);                   //calcular quanto vai movimentar objeto
-        print(dist);
         SimpleMoveX(dist);
     }
 
@@ -80,8 +79,6 @@ public class MovedBy : Movement2D
                 if (Mathf.Abs(thisDist.x) < minDist)               //se ja estava na menor distancia
                                                                    //                    print("camera a " + thisDist.x);
                     return 0;                                           //mover mesma quantidade que fonte
-                print("Teoria correta " + aux + " " + Mathf.Abs(thisDist.x));
-                print("UE Camera: " + transform.position.x + " Pablo: " + source.transform.position.x);
                 return aux;
             }
                 
@@ -98,7 +95,6 @@ public class MovedBy : Movement2D
         {
             if (outBound == true)                                         //se moveu saindo de alem da distancia minima
             {
-                print("Saiu\nCamera: " + transform.position.x + " Pablo: " + source.transform.position.x);
                 outBound = false;                                           //nao esta alem da distancia minima
                 return source.transform.position.x - transform.position.x ;               //objeto move distancia que estava da borda
             } 

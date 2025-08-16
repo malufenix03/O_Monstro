@@ -9,6 +9,7 @@ public class SetPlace : MonoBehaviour              //mudar o lugar atual
 
     //VARIAVEIS
     public GameObject place;                                //lugar que esta
+    public bool tp = false;
 
     void Start()
     {
@@ -17,12 +18,12 @@ public class SetPlace : MonoBehaviour              //mudar o lugar atual
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (VarGlobal.currentPlace != place)
-        {
-            VarGlobal.currentPlace = place;
-            VarGlobal.OnChangeScene();
-        }
+                                       //se nao e para teleportar, so muda as configuracoes de qual lugar esta
+            if (VarGlobal.currentPlace != place)
+            {
+                VarGlobal.currentPlace = place;
+                VarGlobal.OnChangeScene();
+            }
     }
-
 }
 

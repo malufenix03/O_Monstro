@@ -75,12 +75,30 @@ public class VarGlobal : MonoBehaviour
             camera.barrierX[i++] = child.GameObject().GetComponent<Collider2D>();                           //coloca as paredes como obstaculos para a camera parar
         }
 
+        i = 0;
         //SETAR CHAO COMO PLATAFORMA PARA PULO
         Collider2D ground = currentPlace.transform.Find("Structure/Ground/Tilemap").GameObject().GetComponent<Collider2D>();        //pega o chao do novo lugar
-        mc.ground[0] = ground;                                                                              //seta chao como lugar que personagem tem que tocar para pular
+
+        
+
+        mc.ground = new List<Collider2D> { ground };                                                          //seta chao como lugar que personagem tem que tocar para pular, limpando o que tinha antes
+
+
+
+        Transform plataforms = currentPlace.transform.Find("Plataforms");                                   //pegar plataformas para contar o pulo
+        if (plataforms != null)                                                                             //se tiver plataforma, pega cada uma delas
+        {
+            Collider2D[] aux = plataforms.GetComponentsInChildren<Collider2D>();                                //pega collider do objeto e dos filhos do objeto
+            foreach (Collider2D child in aux)
+            {
+                mc.ground.Add(child.GameObject().GetComponent<Collider2D>());                               //pega plataforma para contar como chao
+            }
+
+                                      
+        }
 
         //SETAR INTERFACE NOVA SE NECESSARIO
-        if(mc.back !=null)
+        if (mc.back != null)
             mc.back.SetActive(false);                                                                          //desligar interface back
         GameObject backTxt = currentPlace.transform.Find("Back interface").GameObject();                    //pega interface back para voltar
         mc.back = backTxt ? backTxt : null;                                                                 //conecta player à interface

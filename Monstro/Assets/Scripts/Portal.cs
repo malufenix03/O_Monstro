@@ -16,21 +16,29 @@ public class Portal : MonoBehaviour
     public GameObject destination;                              //para onde a portal leva
     public Vector3 newPosition;                               //posicao personagem deve estar
 
+    //flag
+    public bool touchTP = false;                                //se encostar no portal, teleporta para o destino
+
+    //auxiliares
+    static GameObject auxP;
+    static GameObject auxC;
+    static float altura;                                    //altura camera fica da cabeca do player
 
     //--------------------------------------------- INICIALIZACAO -------------------------------------------- 
     void Start()
     {
 
-
+        auxP = VarGlobal.player;
+        auxC = auxP.GetComponent<MC>().charCamera;
+        altura = auxC.transform.position.y - auxP.transform.position.y;                       //altura camera acima cabeca player
     }
 
 
     //--------------------------------------------- IR PARA O PROXIMO COMODO --------------------------------------------
     public void MoveAnotherRoom()
     {
-        GameObject auxP = VarGlobal.player;
-        GameObject auxC = auxP.GetComponent<MC>().charCamera;
-        float altura = auxC.transform.position.y - auxP.transform.position.y;                       //altura camera acima cabeca player
+
+
         auxP.SendMessage("MoveTo", newPosition);                                                    //teleporta player para lugar novo
         auxC.SendMessage("Teleport", new Vector3(newPosition.x, newPosition.y + altura, -10));      //teleporta camera player para lugar novo, tem que estar profundidade -10 para pegar tudo
         ChangePlace();
@@ -61,11 +69,14 @@ public class Portal : MonoBehaviour
         }
         else                                                                                //se player chegou onde porta levava (destino)
         {
-            SendMessage("PassToTwin");                                                      //liga twin
+            if(GetComponent<Twin>()!=null)
+                SendMessage("PassToTwin");                                                      //liga twin
         }
 
 
     }
+
+    //--------------------------------------------- LIGAR/DESLIGAR FOG --------------------------------------------
 
     public void TurnFog(GameObject place)                                                     //ligar ou desligar a fog de algum lugar
     {
@@ -79,6 +90,19 @@ public class Portal : MonoBehaviour
             fog.GameObject().SetActive(turnOn);                                             //ligar ou desligar
         else
             print("Nao tem fog");
+    }
+    
+
+
+    void OnTriggerEnter2D(Collider2D other)                                     //se tocar no collider
+    {
+        if (touchTP)                                                            //se e para teleportar, faz o teleporte
+        {
+            print("entramo");
+            VarGlobal.ResetPlayer();                                            //resetar animacao player
+            SendMessage("MoveAnotherRoom");                                     //ir para o comodo destino
+        }
+
     }
 
 
