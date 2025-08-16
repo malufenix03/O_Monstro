@@ -57,7 +57,7 @@ public class InteractMenu:Menu
 
 
     //ATIVANDO E CONFIGURANDO MENU OPCAOS PARA INTERAGIR -----------------------------------------------------------------------------------------
-    public void Enter(bool closed = false)                                   //player interagiu com objeto
+    public void Enter(bool closed = false)                                      //player interagiu com objeto
     {
         op = 0;                                                                      //id opcao
         base.Enter();                                                                //entrar menu opcoes

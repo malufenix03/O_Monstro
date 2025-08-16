@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
-
+using static GameSettings;
 
 
 //--------------------------------------------- PORTA/PASSAGEM -------------------------------------------- 
@@ -20,17 +20,13 @@ public class Portal : MonoBehaviour
     public bool touchTP = false;                                //se encostar no portal, teleporta para o destino
 
     //auxiliares
-    static GameObject auxP;
-    static GameObject auxC;
     static float altura;                                    //altura camera fica da cabeca do player
 
     //--------------------------------------------- INICIALIZACAO -------------------------------------------- 
     void Start()
     {
 
-        auxP = VarGlobal.player;
-        auxC = auxP.GetComponent<MC>().charCamera;
-        altura = auxC.transform.position.y - auxP.transform.position.y;                       //altura camera acima cabeca player
+        altura = GetY(charCamera) - GetY(player);                       //altura camera acima cabeca player
     }
 
 
@@ -39,8 +35,8 @@ public class Portal : MonoBehaviour
     {
 
 
-        auxP.SendMessage("MoveTo", newPosition);                                                    //teleporta player para lugar novo
-        auxC.SendMessage("Teleport", new Vector3(newPosition.x, newPosition.y + altura, -10));      //teleporta camera player para lugar novo, tem que estar profundidade -10 para pegar tudo
+        player.SendMessage("MoveTo", newPosition);                                                    //teleporta player para lugar novo
+        charCamera.SendMessage("Teleport", new Vector3(newPosition.x, newPosition.y + altura, -10));      //teleporta camera player para lugar novo, tem que estar profundidade -10 para pegar tudo
         ChangePlace();
 
     }
@@ -48,8 +44,8 @@ public class Portal : MonoBehaviour
     //--------------------------------------------- MUDAR NAS CONFIGURACOES DO JOGO --------------------------------------------
     void ChangePlace()
     {
-        VarGlobal.currentPlace = destination;
-        VarGlobal.OnChangeScene();
+        currentPlace = destination;
+        ChangeScene();
     }
 
     //--------------------------------------------- ABRIR E LIBERAR PROXIMO COMODO--------------------------------------------
@@ -62,7 +58,7 @@ public class Portal : MonoBehaviour
     //--------------------------------------------- FECHAR E ESCONDER COMODO ANTERIOR --------------------------------------------
     public void HideRoom()
     {
-        if (VarGlobal.currentPlace != destination)                                          //se player nao estiver no destino
+        if (currentPlace != destination)                                          //se player nao estiver no destino
         {
             print("teste");
             TurnFog(destination);                                                           //liga fog do destino, ja que a porta fechou
@@ -99,7 +95,7 @@ public class Portal : MonoBehaviour
         if (touchTP)                                                            //se e para teleportar, faz o teleporte
         {
             print("entramo");
-            VarGlobal.ResetPlayer();                                            //resetar animacao player
+            ResetPlayer();                                            //resetar animacao player
             SendMessage("MoveAnotherRoom");                                     //ir para o comodo destino
         }
 

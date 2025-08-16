@@ -1,4 +1,5 @@
 using UnityEngine;
+using static GameSettings;
 
 
 
@@ -19,10 +20,10 @@ public class SetPlace : MonoBehaviour              //mudar o lugar atual
     void OnTriggerEnter2D(Collider2D other)
     {
                                        //se nao e para teleportar, so muda as configuracoes de qual lugar esta
-            if (VarGlobal.currentPlace != place)
+            if (currentPlace != place)
             {
-                VarGlobal.currentPlace = place;
-                VarGlobal.OnChangeScene();
+                currentPlace = place;
+                ChangeScene();
             }
     }
 }

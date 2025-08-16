@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using static GameSettings;
 
 
 //--------------------------------------------- PORTA -------------------------------------------- 
@@ -8,9 +9,6 @@ public class SideDoor : Door
 {
 
     //VARIAVEIS
-
-    //collider
-    Collider2D doorCollider;                                     //collider da porta
 
 
     //--------------------------------------------- FECHAR PORTA -------------------------------------------- 
@@ -26,7 +24,7 @@ public class SideDoor : Door
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject == VarGlobal.player)
+        if (other.gameObject == player)
         {
             OnOpen();
             print("Mensagem logo apos");
@@ -36,7 +34,7 @@ public class SideDoor : Door
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject == VarGlobal.player)
+        if (other.gameObject == player)
         {
             OnClose();
         }

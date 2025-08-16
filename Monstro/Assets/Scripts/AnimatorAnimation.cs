@@ -77,6 +77,7 @@ public class AnimatorAnimation : MonoBehaviour
 
     }
 
+    //mudar variaveis
     void CustomTrigger(string custom)
     {
         animator.SetTrigger(custom);            //animacao ativada por trigger recebido
@@ -85,7 +86,7 @@ public class AnimatorAnimation : MonoBehaviour
     void CustomBool((string,bool)pack)
     {
         (string custom, bool value) = pack;
-        animator.SetBool(custom, value);
+        animator.SetBool(custom, value);        //mudar valor da variavel recebida
     }
 
     //EVENTOS ANIMACAO -----------------------------------------------------------------------------------------

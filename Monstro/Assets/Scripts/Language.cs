@@ -7,6 +7,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using static GameSettings;
 
 
 //TRADUCAO -----------------------------------------------------------------------------------------
@@ -25,7 +26,7 @@ public struct Language
 
     public string GetTxt()
     {
-        if (VarGlobal.currentLanguage == VarGlobal.languages.Portugues)
+        if (currentLanguage == Languages.Portugues)
         {
             return portugues;
         }

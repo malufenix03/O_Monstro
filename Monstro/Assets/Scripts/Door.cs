@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-
+using static GameSettings;
 
 
 //--------------------------------------------- PORTA -------------------------------------------- 
@@ -39,13 +39,13 @@ public class Door : Object
     public void AfterAnimationOpen()
     {
         //RESETAR
-        VarGlobal.ResetPlayer();                    //resetar animacao player
+        ResetPlayer();                    //resetar animacao player
         SendMessage("MoveAnotherRoom");
     }
 
     public void AfterAnimationClose()
     {
-        VarGlobal.ResetPlayer();                    //resetar animacao player
+        ResetPlayer();                    //resetar animacao player
     }
 
 

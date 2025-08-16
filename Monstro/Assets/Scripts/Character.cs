@@ -20,7 +20,7 @@ public abstract class Character : MonoBehaviour
     protected bool interactable = false;                    //se player pode interagir com esse personagem fora do pause
     protected bool flagInteractable = false;                //se player pode interagir com esse personagem agora
     
-    public abstract void Pause(bool paused);
+    public abstract void PausePlayer(bool paused);
 
 }
 

@@ -6,6 +6,7 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
+using static GameSettings;
 
 //--------------------------------------------- CONTROLLER PERSONAGEM PRINCIPAL -------------------------------------------- 
 
@@ -15,14 +16,6 @@ public class MC : Character
     //VARIAVEIS
 
     //public Portrait hurt
-
-/*
-    //controles
-    public Key interactButton = Key.W;
-    public Key moveLeftButton = Key.A;
-    public Key moveRightButton = Key.D;
-    public Key jumpButton = Key.Space;
-    */
 
     //camera
     public GameObject charCamera;
@@ -63,13 +56,13 @@ public class MC : Character
     //INICIALIZAÇÃO -----------------------------------------------------------------------------------------  
     void Ini()
     {
-        prevX = transform.position.x;                                                   //ultima posicao x
+        prevX = GetX(transform);                                                   //posicao x
         sprite = GetComponent<SpriteRenderer>();                                        //pega sprite renderer
         spriteCollider = GetComponent<Collider2D>();                                    //pega collider
 
-        VarGlobal.Pause.AddListener(OnPause);                                           //adiciona OnPause ao evento pause
-        VarGlobal.Unpause.AddListener(OnUnpause);                                       //adiciona OnUnpause ao evento unpause
-        Pause(false);                                                                   //jogo despausado
+        Pause.AddListener(OnPause);                                                     //adiciona OnPause ao evento pause
+        Unpause.AddListener(OnUnpause);                                                 //adiciona OnUnpause ao evento unpause
+        PausePlayer(false);                                                             //jogo despausado
         iniJump = false;                                                                //nao esta iniciando um pulo
         Life = maxLife;                                                                 //vida inicial = vida maxima
 
@@ -83,7 +76,7 @@ public class MC : Character
     }
 
     //PAUSAR -----------------------------------------------------------------------------------------    
-    override public void Pause(bool paused)
+    override public void PausePlayer(bool paused)
     {
         flagInteract = !paused;
         flagInteractable = !paused;
@@ -92,21 +85,18 @@ public class MC : Character
     }
     void OnPause()
     {
-        Pause(true);
+        PausePlayer(true);
     }
-
     void OnUnpause()
     {
-        Pause(false);
+        PausePlayer(false);
     }
 
     //RESETAR SPRITE -----------------------------------------------------------------------------------------    
     public void ResetSprite()                     //RESETAR SPRITE PARA FRENTE NAO INVERTIDO
     {
-        Debug.LogWarning("mandou trigger reset");
         SendMessage("CustomTrigger", "Reset");
         sprite.flipX = false;
-
     }
 
     //RETORNAR AO JOGO
@@ -136,8 +126,8 @@ public class MC : Character
     {
         //print("Movendo x em " + dir);
         SendMessage("RigidBodyMoveX", dir * Time.fixedDeltaTime * speed);       //mover
-        float dist = (float)(transform.position.x - prevX);                     //calcular distância que conseguiu mover
-        prevX = transform.position.x;                                           //salvar posição atual
+        float dist = (float)(GetX(transform) - prevX);                     //calcular distância que conseguiu mover
+        prevX = GetX(transform);                                           //salvar posição atual
         if (charCamera != null && !camLock)                                     //se tem camera e esta destrancada
         {
             charCamera.SendMessage("HorizontalMove", dist);                     //mover câmera conectada ao personagem

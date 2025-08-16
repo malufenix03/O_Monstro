@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static GameSettings;
 
 
 
@@ -29,22 +30,20 @@ public class Menu
     ////SAIR MENU -----------------------------------------------------------------------------------------
     public void Leave()
     {
-        this.menu.SetActive(false);
+        menu.SetActive(false);
         if(prevMenu==null){}
-            VarGlobal.Unpause.Invoke();
-        MC mc = VarGlobal.player.GetComponent<MC>();
-        mc.activeMenu = prevMenu;
+            Unpause.Invoke();
+        scriptPlayer.activeMenu = prevMenu;
 
     }
 
-    ////SAIR MENU -----------------------------------------------------------------------------------------
+    ////ENTRAR MENU -----------------------------------------------------------------------------------------
     public void Enter()
     {
         menu.SetActive(true);
-        VarGlobal.Pause.Invoke();
-        MC mc = VarGlobal.player.GetComponent<MC>();
-        prevMenu = mc.activeMenu;
-        mc.activeMenu = this;
+        Pause.Invoke();
+        prevMenu = scriptPlayer.activeMenu;
+        scriptPlayer.activeMenu = this;
     }
 
 }

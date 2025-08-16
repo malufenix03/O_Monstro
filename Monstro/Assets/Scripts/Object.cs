@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using static GameSettings;
 
 
 
@@ -31,8 +32,8 @@ public class Object : MonoBehaviour
     protected void Ini()
     {
 
-        VarGlobal.Pause.AddListener(OnPause);               //adiciona OnPause ao evento pause
-        VarGlobal.Unpause.AddListener(OnUnpause);           //adiciona OnUnpause ao evento unpause
+        GameSettings.Pause.AddListener(OnPause);               //adiciona OnPause ao evento pause
+        Unpause.AddListener(OnUnpause);           //adiciona OnUnpause ao evento unpause
         interactMenu.Ini();                                 //inicializa menu interacao
         Pause(false);                                       //jogo despausado
     }
