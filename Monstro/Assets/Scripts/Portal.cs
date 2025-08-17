@@ -37,7 +37,13 @@ public class Portal : MonoBehaviour
 
         player.SendMessage("MoveTo", newPosition);                                                    //teleporta player para lugar novo
         charCamera.SendMessage("Teleport", new Vector3(newPosition.x, newPosition.y + altura, -10));      //teleporta camera player para lugar novo, tem que estar profundidade -10 para pegar tudo
-        ChangePlace();
+        print("altura: " + altura);
+        if (destination != null)
+            ChangePlace();
+        else
+        {
+            ResetPlayer();
+        }
 
     }
 
@@ -92,9 +98,9 @@ public class Portal : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)                                     //se tocar no collider
     {
-        if (touchTP)                                                            //se e para teleportar, faz o teleporte
+        if (touchTP && other.gameObject == player)                                                            //se e para teleportar, faz o teleporte
         {
-            print("entramo");
+            print("entramos " + gameObject + " " + other.gameObject);
             ResetPlayer();                                            //resetar animacao player
             SendMessage("MoveAnotherRoom");                                     //ir para o comodo destino
         }

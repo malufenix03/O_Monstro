@@ -42,13 +42,13 @@ public class MovedBy : Movement2D
     }
 
 //MOVIMENTO Vertical ------------------------------------------
-/*
+
     void VerticalMove((int, float) pack)
     {
         (int speed, float dir) = pack;
         float dist = dir * Time.deltaTime * speed;          //distância outro objeto foi movido
         //print("Movendo pela velocidade e direção");
-        dist = CheckMove(barrierX, dist,minDistY);                   //calcular quanto vai movimentar objeto
+        dist = CheckMove(barrierY, dist,minDistY);                   //calcular quanto vai movimentar objeto
         SimpleMoveX(dist);
     }
     void VerticalMove(float dist)
@@ -57,7 +57,7 @@ public class MovedBy : Movement2D
         dist = CheckMove(barrierX, dist,minDistY);
         SimpleMoveX(dist);
     }
-*/
+
 
 
     //PROCURA A DISTÂNCIA DE UMA BARREIRA MENOR QUE DISTÃNCIA MÍNIMA ------------------------------------------

@@ -20,6 +20,7 @@ public static class GameSettings
     public static UnityEvent Pause;
     public static UnityEvent Unpause;
     public static UnityEvent SceneChange;
+    
 
     //objetos jogo
     public static GameObject player;
@@ -121,6 +122,7 @@ public static class GameSettings
     {
         if (ground.bounds.size.x < screenWidth)                                                         //se lugar inteiro ja cabe na tela da camera
         {
+            Debug.Log(ground.bounds.size.x);            //tamanho chao
             scriptPlayer.camLock = true;                                                                //tranca o movimento da camera
             charCamera.SendMessage("TeleportX", ground.bounds.center.x);                                //teleporta camera para o centro
         }

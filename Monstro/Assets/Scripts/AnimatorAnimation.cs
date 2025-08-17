@@ -80,6 +80,7 @@ public class AnimatorAnimation : MonoBehaviour
     //mudar variaveis
     void CustomTrigger(string custom)
     {
+        
         animator.SetTrigger(custom);            //animacao ativada por trigger recebido
     }
 
@@ -110,7 +111,20 @@ public class AnimatorAnimation : MonoBehaviour
         }
     }
 
+    //RESETAR TRIGGER -----------------------------------------------------------------------------------------
+    void ResetTrigger(string trigger)
+    {
+        animator.ResetTrigger(trigger);
+    }
 
+    void ResetAllTriggers()
+    {
+        foreach (var param in animator.parameters)
+        {
+            if (param.type == AnimatorControllerParameterType.Trigger)
+                ResetTrigger(param.name);
+        }
+    }
 
 
     //CONTROLAR SOM ANIMACAO -----------------------------------------------------------------------------------------

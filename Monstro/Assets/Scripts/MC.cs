@@ -23,6 +23,10 @@ public class MC : Character
     //chao
     public List <Collider2D> ground;
 
+    //barra de vida
+    [SerializeField]
+    private GameObject LifeBar;
+
     //objeto alvo interacao
     public GameObject Target { private get; set; }          //objeto que esta na frente para interagir
     public GameObject back;                                 //objeto que aparece para voltar na cena
@@ -95,6 +99,8 @@ public class MC : Character
     //RESETAR SPRITE -----------------------------------------------------------------------------------------    
     public void ResetSprite()                     //RESETAR SPRITE PARA FRENTE NAO INVERTIDO
     {
+        SendMessage("ResetAllTriggers");
+        SendMessage("CustomBool", ("Airborne", false));
         SendMessage("CustomTrigger", "Reset");
         sprite.flipX = false;
     }
@@ -244,6 +250,26 @@ public class MC : Character
     {
         if (context.canceled)                                                                                        //se deixou de pressionar o botao
             ReturnToGame();
+    }
+
+    //CONTROLE DE VIDA -----------------------------------------------------------------------------------------
+    public void TakeDamage(int damage)                                                    //levar dano
+    {
+        Life -= damage;
+        if (Life <= 0)                                                                    //se zerou vida, game over
+            GameOver();
+        LifeBar.SendMessage("ChangeBar", (Life, maxLife));
+    }
+
+    public void Heal(int lifeHeal)                                                       //curar
+    {
+        Life += lifeHeal;
+        Life = (Life > maxLife) ? maxLife : Life;                                        //se ficar com  vida maior que vida máxima, deixa vida igual a vida máxima
+        LifeBar.SendMessage("ChangeBar", (Life, maxLife));
+    }
+
+    void GameOver() {
+        
     }
 
     // Update is called once per frame
