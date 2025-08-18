@@ -26,9 +26,9 @@ public class SideDoor : Door
     {
         if (other.gameObject == player)
         {
-            OnOpen();
-            print("Mensagem logo apos");
-            SendMessage("ShowAnotherRoom");
+            OnOpen();                                                       //abrir porta
+            print("Mensagem logo apos");                                        
+            SendMessage("ShowAnotherRoom");                                 //mostra proxima sala
         }
     }
 

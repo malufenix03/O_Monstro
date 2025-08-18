@@ -21,9 +21,9 @@ public class Twin : MonoBehaviour
 
     public void PassToTwin()
     {
-        gameObject.SetActive(false);                                                  //desativa esse objeto
-        other.SetActive(true);                                                        //ativa gemeo com destino = comodo esse objeto
-        other.SendMessage("TurnFog",other.GetComponent<Portal>().destination);        //ligar fog desse comodo
+        gameObject.SetActive(false);                                                    //desativa esse objeto
+        other.SetActive(true);                                                          //ativa gemeo com destino = comodo esse objeto
+        other.SendMessage("TurnFog", other.GetComponent<FogControl>().room);            //ligar fog desse comodo
     }
 
 

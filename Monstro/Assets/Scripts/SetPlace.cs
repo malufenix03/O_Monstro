@@ -23,7 +23,7 @@ public class SetPlace : MonoBehaviour              //mudar o lugar atual
             if (currentPlace != place)
             {
                 currentPlace = place;
-                ChangeScene();
+                ChangeRoom();
             }
     }
 }

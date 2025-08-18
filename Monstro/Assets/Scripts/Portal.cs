@@ -18,15 +18,17 @@ public class Portal : MonoBehaviour
 
     //flag
     public bool touchTP = false;                                //se encostar no portal, teleporta para o destino
+    public bool anotherScene = false;
 
     //auxiliares
-    static float altura;                                    //altura camera fica da cabeca do player
+    public static float altura;                                    //altura camera fica da cabeca do player
 
     //--------------------------------------------- INICIALIZACAO -------------------------------------------- 
     void Start()
     {
 
-        altura = GetY(charCamera) - GetY(player);                       //altura camera acima cabeca player
+        
+        print("altura de " + gameObject + ": " + altura);
     }
 
 
@@ -34,7 +36,21 @@ public class Portal : MonoBehaviour
     public void MoveAnotherRoom()
     {
 
+        if (!anotherScene)
+        {
+            MoveSameScene();
+        }
+        else
+        {
+            PrepareSceneChange();
+            
+        }
+        
 
+    }
+
+    void MoveSameScene()
+    {
         player.SendMessage("MoveTo", newPosition);                                                    //teleporta player para lugar novo
         charCamera.SendMessage("Teleport", new Vector3(newPosition.x, newPosition.y + altura, -10));      //teleporta camera player para lugar novo, tem que estar profundidade -10 para pegar tudo
         print("altura: " + altura);
@@ -44,6 +60,17 @@ public class Portal : MonoBehaviour
         {
             ResetPlayer();
         }
+    }
+
+    //--------------------------------------------- COMODO EM OUTRA CENA --------------------------------------------
+    void PrepareSceneChange()
+    {
+        GetInfo script = destination.GetComponent<GetInfo>();
+        print("prestes a ir ao getPath");
+        TransitionData.destinationName = destination.name;                                          //guarda dados na transicao
+        TransitionData.newPosition = newPosition;
+        TransitionData.destinationParentName = script.GetScene();
+        SceneTransitionManager.ChangeScene(TransitionData.destinationParentName);                   //muda para a cena que objeto pertence
 
     }
 
@@ -51,50 +78,10 @@ public class Portal : MonoBehaviour
     void ChangePlace()
     {
         currentPlace = destination;
-        ChangeScene();
+        ChangeRoom();
     }
 
-    //--------------------------------------------- ABRIR E LIBERAR PROXIMO COMODO--------------------------------------------
-    public void ShowAnotherRoom()
-    {
-        print("teste");
-        TurnFog(destination, false);                                                    //desliga a fog
-    }
-
-    //--------------------------------------------- FECHAR E ESCONDER COMODO ANTERIOR --------------------------------------------
-    public void HideRoom()
-    {
-        if (currentPlace != destination)                                          //se player nao estiver no destino
-        {
-            print("teste");
-            TurnFog(destination);                                                           //liga fog do destino, ja que a porta fechou
-        }
-        else                                                                                //se player chegou onde porta levava (destino)
-        {
-            if(GetComponent<Twin>()!=null)
-                SendMessage("PassToTwin");                                                      //liga twin
-        }
-
-
-    }
-
-    //--------------------------------------------- LIGAR/DESLIGAR FOG --------------------------------------------
-
-    public void TurnFog(GameObject place)                                                     //ligar ou desligar a fog de algum lugar
-    {
-        TurnFog(place, true);
-    }
-
-    public void TurnFog(GameObject place, bool turnOn)                                                     //ligar ou desligar a fog de algum lugar
-    {
-        Transform fog = place.transform.Find("Structure/Fog/Temporary");                         //achar objeto fog
-        if (fog != null)
-            fog.GameObject().SetActive(turnOn);                                             //ligar ou desligar
-        else
-            print("Nao tem fog");
-    }
-    
-
+    //--------------------------------------------- DETECTAR TELEPORTE POR TOQUE --------------------------------------------
 
     void OnTriggerEnter2D(Collider2D other)                                     //se tocar no collider
     {

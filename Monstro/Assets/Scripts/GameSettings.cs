@@ -69,6 +69,7 @@ public static class GameSettings
     //procurando transform child em transform parent
     public static Transform Search(Transform parent, string childName)
     {
+        Debug.LogWarning(parent + " " + childName);
         return parent.Find(childName);
     }
 
@@ -79,26 +80,40 @@ public static class GameSettings
         GetColliders(barrierX, scriptCameraMove.barrierX);                                          //coloca collider no vetor de barreira x
     }
 
-    //SETAR CHAO E PLATAFORMAS PARA PULO-----------------------------------------------------------------------------------------
-    static void GetPlataforms(Transform parentPlataforms)
+    //FIND TAG IN CHILD----------------------------------------------------------------------------------------------------------
+    static T[] FindChildWithTag<T>(Transform parent, string tag)                                    //converte para o tipo que estou procurando, generico
     {
-        Collider2D[] colliders = parentPlataforms.GetComponentsInChildren<Collider2D>();                           //pega collider do objeto e dos filhos do objeto
+        List<T> withTag = new();                                                                        //vetor para guardar objeto com a tag
+        Transform[] array;                                                                          //vetor para guardar objeto filho
+        array = parent.transform.GetComponentsInChildren<Transform>();                              //pega todos objetos filho
+        foreach (Transform child in array)
+        {
+            if (child.tag == tag)                                                                   //se tag filho = tag procurada
+            {
+                withTag.Add(child.gameObject.GetComponent<T>());                                                               //adiciona em com tag
+            }
+        }
+        return withTag.ToArray();
+    }
+
+
+    //SETAR CHAO E PLATAFORMAS PARA PULO-----------------------------------------------------------------------------------------
+    static void GetFloor(Transform objectFloor)
+    {
+        Collider2D[] colliders = objectFloor.GetComponentsInChildren<Collider2D>();                           //pega collider do objeto e dos filhos do objeto
         GetColliders(colliders, scriptPlayer.ground);
 
     }
 
-    static Collider2D GetGround(Transform parentGround)
+    static void GetGround(Transform structure)
     {
-        Collider2D ground = GetColliders(Search(parentGround, "Ground/Tilemap"));            //pega o chao do novo lugar
-        scriptPlayer.ground = new List<Collider2D> { ground };            //seta chao como lugar que personagem tem que tocar para pular, limpando o que tinha antes
-
-        //plataforma
-        Transform plataforms = Search(currentPlace, "Plataforms");                                          //pegar plataformas para contar o pulo
-        if (plataforms != null)                                                                             //se tem plataforma no lugar
+        scriptPlayer.ground.Clear();                                                                            //limpar o que estava antes no chao
+        Transform[] allFloors = FindChildWithTag<Transform>(structure, "Ground");
+        foreach (Transform child in allFloors)
         {
-            GetPlataforms(plataforms);
+            Debug.LogWarning(child);
+            GetFloor(child);
         }
-        return ground;                                                                                      //chao e usado por outra funcao
     }
 
     //SETAR INTERFACE NOVA SE NECESSARIO------------------------------------------------------------------------------------------
@@ -129,23 +144,23 @@ public static class GameSettings
         else                                                                                            //lugar maior que tela
         {
             scriptPlayer.camLock = false;                                                               //se lugar for grande, destranca movimento da camera
-            charCamera.SendMessage("TeleportX", GetX(player));                           //teleporta camera para mesmo valor x que player
+            charCamera.SendMessage("TeleportX", GetX(player));                                          //teleporta camera para mesmo valor x que player
         }
     }
 
-
-
     //MUDANCA DE COMODO/CENA------------------------------------------------------------------------------------------------------
-    public static void ChangeScene()
+    public static void ChangeRoom()
     {
+        Debug.LogWarning("mudando " + currentPlace);
         //INICIAR VARIAVEIS
-        MC mc = player.GetComponent<MC>();                                                                  //pega script anexado a player
-        MovedBy camera = mc.charCamera.GetComponent<MovedBy>();                                             //pega script anexado a camera
         Transform structure = Search(currentPlace, "Structure");                                            //pegar estrutura
+        Debug.LogWarning("pegando " + structure);
 
         //CONFIGURAR COMPONENTES
         GetWalls(structure);
-        Collider2D ground = GetGround(structure);
+        Collider2D ground = GetColliders(Search(structure, "Ground/Tilemap"));                              //pegar ground para camera
+        GetGround(structure);
+        Debug.LogWarning("chao " + ground);
         GetBackInterface();
         CheckCameraLock(ground);
     }

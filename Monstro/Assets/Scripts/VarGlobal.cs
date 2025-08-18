@@ -14,11 +14,16 @@ using static GameSettings;
 
 public class VarGlobal : MonoBehaviour
 {
-    
+    //VARIAVEIS
+    public GameObject[] DontDestroy;
+    public bool reload = false;
+
+
+
     //PEGA OPCOES PARA MENU INTERACAO-----------------------------------------------------------------------------------------
     void SetInteractMenu()
     {
-        InteractMenu.menu = Search(GameObject.Find("Interact interface"),"Opcoes").GameObject();                        //pega menu interact
+        InteractMenu.menu = Search(GameObject.Find("Interact interface"), "Opcoes").GameObject();                        //pega menu interact
 
         InteractMenu.opcao = new GameObject[4];                                                                         //pega cada opcao do menu interact
         for (int i = 0; i < 4; i++)
@@ -28,7 +33,7 @@ public class VarGlobal : MonoBehaviour
     }
 
     //INICIALIZA AS VARIAVEIS GLOBAIS DO JOGO-----------------------------------------------------------------------------------------
-    void GameSettings()
+    void SetGame()
     {
         currentPlace = Search(GameObject.Find("House Pablo"), "Bedroom").GameObject();          //pega lugar inicial
 
@@ -37,6 +42,8 @@ public class VarGlobal : MonoBehaviour
 
         charCamera = scriptPlayer.charCamera;                                                   //pegar camera
         scriptCameraMove = charCamera.GetComponent<MovedBy>();                                  //pega script da camera
+
+        Portal.altura = GetY(charCamera) - GetY(player);                                        //altura camera acima cabeca player
     }
 
     //SETAR EVENTOS
@@ -47,12 +54,35 @@ public class VarGlobal : MonoBehaviour
         SceneChange = new UnityEvent();
     }
 
+    void SetDontDestroy()
+    {
+        foreach (GameObject child in DontDestroy)
+        {
+            if (!reload)
+                DontDestroyOnLoad(child);
+            else
+                Destroy(child);
+        }
+        if (reload)
+            Destroy(gameObject);
+    }
+
     //INICIALIZACAO VARIAVEIS GLOBAIS E ESTATICAS APENAS UMA VEZ-----------------------------------------------------------------------------------------
     void Awake()
     {
         SetInteractMenu();
-        GameSettings();
+        SetGame();
         SetEvents();
+        
+    }
+    void Start()
+    {
+        SetDontDestroy();
+    }
+
+    public void LeaveGame()
+    {
+        GameSettings.LeaveGame();
     }
 
 }
