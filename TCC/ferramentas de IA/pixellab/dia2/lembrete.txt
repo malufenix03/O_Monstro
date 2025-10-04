@@ -13,7 +13,7 @@ ordem cronológica
 	rotacao 90 graus resultado 3 usou 0_45_0_1 = 45_90_0_1
 
 	rotacao 45 graus resultado 4 = 0_45_0_2
-	rotacao 90 graus resultado 3 usou 0_45_0_2 = 45_90_0_2
+	rotacao 90 graus resultado 4 usou 0_45_0_2 = 45_90_0_2
 
 	rotacao 45 graus quick rotate = 0_45_0_1*
 	rotacao 90 graus quick rotate = 0_90_0_1*

@@ -1,0 +1,35 @@
+chat 1 side view			FEITO
+	fix_init_1	res1
+
+chat 2 side view			FEITO
+	resultado do primeiro prompt
+
+chat 3 animação andar			FEITO
+
+
+chat 4 side view			FEITO
+	fez outro estilo
+
+chat 5 side view			FEITO
+
+chat 6 side view			FEITO
+
+chat 7 videos ANIMAÇÕES			PARCIAL
+
+chat 8 sprite sheet			FEITO
+
+chat 9 sprite sheet			FEITO
+
+chat 10 sprite sheet			FEITO
+
+chat 11 side view			FEITO
+
+chat 12 back view?			FEITO
+
+chat 13 sprite pulo
+
+chat 14 sprite pulo
+
+chat 15 vídeos
+
+chat 16 vídeos

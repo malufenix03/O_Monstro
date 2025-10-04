@@ -1,0 +1,14 @@
+vídeo 1			referência front view
+	prompt: direto, simples sem detalhes
+	ruim: olho mudou tamanho, formato e cor. Tons em geral mudam levemente, adicionou sapato preto
+	bom: manteve parcialmente pixel art, e parte da animação fez a diagonal pixelada como ficar em pixel art mesmo em vez de só virar uma linha reta
+
+vídeo 2			referência front view
+	prompt: instrutivo, especificando o estilo e dimensão, e avisando para não mudar cor
+	ruim: olho juntou em um e reflexo dele abaixo
+	bom: manteve parcialmente pixel art, e parte da animação em pixel art também
+
+vídeo 3			referência side view
+	prompt: instrutivo, direto, simples sem detalhes
+	ruim: parte das costas apagada, adicionou sapato
+	bom: manteve parcialmente pixel art, tirando o buraco nas costas é completamente consistente

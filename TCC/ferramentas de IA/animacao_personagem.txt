@@ -55,6 +55,7 @@ https://www.godmodeai.cloud/ai-sprite-generator
 https://www.yeschat.ai/gpts-ZxWyYju4-SpriteSheetGPT
 	tentei pedir para criar o sprite sheet do personagem andando, mandando a imagem do personagem, porém a IA não mandou nenhuma imagem, apenas descreveu o que ela mesma ia fazer
 	limitado
+	voltou a funcionar do nada -> olhar monografia
 
 segmind
 	1$ de créditos grátis
@@ -87,6 +88,7 @@ vidu 2.0
 			mostra perspectiva que não tem que mostra
 	como fazer os prompts
 		https://shengshu.feishu.cn/docx/MtKHd8OhNokOtaxzxQHcdUDPnKh
+		em first frame o ideal é fazer algo curto. Foi feito especificamente para q1, mas pode funcionar em outros modelos
 
 pixellabai
 	fazer rotações = tem que ser 16x16, 32x32, 64x64 ou 128x128
@@ -97,6 +99,7 @@ pixellabai
 	várias opções de acesso
 		simple web creator -> gerar imagens
 		pixelLab pixelorama -> online para editar pixel art e recursos IA (usando esse)
+			usar para editar frames das feitas por IA
 
 	init image
 		em vez de ser do zero, tem base a imagem inicial para cores e formas
@@ -152,16 +155,66 @@ gemini pro
 		mandar imagem na mesma mensagem aumenta chance de fazer o personagem certo
 	video só pode anexar uma imagem
 
-	
+	pode gerar imagem, video e permite edicao
 
 https://pixie.haus/	https://itch.io/t/4473913/pixiehaus-tool-for-sprite-generation-with-ai
 	a testar
+	remove fundo
+	100 créditos de graça
+	tem como adicionar imagem referencia
+		só funciona com imagens que fez no editor dele
+			tive que refazer a pixel art lá
+	vários modelos para imagem e animação
+		mais recomendados 
+			sprite
+				flux1.schnell (3)	velocidade e eficiência
+				luma photon flash (10)   estilo mais intrinsecado e realistico
+			animacao
+				minimax/video-01-live (200 creditos)
+		disponivel animacao
+			kuaishou kling v2.1 (100) -> imagem para animação
+			bytedance seedance-1-lite (50) -> texto imagem para video
+				vou fazer 2 desse
+			
+	específico para pixel art
+	editor imbutido e grátis, porém bem ruinzinho, sem muitas ferramentas além das básicas		
+
 
 cgdream
 	100 créditos por dia = custo geração depende
 	imagem para imagem = 20 créditos flux (text to image model), 4 créditos juggernaut xl (modelo sdxl, serior of text-to-image systhesis models baseado na arquitetura sdxl, alta resolução e realista?)
 		jugger 1 e 2 = 5 guidance
 		jugger 3 e 4 = 9 guidance
+
+	tem opção de personagem
+		50 créditos flux, 9 créditos juggernaut
+	juggernaut não tem filtro pixel art
+
+
+adobe firefly
+
+	sem opção de botar referência
+	a brown wood pixel art door in side view, smoothly swinging open to the right, minimalist style, white background, retro game animation.  The door rotates around his left edge (edge closest to the camera)
+	pago :(
+
+dalee 3 
+	créditos grátis = 240 fazendo várias inscrições
+	reference to video -> pode botar prompt -> usa vidu q1
+	image to video -> sem prompt
+		prompt vídeo: Create a 2D pixel art animation using the provided character. The animation should show the character moving from hiscurrent standing pose into a sitting position. Crucially, he is sitting on an object, like a chair or a couch. The animation frames should depict him bending his knees, lowering his hips, and leaning back slightly until he settles into a natural, relaxed sitting posture, suspended in mid-air. His final pose should look like he is being comfortably supported by something. Maintain the exact pixel art style, colors, design and of the character throughout the entire animation.
+		não mantém consistência nenhuma
+	chat to edit -> editar imagem
+		flux kontext pro(5)/max(10) gpt medium(30)/basic(10) gemini(1) seedEdit(15)see
+		seeEdit 
+			funcionou porém perna não estava mais em pixel art
+		flux Kontext Pro
+			manteve estilo, porém cadeira não ficou invisível
+		gemini 
+			também manteve estilo, mas não fez cadeira invisível
+		gpt
+			mudou cores personagem e proporção
+
+
 
 https://nmkd.itch.io/flowframes
 

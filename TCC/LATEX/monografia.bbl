@@ -1,0 +1,225 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Abt 1987]{abt1987serious}
+\abntrefinfo{Abt}{ABT}{1987}
+{ABT, C. \emph{Serious Games}. University Press of America, 1987.
+ISBN 9780819161482. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=axUs9HA-hF8C}.}
+
+\bibitem[{Black Forest Labs} 2025]{blackforestlabs_2025}
+\abntrefinfo{{Black Forest Labs}}{{Black Forest Labs}}{2025}
+{{Black Forest Labs}. 2025.
+Dispon{\'\i}vel em: \url{https://bfl.ai/models/flux-kontext}.}
+
+\bibitem[{BytePlus} 2025]{modelark-byteplus_2025}
+\abntrefinfo{{BytePlus}}{{BytePlus}}{2025}
+{{BytePlus}. 2025.
+Dispon{\'\i}vel em: \url{https://docs.byteplus.com/en/docs/ModelArk/1159178}.}
+
+\bibitem[{CGDream AI Image Generator} 2025]{cgdream_2025}
+\abntrefinfo{{CGDream AI Image Generator}}{{CGDream AI Image Generator}}{2025}
+{{CGDream AI Image Generator}. 2025.
+Dispon{\'\i}vel em: \url{https://cgdream.ai/gallery}.}
+
+\bibitem[GalvÃo et al. 2024]{10.1145/3638067.3638104}
+\abntrefinfo{GalvÃo et al.}{GALVÃO et al.}{2024}
+{GALVÃO, V.~F.; MACIEL, C.; NUNES, E.~P. D.~S.; RODRIGUES, K.~R. D.~H. A
+  framework to support the development of empathic games. In:
+  \emph{Proceedings of the XXII Brazilian Symposium on Human Factors in
+  Computing Systems}. New York, NY, USA: Association for Computing Machinery,
+  2024.  (IHC '23).
+ISBN 9798400717154. Dispon{\'\i}vel em:
+  \url{https://doi.org/10.1145/3638067.3638104}.}
+
+\bibitem[Greenberg 2025]{greenberg}
+\abntrefinfo{Greenberg}{GREENBERG}{2025}
+{GREENBERG, O. Demystifying flux architecture.
+\emph{arXiv.org}, 2025.
+Dispon{\'\i}vel em: \url{https://arxiv.org/pdf/2507.09595}.}
+
+\bibitem[Hafell 2025]{cgdream_video}
+\abntrefinfo{Hafell}{HAFELL}{2025}
+{HAFELL, A. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.youtube.com/watch?v=g1BCAJqxjog&ab\_channel=AIAndy}.}
+
+\bibitem[Halpern 2019]{book}
+\abntrefinfo{Halpern}{HALPERN}{2019}
+{HALPERN, J. \emph{Developing 2D Games with Unity: Independent Game Programming
+  with C}. Apress, 2019.
+ISBN 978-1-4842-3771-7. Dispon{\'\i}vel em:
+  \url{https://doi.org/10.1007/978-1-4842-3772-4}.}
+
+\bibitem[Heymann e Sprague 2023]{heymann_sprague_2023}
+\abntrefinfo{Heymann e Sprague}{HEYMANN; SPRAGUE}{2023}
+{HEYMANN, J.; SPRAGUE, A. Meeting the un sustainable development goals for
+  mental health: why greater prioritization and adequately tracking progress
+  are critical.
+\emph{World Psychiatry}, Wiley, v.~22, n.~2, p. 325–326, May 2023.
+Dispon{\'\i}vel em: \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC10168142/}.}
+
+\bibitem[Jorapur 2024]{jorapur2024evolution}
+\abntrefinfo{Jorapur}{JORAPUR}{2024}
+{JORAPUR, A. The evolution of artificial intelligence in gaming.
+\emph{ART 108: Introduction to Games Studies}, 2024.
+Dispon{\'\i}vel em: \url{https://scholarworks.sjsu.edu/art108/47/}.}
+
+\bibitem[Li 2024]{godmodeanimation2024}
+\abntrefinfo{Li}{LI}{2024}
+{LI, G. \emph{2D Game Animation Generation: All you need is repeat the same
+  motion 1000 times}. 2024.
+Dispon{\'\i}vel em: \url{https://github.com/lyogavin/godmodeanimation/}.}
+
+\bibitem[Meena, Jingar e Gupta 2020]{articleIAEntretenimento}
+\abntrefinfo{Meena, Jingar e Gupta}{MEENA; JINGAR; GUPTA}{2020}
+{MEENA, R.; JINGAR, M.; GUPTA, S. Artificial intelligence: A digital
+  transformation tool in entertainment and media industry.
+\emph{Our Heritage}, p.~4661, 01 2020.}
+
+\bibitem[Menefee, Ledoux e Johnston 2022]{deleene}
+\abntrefinfo{Menefee, Ledoux e Johnston}{MENEFEE; LEDOUX; JOHNSTON}{2022}
+{MENEFEE, D.~S.; LEDOUX, T.; JOHNSTON, C.~A. The importance of emotional
+  regulation in mental health.
+\emph{American Journal of Lifestyle Medicine}, v.~16, n.~1, p. 28--31, 2022.
+PMID: 35185423.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1177/15598276211049771}.}
+
+\bibitem[{OpenAI} 2025]{openaiQuick_2025}
+\abntrefinfo{{OpenAI}}{{OpenAI}}{2025a}
+{{OpenAI}. 2025.
+Dispon{\'\i}vel em: \url{https://platform.openai.com/docs/quickstart}.}
+
+\bibitem[{OpenAI} 2025]{openai_2025}
+\abntrefinfo{{OpenAI}}{{OpenAI}}{2025b}
+{{OpenAI}. 2025.
+Dispon{\'\i}vel em:
+  \url{https://platform.openai.com/docs/guides/images-vision?api-mode=responses}.}
+
+\bibitem[{OpenAI} 2025]{openaiImage_2025}
+\abntrefinfo{{OpenAI}}{{OpenAI}}{2025c}
+{{OpenAI}. 2025.
+Dispon{\'\i}vel em:
+  \url{https://openai.com/index/introducing-4o-image-generation/}.}
+
+\bibitem[{OpenAI} 2025]{chatgpt_2025}
+\abntrefinfo{{OpenAI}}{{OpenAI}}{2025d}
+{{OpenAI}. \emph{ChatGPT}. 2025.
+Dispon{\'\i}vel em: \url{https://chatgpt.com/}.}
+
+\bibitem[{OpenArt.AI} 2025]{openArtai_2025}
+\abntrefinfo{{OpenArt.AI}}{{OpenArt.AI}}{2025}
+{{OpenArt.AI}. 2025.
+Dispon{\'\i}vel em: \url{https://openart.ai/home}.}
+
+\bibitem[{ORGANIZAÇÃO MUNDIAL DA SAÚDE } 2022]{world_2022}
+\abntrefinfo{{ORGANIZAÇÃO MUNDIAL DA SAÚDE }}{{ORGANIZAÇÃO MUNDIAL DA
+  SAÚDE }}{2022}
+{{ORGANIZAÇÃO MUNDIAL DA SAÚDE }. \emph{Mental health}. OMS, 2022.
+Dispon{\'\i}vel em:
+  \url{https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response}.}
+
+\bibitem[{ORGANIZAÇÃO MUNDIAL DA SAÚDE} 2022]{mentalDisorders_2022}
+\abntrefinfo{{ORGANIZAÇÃO MUNDIAL DA SAÚDE}}{{ORGANIZAÇÃO MUNDIAL DA
+  SAÚDE}}{2022}
+{{ORGANIZAÇÃO MUNDIAL DA SAÚDE}. \emph{Mental disorders}. OMS, 2022.
+Dispon{\'\i}vel em:
+  \url{https://www.who.int/news-room/fact-sheets/detail/mental-disorders}.}
+
+\bibitem[Pichai 2023]{sundarpichai_2023}
+\abntrefinfo{Pichai}{PICHAI}{2023}
+{PICHAI, S. \emph{Introducing Gemini: our largest and most capable AI model}.
+  2023.
+Dispon{\'\i}vel em:
+  \url{https://blog.google/technology/ai/google-gemini-ai/?utm\_source=chatgpt.com\#performance}.}
+
+\bibitem[Pixellab.ai 2025]{pixelLab}
+\abntrefinfo{Pixellab.ai}{PIXELLAB.AI}{2025}
+{PIXELLAB.AI. 2025.
+Dispon{\'\i}vel em: \url{https://www.pixellab.ai/editor}.}
+
+\bibitem[PRAKASH 2023]{article}
+\abntrefinfo{PRAKASH}{PRAKASH}{2023}
+{PRAKASH, D. 2d game development using unity engine “minotscape”.
+\emph{INTERANTIONAL JOURNAL OF SCIENTIFIC RESEARCH IN ENGINEERING AND
+  MANAGEMENT}, v.~07, 08 2023.
+Dispon{\'\i}vel em: \url{https://doi.org/10.55041/IJSREM25405}.}
+
+\bibitem[{Rosebud AI} 2025]{rosebud}
+\abntrefinfo{{Rosebud AI}}{{Rosebud AI}}{2025}
+{{Rosebud AI}. 2025.
+Dispon{\'\i}vel em: \url{https://lab.rosebud.ai/sprites-animation}.}
+
+\bibitem[Schijven e Kikkawa 2022]{IA_jogos}
+\abntrefinfo{Schijven e Kikkawa}{SCHIJVEN; KIKKAWA}{2022}
+{SCHIJVEN, M.~P.; KIKKAWA, T. Is there any (artificial) intelligence in gaming?
+\emph{Simulation \& Gaming}, v.~53, n.~4, p. 315--316, 2022.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1177/10468781221101685}.}
+
+\bibitem[Segmind 2025]{segmind}
+\abntrefinfo{Segmind}{SEGMIND}{2025}
+{SEGMIND. \emph{AI Sprite Sheet Maker}. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.segmind.com/pixelflows/67ee10c0a86c3ba664125013}.}
+
+\bibitem[Smith et al. 2023]{animated10.1145/3592788}
+\abntrefinfo{Smith et al.}{SMITH et al.}{2023}
+{SMITH, H.~J.; ZHENG, Q.; LI, Y.; JAIN, S.; HODGINS, J.~K. A method for
+  animating children’s drawings of the human figure.
+\emph{ACM Trans. Graph.}, Association for Computing Machinery, New York, NY,
+  USA, v.~42, n.~3, jun 2023.
+ISSN 0730-0301.
+Dispon{\'\i}vel em: \url{https://doi.org/10.1145/3592788}.}
+
+\bibitem[Smith 2024]{animatedDrawings}
+\abntrefinfo{Smith}{SMITH}{2024}
+{SMITH, J. \emph{Animated drawnings}. 2024.
+Dispon{\'\i}vel em: \url{https://sketch.metademolab.com/canvas}.}
+
+\bibitem[Ursatjew 2025]{pixie.haus_2025}
+\abntrefinfo{Ursatjew}{URSATJEW}{2025}
+{URSATJEW, S. \emph{Pixie.haus}. 2025.
+Dispon{\'\i}vel em: \url{https://pixie.haus/}.}
+
+\bibitem[{Vidu} 2024]{viduai_2024}
+\abntrefinfo{{Vidu}}{{Vidu}}{2024}
+{{Vidu}. Vidu AI, 2024.
+Dispon{\'\i}vel em: \url{https://www.vidu.com/create/character2video}.}
+
+\bibitem[{Vidu} 2025]{docs2_2025}
+\abntrefinfo{{Vidu}}{{Vidu}}{2025a}
+{{Vidu}. \emph{First \& Last Frame}. 2025.
+Dispon{\'\i}vel em:
+  \url{‌https://shengshu.feishu.cn/docx/MtKHd8OhNokOtaxzxQHcdUDPnKh}.}
+
+\bibitem[{Vidu} 2025]{docs_2025}
+\abntrefinfo{{Vidu}}{{Vidu}}{2025b}
+{{Vidu}. \emph{Vidu Prompt User Guide}. 2025.
+Dispon{\'\i}vel em:
+  \url{https://shengshu.feishu.cn/docx/MtKHd8OhNokOtaxzxQHcdUDPnKh}.}
+
+\bibitem[Xian e Sahagun 2023]{xian2023automated}
+\abntrefinfo{Xian e Sahagun}{XIAN; SAHAGUN}{2023}
+{XIAN, D.; SAHAGUN, J. An automated generation from video to 3d character
+  animation using artificial intelligence and pose estimate.
+\emph{Artificial Intelligence Advances. https://doi. org/10.5121/csit}, 2023.
+Dispon{\'\i}vel em: \url{https://csitcp.org/paper/13/137csit03.pdf}.}
+
+\bibitem[Xu, Cohen e Clark 2025]{xu_cohen_clark_2025}
+\abntrefinfo{Xu, Cohen e Clark}{XU; COHEN; CLARK}{2025}
+{XU, T.; COHEN, M.~C.; CLARK, J. Generative ai models for images with
+  copyright-free training.
+Jun 2025.
+Dispon{\'\i}vel em:
+  \url{https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=5331280}.}
+
+\bibitem[{YesChat AI} 2024]{spritesheetgpt-free}
+\abntrefinfo{{YesChat AI}}{{YesChat AI}}{2024}
+{{YesChat AI}. \emph{SpriteSheetGPT - AI-Powered Sprite Animation}. 2024.
+Dispon{\'\i}vel em: \url{https://www.yeschat.ai/gpts-ZxWyYju4-SpriteSheetGPT}.}
+
+\end{thebibliography}

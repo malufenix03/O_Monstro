@@ -1,0 +1,43 @@
+001 cozinha/entrada cozinha 	FIXED
+	algumas horas reseta antes da hora a animação ao interagir com entrada logo apos voltar de cozinha
+		apertar esc e interagir com entrada de novo parece fazer funcionar
+		reset trigger continua ativado após teleportar cozinha
+			no banheiro acontece mesmo erro
+			
+		
+
+	TEORIA: interacao executando duas vezes ou back executando duas vezes	 XXXXX
+	CORREÇÃO: executar função só se começou a pressionar nesse frame	 XXXX
+	TEORIA: como ainda estava no reset, ao receber reset de novo guarda esse trigger até ser possível usá-lo
+	CORREÇÃO: permitir transição para si mesmo 				
+	
+
+002 cozinha			FIXED
+	camera move a mais ao passar pela distância minima da parede
+		penúltimo frame antes de sair de dentro da barreira
+	CORREÇÃO: distância player da parede calculada por closest point e subtração
+
+003 cozinha
+	menu não desapareceu ao ir para cozinha e não despausou
+		não deixar apertar s para voltar
+		clicar no menu desce um pouco a camera?????
+
+004 entrada cozinha
+	menu sumiu antes de clicar na opção ou no esc
+		clicar w aparece de novo
+		clicar esc continua sprite back
+			ainda dá para se mover
+			continua assim mesmo indo para cozinha
+			s voltando da cozinha faz volta para o sprite certo
+				não o reset, mas o olhando para direita
+
+
+005 cozinha/ entrada cozinha	FIXED
+	camera desce a mais quando pula
+	CORRECAO: seta distancia entre camera e perso no eixo y no start
+
+006 outside home		FIXED
+	camera desce a mais
+	TEORIA: porta gemea pega altura so mais tarde, mudando a variavel para todas as portas/portais
+	CORRECAO: pegar altura pelo gameManager
+

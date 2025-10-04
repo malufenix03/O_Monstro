@@ -1,0 +1,211 @@
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces \small Fluxograma das etapas}}{23}{figure.caption.15}%
+\contentsline {figure}{\numberline {2}{\ignorespaces \small Sprite do Pablo}}{25}{figure.caption.16}%
+\contentsline {figure}{\numberline {3}{\ignorespaces \small Sprite da Luz}}{26}{figure.caption.17}%
+\contentsline {figure}{\numberline {4}{\ignorespaces \small Sprite da porta A em front view (vista frontal, em inglês)}}{26}{figure.caption.18}%
+\contentsline {figure}{\numberline {5}{\ignorespaces \small Sprite da porta B em side view (vista lateral, em inglês)}}{26}{figure.caption.18}%
+\contentsline {figure}{\numberline {6}{\ignorespaces \small Sprites da porta C}}{27}{figure.caption.19}%
+\contentsline {figure}{\numberline {7}{\ignorespaces \small Resultado do teste inicial}}{30}{figure.caption.20}%
+\contentsline {figure}{\numberline {8}{\ignorespaces \small Animação gerada pelo Rosebud AI}}{30}{figure.caption.21}%
+\contentsline {figure}{\numberline {9}{\ignorespaces \small Resultados finais}}{31}{figure.caption.22}%
+\contentsline {figure}{\numberline {10}{\ignorespaces \small Tela do SpriteSheetGPT não gerando o resultado esperado}}{32}{figure.caption.23}%
+\contentsline {figure}{\numberline {11}{\ignorespaces \small Sprite sheet gerado pelo SpriteSheetGPT}}{33}{figure.caption.24}%
+\contentsline {figure}{\numberline {12}{\ignorespaces \small Melhores resultados do CGDream utilizando a funcionalidade de imagem}}{35}{figure.caption.25}%
+\contentsline {figure}{\numberline {13}{\ignorespaces \small Pixels de tamanho diferente}}{36}{figure.caption.26}%
+\contentsline {figure}{\numberline {14}{\ignorespaces \small Comparativo de resultados do modelo Flux com e sem Estilo de referência}}{37}{figure.caption.27}%
+\contentsline {figure}{\numberline {15}{\ignorespaces \small Comparativo de resultados do modelo Juggernaut XL com e sem Estilo de referência}}{37}{figure.caption.28}%
+\contentsline {figure}{\numberline {16}{\ignorespaces \small Comparativo de resultados do modelo Flux com e sem filtro pixelizado}}{38}{figure.caption.29}%
+\contentsline {figure}{\numberline {17}{\ignorespaces \small Comparativo de resultados do modelo Juggernaut XL com e sem Estilo de referência}}{38}{figure.caption.30}%
+\contentsline {figure}{\numberline {18}{\ignorespaces \small Primeiro prompt utilizado no Pixie.Haus}}{40}{figure.caption.31}%
+\contentsline {figure}{\numberline {19}{\ignorespaces \small Segundo prompt utilizado no Pixie.Haus}}{40}{figure.caption.32}%
+\contentsline {figure}{\numberline {20}{\ignorespaces \small Frames da animação gerada pelo prompt 1}}{41}{figure.caption.33}%
+\contentsline {figure}{\numberline {21}{\ignorespaces \small Frames da animação gerada pelo prompt 2}}{41}{figure.caption.34}%
+\contentsline {figure}{\numberline {22}{\ignorespaces \small Inclusão incorreta da sombra}}{42}{figure.caption.35}%
+\contentsline {figure}{\numberline {23}{\ignorespaces \small Sprites usados para o teste no Animated Drawnings}}{43}{figure.caption.36}%
+\contentsline {figure}{\numberline {24}{\ignorespaces \small Frame da animação gerada pelo Animated Drawnings 1}}{44}{figure.caption.37}%
+\contentsline {figure}{\numberline {25}{\ignorespaces \small Comparando frames correspondentes}}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {26}{\ignorespaces \small Frames das animações geradas pelo Animated Drawnings 2}}{45}{figure.caption.39}%
+\contentsline {figure}{\numberline {27}{\ignorespaces \small Braços em formato diferente um do outro}}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {28}{\ignorespaces \small Frames das animações geradas pelo Animated Drawnings 3}}{47}{figure.caption.41}%
+\contentsline {figure}{\numberline {29}{\ignorespaces \small Comparação do sprite original com quadros das animações geradas}}{48}{figure.caption.42}%
+\contentsline {figure}{\numberline {30}{\ignorespaces \small Resultado do auto reposicionamento}}{49}{figure.caption.43}%
+\contentsline {figure}{\numberline {31}{\ignorespaces \small Quadro da animação com a mão deformada no God Mode AI}}{49}{figure.caption.44}%
+\contentsline {figure}{\numberline {32}{\ignorespaces \small Sprite sheet do resultado final no God Mode AI}}{50}{figure.caption.45}%
+\contentsline {figure}{\numberline {33}{\ignorespaces \small Sprite sheet convertido para pixel art}}{51}{figure.caption.46}%
+\contentsline {figure}{\numberline {34}{\ignorespaces \small Artefatos usados como referência para geração de imagens no ChatGPT}}{52}{figure.caption.47}%
+\contentsline {figure}{\numberline {35}{\ignorespaces \small Imagem em side view gerada pelo chatGPT }}{53}{figure.caption.48}%
+\contentsline {figure}{\numberline {36}{\ignorespaces \small Melhor sprite em side view gerado pelo chatGPT }}{54}{figure.caption.49}%
+\contentsline {figure}{\numberline {37}{\ignorespaces \small Erro no cropping}}{54}{figure.caption.50}%
+\contentsline {figure}{\numberline {38}{\ignorespaces \small Sprite sheet com basicamente a mesma etapa do movimento de andar gerado pelo ChatGPT}}{55}{figure.caption.51}%
+\contentsline {figure}{\numberline {39}{\ignorespaces \small Sprite sheet usando a imagem em side view de referência gerado pelo ChatGPT}}{56}{figure.caption.52}%
+\contentsline {figure}{\numberline {40}{\ignorespaces \small Artefatos usados para referência no Pixel Lab}}{57}{figure.caption.53}%
+\contentsline {figure}{\numberline {41}{\ignorespaces \small Artefatos editados no Pixel Lab}}{58}{figure.caption.54}%
+\contentsline {figure}{\numberline {42}{\ignorespaces \small Comparação rotação 90 graus no Pixel Lab}}{59}{figure.caption.55}%
+\contentsline {figure}{\numberline {43}{\ignorespaces \small Etapas do processamento da geração de imagem no Pixel Lab}}{60}{figure.caption.56}%
+\contentsline {figure}{\numberline {44}{\ignorespaces \small Comparação de cores entre o sprite original e o resultado gerado no Pixel Lab}}{61}{figure.caption.57}%
+\contentsline {figure}{\numberline {45}{\ignorespaces \small Ajuste fino no resultado da rotação de 45 graus no Pixel Lab}}{61}{figure.caption.58}%
+\contentsline {figure}{\numberline {46}{\ignorespaces \small Comparação de resultados antes e depois do ajuste fino}}{62}{figure.caption.59}%
+\contentsline {figure}{\numberline {47}{\ignorespaces \small Edição no resultado da rotação de 90 graus no Pixel Lab}}{63}{figure.caption.60}%
+\contentsline {figure}{\numberline {48}{\ignorespaces \small Sprite do personagem em side view após ajuste fino}}{64}{figure.caption.61}%
+\contentsline {figure}{\numberline {49}{\ignorespaces \small Tela da geração de animação no Pixel Lab}}{64}{figure.caption.62}%
+\contentsline {figure}{\numberline {50}{\ignorespaces \small Quadro da animação gerada no Pixel Lab}}{65}{figure.caption.63}%
+\contentsline {figure}{\numberline {51}{\ignorespaces \small Prompt com a descrição da aparência}}{65}{figure.caption.64}%
+\contentsline {figure}{\numberline {52}{\ignorespaces \small Prompt que gerou a falha no Pixel Lab}}{66}{figure.caption.65}%
+\contentsline {figure}{\numberline {53}{\ignorespaces \small Quadros vazios após a geração no Pixel Lab}}{66}{figure.caption.66}%
+\contentsline {figure}{\numberline {54}{\ignorespaces \small Comparação do sprite original com os frames da animação de base e da gerada no Pixel Lab}}{67}{figure.caption.67}%
+\contentsline {figure}{\numberline {55}{\ignorespaces \small Quadro da animação gerada no Pixel Lab}}{68}{figure.caption.68}%
+\contentsline {figure}{\numberline {56}{\ignorespaces \small Comparação do sprite de referência com os frames da animação de base e da gerada no Pixel Lab}}{68}{figure.caption.69}%
+\contentsline {figure}{\numberline {57}{\ignorespaces \small Comparação do sprite de referência com os frames das animações geradas no Pixel Lab}}{69}{figure.caption.70}%
+\contentsline {figure}{\numberline {58}{\ignorespaces \small Comparação do sprite original com os frames da animação gerada no Pixel Lab}}{70}{figure.caption.71}%
+\contentsline {figure}{\numberline {59}{\ignorespaces \small Comparação do sprite original e sprite gerado pelo Gemini Pro antes da edição}}{71}{figure.caption.72}%
+\contentsline {figure}{\numberline {60}{\ignorespaces \small Comparação do sprite original e sprite gerado pelo Gemini Pro depois da edição}}{71}{figure.caption.73}%
+\contentsline {figure}{\numberline {61}{\ignorespaces \small Processo de edição no Pixel Lab do sprite em side view gerado pelo Gemini Pro}}{71}{figure.caption.74}%
+\contentsline {figure}{\numberline {62}{\ignorespaces \small Processo de edição no Pixel Lab do sprite em back view gerado pelo Gemini Pro}}{72}{figure.caption.75}%
+\contentsline {figure}{\numberline {63}{\ignorespaces \small Processo de edição no Pixel Lab do sprite sheet da porta gerado pelo Vidu}}{73}{figure.caption.76}%
+\contentsline {figure}{\numberline {64}{\ignorespaces \small Frames do vídeo gerado no OpenArt.AI}}{75}{figure.caption.78}%
+\contentsline {figure}{\numberline {65}{\ignorespaces \small Imagem gerada pelo modelo SeedEdit no OpenArtAI}}{76}{figure.caption.79}%
+\contentsline {figure}{\numberline {66}{\ignorespaces \small Imagem gerada pelo modelo Flux Kontext Pro no OpenArtAI}}{76}{figure.caption.80}%
+\contentsline {figure}{\numberline {67}{\ignorespaces \small Imagem gerada pelo modelo Gemini no OpenArtAI}}{77}{figure.caption.81}%
+\contentsline {figure}{\numberline {68}{\ignorespaces \small Imagens geradas pelo modelo Gemini}}{77}{figure.caption.82}%
+\contentsline {figure}{\numberline {69}{\ignorespaces \small Comparação do sprite original e do sprite gerado pelo modelo GPT no OpenArt.AI}}{78}{figure.caption.83}%
+\contentsline {figure}{\numberline {70}{\ignorespaces \small Artefatos usados para referência no vidu}}{80}{figure.caption.84}%
+\contentsline {figure}{\numberline {71}{\ignorespaces \small Comparação do resultado 3D e 2D gerado pelo Vidu}}{81}{figure.caption.85}%
+\contentsline {figure}{\numberline {72}{\ignorespaces \small Exemplo de prompt mostrado no Vidu}}{82}{figure.caption.86}%
+\contentsline {figure}{\numberline {73}{\ignorespaces \small Prompt que gerou vídeo em 3D no Vidu}}{82}{figure.caption.87}%
+\contentsline {figure}{\numberline {74}{\ignorespaces \small Prompt que gerou vídeo em 2D no Vidu}}{82}{figure.caption.87}%
+\contentsline {figure}{\numberline {75}{\ignorespaces \small Quadros do Vídeo 1 (3D) em cada um dos níveis de deformação}}{84}{figure.caption.89}%
+\contentsline {figure}{\numberline {76}{\ignorespaces \small Quadros do Vídeo 2 (3D) em cada um dos níveis de deformação}}{84}{figure.caption.90}%
+\contentsline {figure}{\numberline {77}{\ignorespaces \small Quadros do Vídeo 3 (2D) em cada um dos níveis de deformação}}{85}{figure.caption.91}%
+\contentsline {figure}{\numberline {78}{\ignorespaces \small Frame do personagem girando para outra direção}}{86}{figure.caption.92}%
+\contentsline {figure}{\numberline {79}{\ignorespaces \small Frame do personagem saindo da tela}}{86}{figure.caption.92}%
+\contentsline {figure}{\numberline {80}{\ignorespaces \small Frame do vídeo gerado em 3D após adicionar a palavra 2D no prompt no Vidu}}{86}{figure.caption.93}%
+\contentsline {figure}{\numberline {81}{\ignorespaces \small Tela da primeira etapa da criação de referência do personagem Pablo no Vidu}}{88}{figure.caption.95}%
+\contentsline {figure}{\numberline {82}{\ignorespaces \small Tela da segunda etapa da criação de referência do personagem Pablo no Vidu}}{89}{figure.caption.96}%
+\contentsline {figure}{\numberline {83}{\ignorespaces \small Inconsistências do beliche circuladas, em vermelho o segundo travesseiro e em azul a escada distorcida}}{89}{figure.caption.97}%
+\contentsline {figure}{\numberline {84}{\ignorespaces \small Inconsistência do personagem circulado}}{90}{figure.caption.98}%
+\contentsline {figure}{\numberline {85}{\ignorespaces \small Beliche fragmentado}}{90}{figure.caption.99}%
+\contentsline {figure}{\numberline {86}{\ignorespaces \small Quadro do vídeo gerado no Vidu}}{91}{figure.caption.100}%
+\contentsline {figure}{\numberline {87}{\ignorespaces \small Porta deformada para fazer o chão no vídeo gerado pelo Vidu}}{92}{figure.caption.101}%
+\contentsline {figure}{\numberline {88}{\ignorespaces \small Porta abrindo pelo lado errado no vídeo gerado pelo Vidu}}{92}{figure.caption.102}%
+\contentsline {figure}{\numberline {89}{\ignorespaces \small Dois braceletes no braço do personagem no vídeo gerado pelo Vidu}}{92}{figure.caption.103}%
+\contentsline {figure}{\numberline {90}{\ignorespaces \small Comparação da geração dos objetos em relação ao quarto no Vidu}}{93}{figure.caption.104}%
+\contentsline {figure}{\numberline {91}{\ignorespaces \small Quadro da porta expandindo na animação gerada no Vidu}}{95}{figure.caption.105}%
+\contentsline {figure}{\numberline {92}{\ignorespaces \small Quadro da porta parecendo uma sanfona}}{95}{figure.caption.106}%
+\contentsline {figure}{\numberline {93}{\ignorespaces \small Quadro da porta desconectando da moldura}}{95}{figure.caption.106}%
+\contentsline {figure}{\numberline {94}{\ignorespaces \small Quadro da porta aberta gerado no Vidu}}{95}{figure.caption.106}%
+\contentsline {figure}{\numberline {95}{\ignorespaces \small Quadro do personagem inclinando para frente na animação gerada no Vidu}}{96}{figure.caption.107}%
+\contentsline {figure}{\numberline {96}{\ignorespaces \small Porta em side view aberta na animação gerada no Vidu}}{97}{figure.caption.108}%
+\contentsline {figure}{\numberline {97}{\ignorespaces \small Sprite sheet em pixel sem fundo da animação da porta em side view abrindo}}{97}{figure.caption.109}%
+\contentsline {figure}{\numberline {98}{\ignorespaces \small Demonstração do resultado esperado pela ferramenta AI Sprite Sheet Maker}}{100}{figure.caption.110}%
+\contentsline {figure}{\numberline {99}{\ignorespaces \small Créditos da plataforma}}{101}{figure.caption.111}%
+\contentsline {figure}{\numberline {100}{\ignorespaces \small Processo da utilização do AI Sprite Sheet Maker}}{102}{figure.caption.112}%
+\contentsline {figure}{\numberline {101}{\ignorespaces \small Tela inicial}}{103}{figure.caption.113}%
+\contentsline {figure}{\numberline {102}{\ignorespaces \small Área principal para escrever os prompts e botão que leva para a seção de assets}}{103}{figure.caption.114}%
+\contentsline {figure}{\numberline {103}{\ignorespaces \small Área para gerar assets}}{104}{figure.caption.115}%
+\contentsline {figure}{\numberline {104}{\ignorespaces \small Processo da utilização do Rosebud AI em junho/2025 (Parte 1 de 5)}}{105}{figure.caption.116}%
+\contentsline {figure}{\numberline {105}{\ignorespaces \small Processo da utilização do Rosebud AI em junho/2025 (Parte 2 de 5)}}{106}{figure.caption.117}%
+\contentsline {figure}{\numberline {106}{\ignorespaces \small Processo da utilização do Rosebud AI em junho/2025 (Parte 3 de 5)}}{107}{figure.caption.118}%
+\contentsline {figure}{\numberline {107}{\ignorespaces \small Processo da utilização do Rosebud AI em junho/2025 (Parte 4 de 5)}}{108}{figure.caption.119}%
+\contentsline {figure}{\numberline {108}{\ignorespaces \small Processo da utilização do Rosebud AI em junho/2025 (Parte 5 de 5)}}{109}{figure.caption.120}%
+\contentsline {figure}{\numberline {109}{\ignorespaces \small Tela do SpriteSheetGPT quando chega no limite de uso}}{110}{figure.caption.121}%
+\contentsline {figure}{\numberline {110}{\ignorespaces \small Processo da utilização do SpriteSheetGPT em junho/2025}}{111}{figure.caption.122}%
+\contentsline {figure}{\numberline {111}{\ignorespaces \small Processo da utilização bem sucedida do SpriteSheetGPT em agosto/2025}}{112}{figure.caption.123}%
+\contentsline {figure}{\numberline {112}{\ignorespaces \small Processo da utilização mau sucedida do SpriteSheetGPT em agosto/2025}}{113}{figure.caption.124}%
+\contentsline {figure}{\numberline {113}{\ignorespaces \small Tela CGDream}}{114}{figure.caption.125}%
+\contentsline {figure}{\numberline {114}{\ignorespaces \small Opções de referência}}{114}{figure.caption.126}%
+\contentsline {figure}{\numberline {115}{\ignorespaces \small Processo da utilização 1 do CGDream (Imagem)}}{115}{figure.caption.127}%
+\contentsline {figure}{\numberline {116}{\ignorespaces \small Processo da utilização 2 do CGDream (Imagem)}}{116}{figure.caption.128}%
+\contentsline {figure}{\numberline {117}{\ignorespaces \small Resultado do modelo Juggernaut XL com prompt guidance em 8}}{116}{figure.caption.129}%
+\contentsline {figure}{\numberline {118}{\ignorespaces \small Processo da utilização 3 do CGDream (Imagem)}}{117}{figure.caption.130}%
+\contentsline {figure}{\numberline {119}{\ignorespaces \small Processo da utilização 4 do CGDream (Imagem)}}{118}{figure.caption.131}%
+\contentsline {figure}{\numberline {120}{\ignorespaces \small Processo da utilização 5 do CGDream (Personagem)}}{119}{figure.caption.132}%
+\contentsline {figure}{\numberline {121}{\ignorespaces \small Processo da utilização 6 do CGDream (Personagem)}}{120}{figure.caption.133}%
+\contentsline {figure}{\numberline {122}{\ignorespaces \small Processo da utilização 7 do CGDream (Personagem)}}{121}{figure.caption.134}%
+\contentsline {figure}{\numberline {123}{\ignorespaces \small Processo da utilização 8 do CGDream (Personagem)}}{122}{figure.caption.135}%
+\contentsline {figure}{\numberline {124}{\ignorespaces \small Processo da utilização 9 do CGDream (Personagem)}}{123}{figure.caption.136}%
+\contentsline {figure}{\numberline {125}{\ignorespaces \small Tela do editor embutido do Pixie.Haus}}{124}{figure.caption.137}%
+\contentsline {figure}{\numberline {126}{\ignorespaces \small Tela geração de imagem no Pixie.Haus}}{124}{figure.caption.138}%
+\contentsline {figure}{\numberline {127}{\ignorespaces \small Tela recomendação de modelos de IA}}{125}{figure.caption.139}%
+\contentsline {figure}{\numberline {128}{\ignorespaces \small Pixel na tela 128x128, à esquerda o pincel de um pixel, à direita um pixel}}{125}{figure.caption.140}%
+\contentsline {figure}{\numberline {129}{\ignorespaces Tela Inicial do Animated Drawnings}}{126}{figure.caption.141}%
+\contentsline {figure}{\numberline {130}{\ignorespaces Requisitos do desenho a ser enviado}}{126}{figure.caption.142}%
+\contentsline {figure}{\numberline {131}{\ignorespaces \small Processo da utilização 1 do Animated Drawnings}}{127}{figure.caption.143}%
+\contentsline {figure}{\numberline {132}{\ignorespaces \small Processo da utilização 2 do Animated Drawnings}}{128}{figure.caption.144}%
+\contentsline {figure}{\numberline {133}{\ignorespaces \small Processo da utilização 3 do Animated Drawnings}}{129}{figure.caption.145}%
+\contentsline {figure}{\numberline {134}{\ignorespaces \small Tela de converter a pixel art para alta resolução}}{130}{figure.caption.146}%
+\contentsline {figure}{\numberline {135}{\ignorespaces \small Tela para geração de animação}}{131}{figure.caption.147}%
+\contentsline {figure}{\numberline {136}{\ignorespaces \small Tela de converter a animação para pixel art}}{132}{figure.caption.148}%
+\contentsline {figure}{\numberline {137}{\ignorespaces \small Interface nova}}{132}{figure.caption.149}%
+\contentsline {figure}{\numberline {138}{\ignorespaces \small Auto reposicionamento no God Mode AI}}{133}{figure.caption.150}%
+\contentsline {figure}{\numberline {139}{\ignorespaces \small Tela de re-geração parcial}}{134}{figure.caption.151}%
+\contentsline {figure}{\numberline {140}{\ignorespaces \small Processo da utilização 1 do chatGPT em julho/2025}}{135}{figure.caption.152}%
+\contentsline {figure}{\numberline {141}{\ignorespaces \small Processo da utilização 2 do chatGPT em julho/2025}}{136}{figure.caption.153}%
+\contentsline {figure}{\numberline {142}{\ignorespaces \small Processo da utilização 3 do chatGPT em julho/2025}}{137}{figure.caption.154}%
+\contentsline {figure}{\numberline {143}{\ignorespaces \small Processo da utilização do chatGPT em junho/2025}}{138}{figure.caption.155}%
+\contentsline {figure}{\numberline {144}{\ignorespaces \small Processo da utilização 4 do chatGPT em julho/2025}}{139}{figure.caption.156}%
+\contentsline {figure}{\numberline {145}{\ignorespaces \small Processo da utilização 5 do chatGPT em julho/2025}}{140}{figure.caption.157}%
+\contentsline {figure}{\numberline {146}{\ignorespaces \small Tela de exportação no Pixel Lab}}{141}{figure.caption.158}%
+\contentsline {figure}{\numberline {147}{\ignorespaces \small Funcionalidade para tocar a animação circulada em vermelho}}{141}{figure.caption.159}%
+\contentsline {figure}{\numberline {148}{\ignorespaces \small Componente quick rotate circulado em vermelho}}{142}{figure.caption.160}%
+\contentsline {figure}{\numberline {149}{\ignorespaces \small Tela Rotate no Pixel Lab}}{142}{figure.caption.161}%
+\contentsline {figure}{\numberline {150}{\ignorespaces \small Processo da utilização da ferramenta de rotação do PixelLab em junho/2025}}{143}{figure.caption.162}%
+\contentsline {figure}{\numberline {151}{\ignorespaces \small Processo da utilização 1 da ferramenta de rotação do PixelLab em julho/2025}}{144}{figure.caption.163}%
+\contentsline {figure}{\numberline {152}{\ignorespaces \small Processo da utilização 2 da ferramenta de rotação do PixelLab em julho/2025}}{144}{figure.caption.164}%
+\contentsline {figure}{\numberline {153}{\ignorespaces \small Processo da utilização 3 da ferramenta de rotação do PixelLab em julho/2025}}{145}{figure.caption.165}%
+\contentsline {figure}{\numberline {154}{\ignorespaces \small Processo da utilização 4 da ferramenta de rotação do PixelLab em julho/2025}}{145}{figure.caption.166}%
+\contentsline {figure}{\numberline {155}{\ignorespaces \small Ajuste fino nos resultados da rotação de 45 graus}}{145}{figure.caption.167}%
+\contentsline {figure}{\numberline {156}{\ignorespaces \small Processo da utilização 5 da ferramenta de rotação do PixelLab em julho/2025}}{146}{figure.caption.168}%
+\contentsline {figure}{\numberline {157}{\ignorespaces \small Processo da utilização 6 da ferramenta de rotação do PixelLab em julho/2025}}{146}{figure.caption.169}%
+\contentsline {figure}{\numberline {158}{\ignorespaces \small Processo da utilização 7 da ferramenta de rotação do PixelLab em julho/2025}}{147}{figure.caption.170}%
+\contentsline {figure}{\numberline {159}{\ignorespaces \small Processo da utilização 8 da ferramenta de rotação do PixelLab em julho/2025}}{147}{figure.caption.171}%
+\contentsline {figure}{\numberline {160}{\ignorespaces \small Tela Rotate com o melhor resultado como imagem de inicialização no Pixel Lab}}{148}{figure.caption.172}%
+\contentsline {figure}{\numberline {161}{\ignorespaces \small Processo da utilização 9 da ferramenta de rotação do PixelLab em julho/2025}}{148}{figure.caption.173}%
+\contentsline {figure}{\numberline {162}{\ignorespaces \small Processo da utilização 9 da ferramenta de rotação do PixelLab em julho/2025}}{149}{figure.caption.174}%
+\contentsline {figure}{\numberline {163}{\ignorespaces \small Processo da utilização 1 da ferramenta de animação do PixelLab em julho/2025}}{150}{figure.caption.175}%
+\contentsline {figure}{\numberline {164}{\ignorespaces \small Processo da utilização 2 da ferramenta de animação do PixelLab em julho/2025}}{151}{figure.caption.176}%
+\contentsline {figure}{\numberline {165}{\ignorespaces \small Processo da utilização 3 da ferramenta de animação do PixelLab em julho/2025}}{152}{figure.caption.177}%
+\contentsline {figure}{\numberline {166}{\ignorespaces \small Processo da utilização 4 da ferramenta de animação do PixelLab em julho/2025}}{153}{figure.caption.178}%
+\contentsline {figure}{\numberline {167}{\ignorespaces \small Processo da utilização 5 da ferramenta de animação do PixelLab em julho/2025}}{154}{figure.caption.179}%
+\contentsline {figure}{\numberline {168}{\ignorespaces \small Processo da utilização 6 da ferramenta de animação do PixelLab em julho/2025}}{155}{figure.caption.180}%
+\contentsline {figure}{\numberline {169}{\ignorespaces \small Processo da utilização 7 da ferramenta de animação do PixelLab em julho/2025}}{156}{figure.caption.181}%
+\contentsline {figure}{\numberline {170}{\ignorespaces \small Processo da utilização 8 da ferramenta de animação do PixelLab em julho/2025}}{157}{figure.caption.182}%
+\contentsline {figure}{\numberline {171}{\ignorespaces \small Processo da utilização 9 da ferramenta de animação do PixelLab em julho/2025}}{158}{figure.caption.183}%
+\contentsline {figure}{\numberline {172}{\ignorespaces \small Processo da utilização 10 da ferramenta de animação do PixelLab em julho/2025}}{159}{figure.caption.184}%
+\contentsline {figure}{\numberline {173}{\ignorespaces \small Processo da utilização 11 da ferramenta de animação do PixelLab em julho/2025}}{160}{figure.caption.185}%
+\contentsline {figure}{\numberline {174}{\ignorespaces \small Tela módulos do OpenArt.AI}}{161}{figure.caption.186}%
+\contentsline {figure}{\numberline {175}{\ignorespaces \small Funcionalidades do módulo de vídeo do OpenArt.AI}}{161}{figure.caption.186}%
+\contentsline {figure}{\numberline {176}{\ignorespaces \small Modelos de IA para geração de vídeo no OpenArt.AI}}{162}{figure.caption.187}%
+\contentsline {figure}{\numberline {177}{\ignorespaces \small Geração de vídeo no OpenArt.AI}}{162}{figure.caption.188}%
+\contentsline {figure}{\numberline {178}{\ignorespaces \small Funcionalidades do módulo de imagem do OpenArt.AI}}{162}{figure.caption.189}%
+\contentsline {figure}{\numberline {179}{\ignorespaces \small Modelos para editar imagem do OpenArt.AI}}{163}{figure.caption.190}%
+\contentsline {figure}{\numberline {180}{\ignorespaces \small Tela geração de imagem com o modelo SeedEdit no OpenArt.AI}}{163}{figure.caption.191}%
+\contentsline {figure}{\numberline {181}{\ignorespaces \small Tela geração de imagem com o modelo Flux Kontext no OpenArt.AI}}{164}{figure.caption.192}%
+\contentsline {figure}{\numberline {182}{\ignorespaces \small Tela geração de imagem com o modelo Gemini no OpenArt.AI}}{164}{figure.caption.193}%
+\contentsline {figure}{\numberline {183}{\ignorespaces \small Tela geração de imagem com o modelo GPT no OpenArt.AI}}{165}{figure.caption.194}%
+\contentsline {figure}{\numberline {184}{\ignorespaces \small Processo da utilização do Vidu em junho/2025}}{166}{figure.caption.195}%
+\contentsline {figure}{\numberline {185}{\ignorespaces \small Processo da utilização 1 do Vidu em julho/2025}}{167}{figure.caption.196}%
+\contentsline {figure}{\numberline {186}{\ignorespaces \small Processo da utilização 2 do Vidu em julho/2025}}{168}{figure.caption.197}%
+\contentsline {figure}{\numberline {187}{\ignorespaces \small Processo da utilização 3 do Vidu em julho/2025}}{169}{figure.caption.198}%
+\contentsline {figure}{\numberline {188}{\ignorespaces \small Processo da utilização 4 do Vidu em julho/2025}}{169}{figure.caption.199}%
+\contentsline {figure}{\numberline {189}{\ignorespaces \small Tela da criação da referência da beliche no Vidu}}{170}{figure.caption.200}%
+\contentsline {figure}{\numberline {190}{\ignorespaces \small Tela da criação da referência da porta marrom no Vidu}}{171}{figure.caption.201}%
+\contentsline {figure}{\numberline {191}{\ignorespaces \small Tela da criação da referência da porta cinza no Vidu}}{171}{figure.caption.202}%
+\contentsline {figure}{\numberline {192}{\ignorespaces \small Tela da criação da referência do quarto do Pablo no Vidu}}{172}{figure.caption.203}%
+\contentsline {figure}{\numberline {193}{\ignorespaces \small Tela da criação da referência da cena do tutorial no Vidu}}{172}{figure.caption.204}%
+\contentsline {figure}{\numberline {194}{\ignorespaces \small Processo da utilização 1 do Vidu em agosto/2025}}{173}{figure.caption.205}%
+\contentsline {figure}{\numberline {195}{\ignorespaces \small Processo da utilização 2 do Vidu em agosto/2025}}{174}{figure.caption.206}%
+\contentsline {figure}{\numberline {196}{\ignorespaces \small Processo da utilização 3 do Vidu em agosto/2025}}{174}{figure.caption.207}%
+\contentsline {figure}{\numberline {197}{\ignorespaces \small Processo da utilização 4 do Vidu em agosto/2025}}{175}{figure.caption.208}%
+\contentsline {figure}{\numberline {198}{\ignorespaces \small Edição da referência do personagem no Vidu}}{175}{figure.caption.209}%
+\contentsline {figure}{\numberline {199}{\ignorespaces \small Processo da utilização 5 do Vidu em agosto/2025}}{176}{figure.caption.210}%
+\contentsline {figure}{\numberline {200}{\ignorespaces \small Processo da utilização 6 do Vidu em agosto/2025}}{176}{figure.caption.211}%
+\contentsline {figure}{\numberline {201}{\ignorespaces \small Processo da utilização 7 do Vidu em agosto/2025}}{177}{figure.caption.212}%
+\contentsline {figure}{\numberline {202}{\ignorespaces \small Processo da utilização 8 do Vidu em agosto/2025}}{178}{figure.caption.213}%
+\contentsline {figure}{\numberline {203}{\ignorespaces \small Processo de geração da animação de pulo pela funcionalidade Referência para vídeo no Vidu}}{179}{figure.caption.214}%
+\contentsline {figure}{\numberline {204}{\ignorespaces \small Processo de geração da animação 1 da porta no Vidu }}{180}{figure.caption.215}%
+\contentsline {figure}{\numberline {205}{\ignorespaces \small Processo de geração da animação 2 da porta no Vidu }}{181}{figure.caption.216}%
+\contentsline {figure}{\numberline {206}{\ignorespaces \small Animação da porta cinza pela funcionalidade Imagem para vídeo no Vidu }}{182}{figure.caption.217}%
+\contentsline {figure}{\numberline {207}{\ignorespaces \small Animação da porta marrom pela funcionalidade Imagem para vídeo no Vidu }}{183}{figure.caption.218}%
+\contentsline {figure}{\numberline {208}{\ignorespaces \small Processo de geração da animação de pulo pela funcionalidade Imagem para vídeo no Vidu}}{184}{figure.caption.219}%
+\contentsline {figure}{\numberline {209}{\ignorespaces \small Processo de geração da animação definitiva da porta em side view no Vidu}}{185}{figure.caption.220}%

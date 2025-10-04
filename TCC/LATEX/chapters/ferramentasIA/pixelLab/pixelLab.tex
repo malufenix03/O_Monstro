@@ -1,0 +1,85 @@
+%   ------------------------------------------------------------------------
+\FloatBarrier
+\section{Análise do Pixel Lab}
+\label{s.pixelLab}
+
+A plataforma Pixel Lab foi selecionada por seu foco em pixel art, com diversas funcionalidades para o auxílio na criação e refinamento da animação, como:
+
+\begin{itemize}
+    \item Ferramenta de rotação;
+    \item Animação para animação; e
+    \item Edição de imagem.
+\end{itemize}
+
+
+A ferramenta também possui a capacidade de gerar os movimentos de um personagem através do sistema de animação baseado no esqueleto, porém esse recurso não pôde ser testado por ser pago. 
+
+Além disso, existe um editor embutido especificamente para pixel art no ambiente da geração, sendo possível fazer a edição de pixels específicos e tendo outras funcionalidades básicas para a criação e edição de sprites. Esse editor possui uma separação de quadros da animação, podendo receber diretamente o sprite sheet e separar cada uma das imagens em seu respectivo frame, além de também conseguir exportar esse sprite sheet em diversos formatos, com números variados de linhas e colunas (Figura \ref{fig:pixelLabExport} no Apêndice \ref{ap.telasIA}). Apesar de não formar nenhum vídeo diretamente, a ferramenta consegue tocar a animação, considerando todos os quadros ou aqueles pertencentes a uma tag (Figura \ref{fig:pixelLabViewAnimation} no Apêndice \ref{ap.telasIA}). Uma tag pode ser criada clicando com o botão direito do mouse nos números dos frames e selecionando a opção new tag (nova tag, em inglês).
+
+Foi realizado uma série de testes dentro da ferramenta, grande parte deles visando auxiliar na pré-produção de uma animação, (criando imagens de referência), ou no ajuste fino e edições finais do resultado gerado por outra ferramenta.
+
+
+%%% pablo, pablo lateral de alguma IA, ver tudo que pegou de fora
+\begin{figure}[htbp]
+    \centering
+    \caption{\small Artefatos usados para referência no Pixel Lab}
+    \label{fig:pixelLabArtefatos}
+    \begin{subfigure}{0.32\linewidth}
+        \includegraphics[width=0.7\linewidth]{figs/sprites/Pablo.PNG}
+        \caption{\small Sprite do personagem Pablo em front view}
+        \label{fig:pixelLabPablo}
+    \end{subfigure}
+    \begin{subfigure}{0.32\linewidth}
+        \includegraphics[width=1\linewidth]{figs/sprites/irma.png}
+        \caption{\small Sprite da personagem Luz}
+        \label{fig:pixelLabIrma}
+    \end{subfigure}
+    \begin{subfigure}{1\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/geminiPro/walking_sprite_sheet_grande_pixel.png}
+        \caption{\small Sprite sheet gerado pelo Gemini Pro}
+        \label{fig:pixelLabSpriteSheetGeminiPro}
+    \end{subfigure}
+    \begin{subfigure}{1\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/godmodAI/Pixilart/pixilart-sprite.png}
+        \caption{\small Sprite sheet gerado pelo God Mode AI}
+        \label{fig:pixelLabSpriteSheetGodModeAI}
+    \end{subfigure}
+    \legend{\small Fonte: Elaborada pela autora.}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \caption{\small Artefatos editados no Pixel Lab}
+    \label{fig:pixelLabEdicao}
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/geminiPro/fix grande.png}
+        \caption{\small Sprite do personagem Pablo em side view gerado pelo Gemini Pro}
+        \label{fig:pixelLabPabloGeminiProSide}
+    \end{subfigure}
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=0.8\linewidth]{figs/geminiPro/back_pixel_grande.png}
+        \caption{\small Sprite do personagem Pablo de costas gerado pelo Gemini Pro}
+        \label{fig:pixelLabPabloGeminiProCostas}
+    \end{subfigure}
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/Pixilart/porta_sprite_sheet_pixel.png}
+        \caption{\small Sprite sheet da porta abrindo gerado pelo Vidu}
+        \label{fig:pixelLabPortaViduSideView}
+    \end{subfigure}
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/sprites/Porta front view.png}
+        \caption{\small Sprite da porta em side view fechada}
+        \label{fig:pixelLabPortaSideView}
+    \end{subfigure}
+    \legend{\small Fonte: Elaborada pela autora.}
+\end{figure}
+
+\input{chapters/ferramentasIA/pixelLab/rotate}
+\input{chapters/ferramentasIA/pixelLab/animation_to_animation}
+\input{chapters/ferramentasIA/pixelLab/edicao}

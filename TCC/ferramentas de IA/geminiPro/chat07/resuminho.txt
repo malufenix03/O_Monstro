@@ -1,0 +1,120 @@
+1	sprite largo			ANDAR						FEITO
+
+2	sprite fino pré-edição		ANDAR						FEITO
+		ruim: bracelete ganhou relevo, mudou cor da boca no meio
+		bom: sem sapato
+
+3	sprite fino pré-edição		ANDAR E PULAR					FEITO
+		ruim: com sapato preto, pulo cabeça ficar parte fora da tela
+		bom: mão precisa e quadrada, movimento certinho
+
+4	sprite final			PULAR						FEITO
+
+5	sprite final (outra mensagem)	PULAR						FEITO
+
+6	sprite final			ABRIR PORTA					FEITO
+
+7	sprite final			ABRIR PORTA					FEITO
+
+8	sprite final			AGACHAR
+
+9	MONSTRO				FLUTUANDO
+
+10	sprite final			ANDAR						FEITO
+		ruim: bracelete com relevo, mão com dedo
+		bom: sem sapato
+
+11	sprite final			ANDAR						FEITO
+		ruim: bracelete com relevo, sapato marrom longo, camiseta com faixa amarela clara, mão com dedo
+		bom:
+
+12	sprite final			ANDAR						FEITO
+		ruim: mão com dedo, bracelete com relevo
+		bom: sem sapato
+
+13	sprite final			ANDAR						FEITO
+		ruim: bracelete com relevo, cor diferente, mão com dedo
+		bom: sem sapato
+
+14	sprite final			ANDAR						FEITO
+		ruim: braço cresce, bracelete com relevo, um braço nu, mão com dedos
+		bom: sem sapato
+
+15	sprite final			ANDAR						FEITO
+		ruim: mão com dedos, bracelete com relevo, brilho no ombro
+		bom: animação mais pixelizada
+
+16	sprite final			PULAR						FEITO
+
+17	sprite final			PULAR						FEITO
+
+18	sprite final			PULAR						FEITO
+
+19	porta A				FEITO
+		maçaneta trocou de lado, animação deslizou de um lado para o outro após abrir
+
+20	porta A				FEITO
+
+21	porta A				FEITO
+
+22	porta C aberta
+
+23	porta C fechada
+
+24	porta C aberta
+
+25	porta C sprite sheet
+
+26	porta C prédio
+
+27	porta C prédio
+
+28	porta C sprite sheet
+
+29	porta C prédio
+
+30	duas mãos
+
+31	duas mãos
+
+32	uma mão
+
+33	sprite final			ABRIR PORTA					FEITO
+
+34	sprite final			ABRIR PORTA					FEITO
+
+35	sprite final			ABRIR PORTA					FEITO
+
+36	porta B				FEITO
+
+37	porta B				FEITO
+
+38	porta B				FEITO
+
+39	porta B				FEITO
+
+40	porta B				FEITO
+
+41	porta B				FEITO
+
+42	porta B				FEITO
+
+43	porta B				FEITO
+
+44	porta B				FEITO
+
+45	uma mão
+
+46	uma mão
+
+47	uma mão
+
+48	monstro				FLUTUANDO
+
+49	sprite final			SENTAR
+
+50	sprite final			SENTAR
+
+51	sprite final			SENTAR
+
+52	front view			SENTAR

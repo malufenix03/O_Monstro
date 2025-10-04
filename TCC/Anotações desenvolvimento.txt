@@ -39,3 +39,29 @@ pegar textMeshPro = TMP_Text
 
 .GetPersistentEventCount() != 0 ---> checa se unity event está nulo
 
+comparar diferenca de frames de porta que não desenhou para outro, fazer essa diferença -> 1 dia/algumas horas
+
+
+unity usa C# 9.0 -> nao pode inicializar variavel struct
+				mas pode inicializar variavel class
+
+não fazer 2 collider ficar na mesma linha
+
+alguns prompts gerados por IA
+
+camera z -10 ou não filma
+
+extra settings -> raycast target off		(não deixar o texto bloquear o clique do botão)
+		ray cast pega primeiro elemento que tem raycast ativo mesmo que invisivel, ordem importa muito no build
+
+find retornando null ---> nome com espaço a mais no final na cena
+
+mc.back?.SetActive(false);  executando mesmo com objeto destruido ----> fazer if normal resolve, pois ?. é do c# e if pega operacao especifica do unity para game objects
+
+sempre usar mathf.abs em distância
+
+collider chao só pega o bound certo se composite estiver antes do tilemap --> pega só um collider
+
+getcomponentinchildren<>(true) ---> pegar até os desativados
+
+destroy nao e instantaneo

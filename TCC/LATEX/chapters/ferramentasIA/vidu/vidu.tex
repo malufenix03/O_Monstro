@@ -1,0 +1,97 @@
+%   ------------------------------------------------------------------------
+\FloatBarrier
+\section{Análise do Vidu}
+\label{s.vidu}
+
+A ferramenta vidu foi escolhida por sua capacidade de gerar vídeos a partir de imagens. A funcionalidade que foi mais chamativa foi a geração de vídeos através de referências, que prometia manter a consistência dos personagens, lugares e objetos. Além dessa, o site também oferecia a geração de vídeo através de uma imagem, permitindo definir o frame inicial e final.No OpenArt.AI (descrito na Seção \ref{s.openArt}), era utilizado um dos modelos que pertence a essa ferramenta, o Vidu Q1, que é o modelo mais avançado do Vidu para a geração de vídeos, não disponível na plataforma para uso gratuito. Dessa forma, o modelo Vidu 2.0 foi o utilizado durante os testes.
+
+%%% pablo, pablo lateral de alguma IA, ver tudo que pegou de fora
+\begin{figure}[htbp]
+    \centering
+    \caption{\small Artefatos usados para referência no vidu}
+    \label{fig:viduArtefatos}
+    \begin{subfigure}{0.22\linewidth}
+        \includegraphics[width=0.7\linewidth]{figs/sprites/Pablo.PNG}
+        \caption{\small Sprite do personagem Pablo em front view}
+        \label{fig:viduPablo}
+    \end{subfigure}
+    \begin{subfigure}{0.22\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/chatGPT/visao_lateral/res1.png}
+        \caption{\small Sprite do personagem Pablo em side view gerado pelo ChatGPT}
+        \label{fig:viduPabloChatGPTSide}
+    \end{subfigure}
+    \begin{subfigure}{0.22\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/sprites/Pablo_sideView.png}
+        \caption{\small Sprite do personagem Pablo em side view gerado pelo GeminiPro e editado no Pixel Lab}
+        \label{fig:viduPabloGeminiProSide}
+    \end{subfigure}
+    \begin{subfigure}{0.22\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/sprites/Pablo_backView.png}
+        \caption{\small Sprite do personagem Pablo em back view (visão traseira, em inglês) gerado pelo GeminiPro e editado no Pixel Lab}
+        \label{fig:viduPabloGeminiProBack}
+    \end{subfigure}
+    \begin{subfigure}{0.32\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_cama.png}
+        \caption{\small Sprite da cama}
+        \label{fig:viduCama}
+    \end{subfigure}
+    \begin{subfigure}{0.18\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_porta (1).png}
+        \caption{\small Sprite da porta em front view}
+        \label{fig:viduPortaA}
+    \end{subfigure}
+    \begin{subfigure}{0.18\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_porta (2).png}
+        \caption{\small Sprite da porta em side view}
+        \label{fig:viduPortaB}
+    \end{subfigure}
+    \begin{subfigure}{0.18\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_porta_tutorial (1).png}
+        \caption{\small Sprite da porta C aberta}
+        \label{fig:viduPortaC1}
+    \end{subfigure}
+    \begin{subfigure}{0.18\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_porta_tutorial (2).png}
+        \caption{\small Sprite da porta C fechada}
+        \label{fig:viduPortaC2}
+    \end{subfigure}
+    \begin{subfigure}{0.18\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_porta_tutorial (3).png}
+        \caption{\small Sprite da porta C mais aberta}
+        \label{fig:viduPortaC3}
+    \end{subfigure}
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_quarto.PNG}
+        \caption{\small Referência do quarto do Pablo}
+        \label{fig:viduQuartoPablo}
+    \end{subfigure}
+    \begin{subfigure}{0.45\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_tutorial.PNG}
+        \caption{\small Referência do tutorial}
+        \label{fig:viduTutorial}
+    \end{subfigure}
+    \legend{\small Fonte: Elaborada pela autora.}
+\end{figure}
+
+%ver tudo que tentou criar
+Durante a análise, o objetivo mudou de acordo com as necessidades do projeto, e alguns testes mais ambiciosos foram feitos. No total, foi tentado criar animações do personagem Pablo andando, pulando, abrindo a porta, se deitando/levantando da cama, e de diferentes portas abrindo.
+
+%   ------------------------------------------------------------------------
+\FloatBarrier
+\subsection{Funcionalidade de referência para vídeo}
+\label{s.vidu.referencia}
+\input{chapters/ferramentasIA/vidu/referenciaImagem}
+\input{chapters/ferramentasIA/vidu/referencia}
+\input{chapters/ferramentasIA/vidu/imagem}
+
