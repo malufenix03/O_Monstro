@@ -6954,7 +6954,7 @@ GameObject:
   - component: {fileID: 308319060}
   m_Layer: 0
   m_Name: College
-  m_TagString: Untagged
+  m_TagString: Place
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28727,7 +28727,7 @@ GameObject:
   - component: {fileID: 610347836}
   m_Layer: 0
   m_Name: Scene manager
-  m_TagString: Untagged
+  m_TagString: Scene Manager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62066,7 +62066,7 @@ GameObject:
   - component: {fileID: 1172910054}
   m_Layer: 0
   m_Name: Outside home
-  m_TagString: Untagged
+  m_TagString: Place
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

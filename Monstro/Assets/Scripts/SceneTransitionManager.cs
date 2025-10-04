@@ -1,4 +1,5 @@
 
+using Assets.Scripts.SaveSystem;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using static GameSettings;
@@ -9,32 +10,66 @@ using static GameSettings;
 public class SceneTransitionManager : MonoBehaviour
 {
 
+    public static GameObject sceneManager;
     //VARIAVEIS
 
     void Awake()
+    {
+        sceneManager = gameObject;
+        SetSaveSystem();
+        
+    }
+
+    void Start()                            //depois de setar sistema salvamento
     {
         LoadData();
         PortalPositioning(gameObject);
     }
 
+    //PREPARAR SISTEMA DE SALVAR DURANTE CENA
+    void SetSaveSystem()
+    {
+        ConectScriptTag<RoomOriginator>("Place");
+//        ConectScriptTag<DoorOriginator>("Door");
+        ConectScriptTag<SceneOriginator>("Scene Manager");
+        
+    }
+
+    
+
+    //COLOCAR SCRIPT ORIGINATOR NOS OBJETOS CORRETOS
+    void ConectScriptTag<T>(string tag) where T:Originator
+    {
+        GameObject[] objetos = GameObject.FindGameObjectsWithTag(tag);
+        //    print("Ei" + objetos);
+        foreach (GameObject child in objetos)
+        {
+            //        print("Entrou " + child);
+            child.AddComponent<T>();
+            
+        }
+    }
+        
+
     //--------------------------------------------- MUDA DE CENA --------------------------------------------
     public static void ChangeScene(string scene)                                                                //mudar de cena
     {
+        SaveData();
         SceneManager.LoadScene(scene);
 
     }
 
     //----------------------------------------------SALVAR DADOS-----------------------------------------------------
 
-    public static void SaveDate()
+    public static void SaveData()
     {
-        
+        SaveSystem.SaveSceneData(sceneManager);
     }
 
     //--------------------------------------------- CARREGA DADOS SALVOS --------------------------------------------
-    public static void LoadData()
+    public void LoadData()
     {
-
+        SaveSystem.LoadSceneData(gameObject);
     }
     
     //--------------------------------------------- POSICIONA PERSONAGEM --------------------------------------------

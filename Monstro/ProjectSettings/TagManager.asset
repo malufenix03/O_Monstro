@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Door
   - Place
+  - Fog
+  - Scene Manager
   layers:
   - Default
   - TransparentFX

@@ -28,7 +28,6 @@ public class Portal : MonoBehaviour
     {
 
         
-        print("altura de " + gameObject + ": " + altura);
     }
 
 

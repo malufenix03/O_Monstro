@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Assets.Scripts.SaveSystem;
 using TMPro;
 using Unity.Mathematics;
 using Unity.VisualScripting;
@@ -54,6 +55,8 @@ public class VarGlobal : MonoBehaviour
         SceneChange = new UnityEvent();
     }
 
+
+    //COLOCAR OBJETOS NO DONTDESTROYONLOAD
     void SetDontDestroy()
     {
         foreach (GameObject child in DontDestroy)
@@ -67,13 +70,14 @@ public class VarGlobal : MonoBehaviour
             Destroy(gameObject);
     }
 
+
     //INICIALIZACAO VARIAVEIS GLOBAIS E ESTATICAS APENAS UMA VEZ-----------------------------------------------------------------------------------------
     void Awake()
     {
         SetInteractMenu();
         SetGame();
         SetEvents();
-        
+
     }
     void Start()
     {

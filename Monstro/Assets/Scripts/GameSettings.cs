@@ -73,6 +73,18 @@ public static class GameSettings
         return parent.Find(childName);
     }
 
+    //procura componente em transform ou game object parent 
+    public static T Search<T>(Transform parent, string childName)
+    {
+        return Search(parent, childName).GetComponent<T>();
+    }
+
+    public static T Search<T>(GameObject parent, string childName)
+    {
+        return Search(parent, childName).GetComponent<T>();
+    }
+
+
     //SETAR PAREDES COMO LIMITE DA CAMERA------------------------------------------------------------------------------------------
     static void GetWalls(Transform x)
     {
@@ -81,20 +93,77 @@ public static class GameSettings
     }
 
     //FIND TAG IN CHILD----------------------------------------------------------------------------------------------------------
-    static T[] FindChildWithTag<T>(Transform parent, string tag)                                    //converte para o tipo que estou procurando, generico
+    public static T FindChildWithTag<T>(Transform parent, string tag)                                 //converte para o tipo que estou procurando, generico
+    {
+        Transform[] array;                                                                          //vetor para guardar objeto filho
+        array = parent.transform.GetComponentsInChildren<Transform>(true);                              //pega todos objetos filho
+        foreach (Transform child in array)
+        {
+            if (child.CompareTag(tag))                                                                   //se tag filho = tag procurada
+            {
+                T aux = child.gameObject.GetComponent<T>();                                             //adiciona componente com tag
+                if(aux!=null)
+                    return aux;                                                               
+            }
+        }
+        
+        return default;
+    }
+    
+
+    public static GameObject FindChildWithTag(Transform parent, string tag)                                    //converte para o tipo que estou procurando, generico
+    {
+        Transform[] array;                                                                          //vetor para guardar objeto filho
+        array = parent.transform.GetComponentsInChildren<Transform>(true);                              //pega todos objetos filho
+        foreach (Transform child in array)
+        {
+
+            if (child.CompareTag(tag))                                                                   //se tag filho = tag procurada
+            {
+                GameObject aux = child.gameObject;                                             //adiciona componente com tag
+                if (aux != null)
+                    return aux;
+            }
+        }
+        
+        return default;
+    }
+
+    public static T[] FindChildrenWithTag<T>(Transform parent, string tag)                                    //converte para o tipo que estou procurando, generico
     {
         List<T> withTag = new();                                                                        //vetor para guardar objeto com a tag
         Transform[] array;                                                                          //vetor para guardar objeto filho
-        array = parent.transform.GetComponentsInChildren<Transform>();                              //pega todos objetos filho
+        array = parent.transform.GetComponentsInChildren<Transform>(true);                              //pega todos objetos filho
         foreach (Transform child in array)
         {
-            if (child.tag == tag)                                                                   //se tag filho = tag procurada
+            if (child.CompareTag(tag))                                                                  //se tag filho = tag procurada
+                {
+                    T aux = child.gameObject.GetComponent<T>();
+                    if (aux != null)
+                        withTag.Add(aux);                                    //adiciona em com tag
+                }
+        }
+        return withTag.ToArray();
+    }
+
+    public static GameObject[] FindChildrenWithTag(Transform parent, string tag)                                    //converte para o tipo que estou procurando, generico
+    {
+        List<GameObject> withTag = new();                                                                        //vetor para guardar objeto com a tag
+        Transform[] array;                                                                          //vetor para guardar objeto filho
+        array = parent.transform.GetComponentsInChildren<Transform>(true);                              //pega todos objetos filho
+        foreach (Transform child in array)
+        {
+            
+            if (child.CompareTag(tag))                                                              //se tag filho = tag procurada
             {
-                withTag.Add(child.gameObject.GetComponent<T>());                                                               //adiciona em com tag
+                GameObject aux = child.gameObject;
+                if (aux != null)
+                    withTag.Add(aux);                                                               //adiciona em com tag
             }
         }
         return withTag.ToArray();
     }
+
 
 
     //SETAR CHAO E PLATAFORMAS PARA PULO-----------------------------------------------------------------------------------------
@@ -108,7 +177,7 @@ public static class GameSettings
     static void GetGround(Transform structure)
     {
         scriptPlayer.ground.Clear();                                                                            //limpar o que estava antes no chao
-        Transform[] allFloors = FindChildWithTag<Transform>(structure, "Ground");
+        Transform[] allFloors = FindChildrenWithTag<Transform>(structure, "Ground");
         foreach (Transform child in allFloors)
         {
             Debug.LogWarning(child);
