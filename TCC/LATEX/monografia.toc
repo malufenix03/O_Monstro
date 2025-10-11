@@ -8,54 +8,62 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{20}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{24}{chapter.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Revisão bibliográfica}}{22}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Saúde mental e mídia digital}{22}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Desenvolvimento de jogos 2D}{22}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Inteligência Artificial Aplicada à Animação}{22}{section.2.3}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Revisão bibliográfica}}{26}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Saúde mental e mídia digital}{26}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Desenvolvimento de jogos 2D}{26}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Inteligência Artificial Aplicada à Animação}{26}{section.2.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{23}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Metodologia de desenvolvimento do jogo}{24}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Metodologia de Análise das Ferramentas de IA}{24}{section.3.2}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Metodologia}}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Metodologia de desenvolvimento do jogo}{28}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Metodologia de Análise das Ferramentas de IA}{28}{section.3.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Análise comparativa de ferramentas de IA para animação 2D}}{28}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Visão geral da análise comparativa}{28}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Análise do RosebudAI}{29}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Análise do SpriteSheetGPT}{31}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Análise do CGDream}{33}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Análise do Pixie.haus}{39}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Análise do Animated Drawnings}{42}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Análise do God Mode AI}{47}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Análise do ChatGPT}{51}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Geração do sprite em side view}{53}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Geração do sprite sheet do personagem andando}{55}{subsection.4.8.2}%
-\contentsline {section}{\numberline {4.9}Análise do Pixel Lab}{56}{section.4.9}%
-\contentsline {subsection}{\numberline {4.9.1}Ferramenta de rotação}{59}{subsection.4.9.1}%
-\contentsline {subsection}{\numberline {4.9.2}Ferramenta de animação para animação}{63}{subsection.4.9.2}%
-\contentsline {subsection}{\numberline {4.9.3}Uso no pós-processamento}{70}{subsection.4.9.3}%
-\contentsline {section}{\numberline {4.10}Análise do OpenArt.AI}{73}{section.4.10}%
-\contentsline {section}{\numberline {4.11}Análise do Vidu}{79}{section.4.11}%
-\contentsline {subsection}{\numberline {4.11.1}Funcionalidade de referência para vídeo}{81}{subsection.4.11.1}%
-\contentsline {subsection}{\numberline {4.11.2}Funcionalidade de imagem para vídeo}{94}{subsection.4.11.2}%
-\contentsline {section}{\numberline {4.12}Análise da Ferramenta Gemini Pro}{98}{section.4.12}%
-\contentsline {section}{\numberline {4.13}Quadro comparativo e discussão geral}{98}{section.4.13}%
-\contentsline {section}{\numberline {4.14}Desenvolvimento de um fluxo de trabalho para animação com IA}{98}{section.4.14}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Análise comparativa de ferramentas de IA para animação 2D}}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Visão geral da análise comparativa}{32}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Análise do RosebudAI}{33}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Análise do SpriteSheetGPT}{35}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Análise do CGDream}{37}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Análise do Pixie.haus}{43}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Análise do Animated Drawnings}{46}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Análise do God Mode AI}{51}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Análise do ChatGPT}{55}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Geração do sprite em side view}{57}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Geração do sprite sheet do personagem andando}{59}{subsection.4.8.2}%
+\contentsline {section}{\numberline {4.9}Análise do Pixel Lab}{60}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}Ferramenta de rotação}{63}{subsection.4.9.1}%
+\contentsline {subsection}{\numberline {4.9.2}Ferramenta de animação para animação}{67}{subsection.4.9.2}%
+\contentsline {subsection}{\numberline {4.9.3}Uso no pós-processamento}{74}{subsection.4.9.3}%
+\contentsline {section}{\numberline {4.10}Análise do OpenArt.AI}{79}{section.4.10}%
+\contentsline {section}{\numberline {4.11}Análise do Vidu}{84}{section.4.11}%
+\contentsline {subsection}{\numberline {4.11.1}Funcionalidade de referência para vídeo}{86}{subsection.4.11.1}%
+\contentsline {subsection}{\numberline {4.11.2}Funcionalidade de imagem para vídeo}{99}{subsection.4.11.2}%
+\contentsline {section}{\numberline {4.12}Análise da Ferramenta Gemini Pro}{103}{section.4.12}%
+\contentsline {subsection}{\numberline {4.12.1}Geração do sprite em side view}{105}{subsection.4.12.1}%
+\contentsline {subsection}{\numberline {4.12.2}Geração do sprite em back view}{111}{subsection.4.12.2}%
+\contentsline {subsection}{\numberline {4.12.3}Geração do sprite sheet do ciclo de caminhada}{113}{subsection.4.12.3}%
+\contentsline {subsection}{\numberline {4.12.4}Geração da animação de caminhada}{118}{subsection.4.12.4}%
+\contentsline {subsection}{\numberline {4.12.5}Geração da animação de pulo}{124}{subsection.4.12.5}%
+\contentsline {subsection}{\numberline {4.12.6}Geração da animação do personagem abrindo a porta}{129}{subsection.4.12.6}%
+\contentsline {subsection}{\numberline {4.12.7}Geração da animação das portas abrindo}{133}{subsection.4.12.7}%
+\contentsline {section}{\numberline {4.13}Quadro comparativo e discussão geral}{142}{section.4.13}%
+\contentsline {section}{\numberline {4.14}Desenvolvimento de um fluxo de trabalho para animação com IA}{142}{section.4.14}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{99}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Conclusão}}{143}{chapter.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Capturas de Tela da Análise de Ferramentas de IA}}{100}{appendix.A}%
-\contentsline {section}{\numberline {A.1}AI Sprite Sheet Maker}{100}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Rosebud AI}{103}{section.A.2}%
-\contentsline {section}{\numberline {A.3}SpriteSheetGPT}{110}{section.A.3}%
-\contentsline {section}{\numberline {A.4}CGDream}{114}{section.A.4}%
-\contentsline {section}{\numberline {A.5}Pixie.Haus}{124}{section.A.5}%
-\contentsline {section}{\numberline {A.6}Animated Drawnings}{126}{section.A.6}%
-\contentsline {section}{\numberline {A.7}God Mode AI}{129}{section.A.7}%
-\contentsline {section}{\numberline {A.8}ChatGPT}{135}{section.A.8}%
-\contentsline {section}{\numberline {A.9}Pixel Lab}{140}{section.A.9}%
-\contentsline {section}{\numberline {A.10}OpenArt.AI}{161}{section.A.10}%
-\contentsline {section}{\numberline {A.11}Vidu}{165}{section.A.11}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Capturas de Tela da Análise de Ferramentas de IA}}{144}{appendix.A}%
+\contentsline {section}{\numberline {A.1}AI Sprite Sheet Maker}{144}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Rosebud AI}{147}{section.A.2}%
+\contentsline {section}{\numberline {A.3}SpriteSheetGPT}{154}{section.A.3}%
+\contentsline {section}{\numberline {A.4}CGDream}{158}{section.A.4}%
+\contentsline {section}{\numberline {A.5}Pixie.Haus}{168}{section.A.5}%
+\contentsline {section}{\numberline {A.6}Animated Drawnings}{170}{section.A.6}%
+\contentsline {section}{\numberline {A.7}God Mode AI}{173}{section.A.7}%
+\contentsline {section}{\numberline {A.8}ChatGPT}{179}{section.A.8}%
+\contentsline {section}{\numberline {A.9}Pixel Lab}{184}{section.A.9}%
+\contentsline {section}{\numberline {A.10}OpenArt.AI}{206}{section.A.10}%
+\contentsline {section}{\numberline {A.11}Vidu}{210}{section.A.11}%
+\contentsline {section}{\numberline {A.12}Gemini Pro}{231}{section.A.12}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{186}{section*.223}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{270}{section*.339}%

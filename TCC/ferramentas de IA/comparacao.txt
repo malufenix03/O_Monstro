@@ -1,0 +1,87 @@
+Consistência com o estilo de da imagem de referência
+	Extremamente alto (estilo de pixel art específico do desenho)
+	Muito alto (pixel art)
+	Alto (Maior parte pixel art)
+	Médio (Parte pixel art, parte não OU estilo de cubos 2D)
+	Baixo (2D)
+	Muito baixo (desenho 3D)
+	Extremamente baixo (fotorrealismo)
+
+
+Consistência com as cores da imagem de referência
+	Extremamente alto (exato tom de cor)				
+	Muito alto (leves mudanças no tom de cor)
+	Alto (maioria dos tons iguais ou similares, alguns tons claramente diferentes) 
+	Médio (tons de cores claramente distintos, porém mesmas cores)
+	Baixo (maioria das cores iguais, algumas cores diferentes)
+	Muito Baixo (maioria das cores diferentes, algumas cores iguais)
+	Extremamente baixo (cores diferentes)
+
+
+Consistência com as características da imagem de referência
+	Extremamente alto (personagem humano com 2 braceletes no braço, camisa de gola alta, sem sapato visível, 2 olhos, sem deformação)
+	Muito alto (falta o bracelete ou adicionou sapato ou esqueceu boca ou fechou um dos olhos)
+	Alto (2 dos acima)
+	Médio (todos os acima)
+	Baixo (deformação em parte do personagem, porém ainda não remove a identidade dele)
+	Muito Baixo (deformação que faz o personagem não parecer mais pertencente a um menino humano)
+	Extremamente baixa (deformação grave em todo o personagem ou não possui nenhuma das características do personagem)
+
+
+Precisão de movimento e fidelidade ao prompt (ESPECÍFICO PARA VÍDEO)
+	Extremamente alta (fez examente o que foi pedido sem nenhum erro durante a execução do movimento)
+	Muito alta (apresentou algum movimento estranho_algum gesto ou pose não natural e incomum quando as pessoas fazem o movimento pedido_ porém a maior parte foi o movimento bom)
+	Alta (adicionou algo a mais do que foi pedido antes ou depois do movimento)
+	Média (movimento estranho mais frequente e adicionou algo a mais OU fez o movimento preciso porém sem seguir alguma instrução específica do prompt sobre esse movimento)
+	Baixa (fez o movimento pedido de maneira completamente imprecisa e estranha)
+	Muito baixa (não fez o movimento pedido, apresentando no lugar outro movimento de maneira precisa)
+	Extremamente baixa (não fez o movimento pedido, apresentando no lugar outro movimento que também está impreciso)
+
+
+Precisão da pose e fidelidade ao prompt	(ESPECÍFICO PARA IMAGEM / SPRITE SHEET)
+	Extremamente alta (fez examente o que foi pedido sem nenhum erro na pose)	 
+	Muito alta (alguns quadros repetidos porém forma o movimento)
+	Alta (apresentou algum movimento estranho_algum gesto não natural e incomum quando as pessoas fazem a pose pedida_ porém a maior parte estava na pose adequada)
+	Média (pose parcialmente correta, algum detalhe que não cumpriu do prompt mas ainda em geral sendo possível reconhecer a pose)
+	Baixa (gerou imagem em vez de sprite sheet, mas fez a pose de um dos quadros do movimento ou sprite sheet tudo repetido sem formar o movimento real)
+	Muito Baixa (fez algo que remete levemente à pose, porém não fez a pose)
+	Extremamente baixa (não fez nada relacionado à pose e ao prompt)
+
+
+Qualidade estética
+	Extremamente alta (Ficou bem bonito ou ficou o mais bonito possível seguindo o meu estilo de desenho)
+	Alta (Ficou bonito ou ficou como esperado considerando o meu estilo de desenho)
+	Média (Ficou razoável)
+	Baixa (Ficou feio)
+	Extremamente baixa (Ficou MUITO feio)
+
+
+Eficiência (Na real isso está altamente ligado à capacidade de edição dentro da própria ferramenta)
+	Extremamente alta (fácil de usar/editar/exportar/importar, sem precisar de muitas iterações para o resultado adequado)
+	Muito alta (fácil de usar/editar/exportar/importar, precisa de um número razoável de iterações para o resultado adequado)
+	Alta (fácil de usar/importar/editar, exportar precisa criar sprite sheet/tirar o fundo, precisa de um número razoável de iterações para o resultado adequado)
+	Média (fácil de usar/importar, editar detalhes pequenos não é tão fácil, exportar precisa criar sprite sheet/tirar o fundo, precisa de um número razoável de iterações para o resultado adequado)
+	Baixa (fácil de usar, editar detalhes pequenos é difícil, exportar precisa criar sprite sheet/tirar o fundo, importar não é tão simples, precisa de um número grande de iterações para o resultado adequado)
+	Extremamente Baixa (difícil de usar/editar/exportar/importar precisa de um número grande de iterações para o resultado adequado)
+
+
+Coerência da animação com o estilo de pixel art (ESPECÍFICO PARA VÍDEO)
+	Extremamente alta (todos os quadros do sprite sheet da animação formada continuam pixel perfect ou simulam pixel perfect, sem estarem inclinados)
+	Muito alta (simula o pixel perfect em alguns quadros, porém o quadro inteiro fica dessa maneira)
+	Alta (simula o estilo pixel art em alguns quadros e parte do personagem, mantendo a diagonal quadriculada porém ainda tendo a diagonal reta)
+	Médio (manter o estilo pixel art porém deformado e inclinado)
+	Baixo (para de ser uma pixel art em alguns quadros, mostrando coisas redondas ou 3D)
+	Muito baixo (animação não é pixel art porém ainda é 2D)
+	Extremamente baixo (animação é 3D)
+
+
+
+Capacidade de produzir resultado pixel perfect (todos os pixels tem o mesmo tamanho)
+	Extremamente alta (é pixel perfect 100%)
+	Muito alta (simula o pixel perfect)
+	Alta (sprite parado é pixel perfect mas a animação distorce isso)
+	Média (parece pixel art mas se olhar com atenção percebe que não é pixel perfect)
+	Baixa (claramente não é pixel perfect porém ainda é pixel art)
+	Muito baixa (sprite parado parte pixel art, parte não OU cúbico 3D OU quadrado mas sem ser pixel art)
+	Extremamente baixa (não parece nem pixel art)
+

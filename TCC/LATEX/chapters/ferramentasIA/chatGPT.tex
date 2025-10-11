@@ -55,20 +55,20 @@ Durante os testes iniciais, foi anexada a Figura \ref{fig:chatGPTPablo}, em sua 
 
 \begin{figure}[htbp]
     \centering
-    \caption{\small Imagem em side view gerada pelo chatGPT }
+    \caption{\small Imagem em side view gerada pelo ChatGPT }
     \label{fig:chatGPTSideViewPixel}
     \includegraphics[width=0.3\linewidth]{figs/chatGPT/visao_lateral/res2_pixel.png}
-    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta chatGPT.}
+    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta ChatGPT.}
 \end{figure}
 
 Posteriormente, foi utilizada a mesma imagem de antes, porém em sua versão aumentada, com um prompt textual instruindo a ferramenta a rotacionar o personagem em 90 graus. Além disso, no teste seguinte, também foram anexadas as Figuras \ref{fig:chatGPTPablo90} e \ref{fig:chatGPTPablo45}. Os resultados gerados apresentaram uma melhora na consistência em relação às características, mantendo o bracelete. Porém, foi mais aparente a falta do padrão pixel perfect, além de as imagens formadas apresentarem mais detalhes e tons diferentes, o que resultou em divergências extras com o design original e diferentes formatos de corpo, não tendo uma melhora significativa em comparação com o sprite em side view de referência. O melhor resultado (Figura \ref{fig:chatGPTSideView}) foi gerado antes do anexo dos novos ângulos do personagem para referência, o que indica que as figuras criadas no Pixel Lab diminuíram a performance da geração no ChatGPT. Interação completa demonstrada na Figura \ref{fig:chatGPT2} no Apêndice \ref{ap.telasIA}. 
 
 \begin{figure}[htbp]
     \centering
-    \caption{\small Melhor sprite em side view gerado pelo chatGPT }
+    \caption{\small Melhor sprite em side view gerado pelo ChatGPT }
     \label{fig:chatGPTSideView}
     \includegraphics[width=0.3\linewidth]{figs/chatGPT/visao_lateral/res1.png}
-    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta chatGPT.}
+    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta ChatGPT.}
 \end{figure}
 
 Na tentativa subsequente, foi iniciado um novo chat para apontar em detalhes o que cada imagem de referência representava, anexando, além da imagem em front view, os melhores sprites gerados em side view (Figuras \ref{fig:chatGPTPabloGeminiPro1} a \ref{fig:chatGPTPabloGeminiPro3} e Figura \ref{fig:chatGPTSideView}). Também foi incluída para contexto a Figura \ref{fig:chatGPTPablo45}, com o intuito de mostrar um meio termo de resultado satisfatório entre a front view e a side view. Os resultados apresentaram um erro de cropping (recorte, em inglês), onde a parte superior e inferior das imagens ficavam fora da tela, sendo cortadas para fora, uma limitação já conhecida da ferramenta \cite{openaiImage_2025}. Isso pode ser visto na Figura \ref{fig:chatGPTCropping}. Foram testados alguns prompts direcionando a IA a editar a imagem e corrigir a falha, porém não foi efetivo, como pode ser consultado na Figura \ref{fig:chatGPT3} no Apêndice \ref{ap.telasIA}.
@@ -78,7 +78,7 @@ Na tentativa subsequente, foi iniciado um novo chat para apontar em detalhes o q
     \caption{\small Erro no cropping}
     \label{fig:chatGPTCropping}
     \includegraphics[width=0.3\linewidth]{figs/chatGPT/visao_lateral/res4.png}
-    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta chatGPT.}
+    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta ChatGPT.}
 \end{figure}
 
 Apesar do ChatGPT não apresentar melhor performance em comparação com as próximas a serem analisadas, é possível notar sua grande capacidade em manter a consistência e o estilo do personagem, sendo extremamente fácil e acessível de usar. Os erros encontrados não tiveram nenhuma relação com a imagem ser em 2D, e não houve grande dificuldade em gerar uma pixel art, apesar de não ser pixel perfect. O melhor sprite gerado nessa fase (Figura \ref{fig:chatGPTSideView}) vai ser usado como referência durante a análise da Ferramenta Gemini Pro (detalhada na Seção \ref{s.ferramentaB}).
@@ -98,7 +98,7 @@ Os resultados gerados pelo primeiro método foram insatisfatórios. Apesar de, e
     \caption{\small Sprite sheet com basicamente a mesma etapa do movimento de andar gerado pelo ChatGPT}
     \label{fig:chatGPTSpriteSheetFront}
     \includegraphics[width=0.6\linewidth]{figs/chatGPT/walking_cycle/front_view/walk cycle 2.png}
-    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta chatGPT.}
+    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta ChatGPT.}
 \end{figure}
 
 Durante a segunda bateria de testes, além de sempre anexar a imagem em front view, no primeiro caso utilizou-se também as imagens geradas pelo Pixel Lab como referência (Figuras \ref{fig:chatGPTPablo90} e \ref{fig:chatGPTPablo45}), enquanto no segundo foi usada como referência a melhor geração do sprite em side view no ChatGPT (Figura \ref{fig:chatGPTSideView}). 
@@ -110,7 +110,7 @@ Analisando os resultados, foi notada uma piora na qualidade do produto, com mais
     \caption{\small Sprite sheet usando a imagem em side view de referência gerado pelo ChatGPT}
     \label{fig:chatGPTSpriteSheetSide}
     \includegraphics[width=0.6\linewidth]{figs/chatGPT/walking_cycle/side_view/walking cycle 2.png}
-    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta chatGPT.}
+    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta ChatGPT.}
 \end{figure}
 
 Em conclusão, o ChatGPT não mostrou-se adequado para tentar criar um sprite sheet, apresentando mais erros em relação à consistência ao tentar criar esse artefato em relação a apenas criar um sprite específico.

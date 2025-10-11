@@ -8,23 +8,42 @@ Um dos principais usos do PixelLab.AI neste projeto foi como ferramenta de pós-
 
 Nessa seção, abordaremos as edições feitas que geraram o resultado final.
 
-Como comentado em seções anteriores, o sprite do personagem Pablo em side view gerado pela ferramenta Gemini Pro (Figura \ref{fig:pixelLabPabloGeminiProSide}) passou por uma correção, onde os tons de cores e o tamanho foram ajustados, comparando o sprite lado a lado com a imagem do mesmo personagem de frente como pode ser visto nas Figuras \ref{fig:pixelLabFixSideViewComparaAntes} e \ref{fig:pixelLabFixSideViewComparaDepois}. Esse processo é extremamente importante, pois durante o jogo, o sprite de um personagem deve ser realmente consistente com os outros sprites daquele personagem, uma vez que haverá transições entre cada uma dessas figuras. Se a consistência não se mantém, em vez de apenas demonstrar um movimento ou mudança de posição, é causado um estranhamento no jogador. Posteriormente, uma nova edição foi realizada para ajustar detalhes como a falta de cabelo na nuca e o formato da orelha. Esse processo é demonstrado na Figura \ref{fig:pixelLabFinalSideView}.
+Como comentado em seções anteriores, o sprite do personagem Pablo em side view gerado pela ferramenta Gemini Pro (Figura \ref{fig:pixelLabPabloGeminiProSide}) passou por uma correção, onde os tons de cores e o tamanho foram ajustados, comparando o sprite lado a lado com a imagem do mesmo personagem de frente como pode ser visto nas Figuras \ref{fig:pixelLabFixSideViewComparaAntes} e \ref{fig:pixelLabFixSideViewComparaDepois}. Esse processo é extremamente importante, pois durante o jogo, o sprite de um personagem deve ser realmente consistente com os outros sprites daquele personagem, uma vez que haverá transições entre cada uma dessas figuras. Se a consistência não se mantém, em vez de apenas demonstrar um movimento ou mudança de posição, causa um estranhamento no jogador. Posteriormente, uma nova edição foi realizada para ajustar detalhes como a falta de cabelo na nuca e o formato da orelha. Esse processo é demonstrado na Figura \ref{fig:pixelLabFinalSideView}.
+
 
 \begin{figure}[htbp]
     \centering
-    \caption{\small Comparação do sprite original e sprite gerado pelo Gemini Pro antes da edição}
-    \label{fig:pixelLabFixSideViewComparaAntes}
-    \includegraphics[width=0.4\linewidth]{figs/pixelLab/dia3/comparacao.PNG}
-    \legend{\small Fonte: Elaborada pela autora.}
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \caption{\small Comparação do sprite original e sprite gerado pelo Gemini Pro antes da edição}
+        \label{fig:pixelLabFixSideViewComparaAntes}
+        \includegraphics[width=1\linewidth]{figs/pixelLab/dia3/comparacao.PNG}
+        \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta Gemini Pro.}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \caption{\small Comparação do sprite original e sprite gerado pelo Gemini Pro depois da edição}
+        \label{fig:pixelLabFixSideViewComparaDepois}
+        \includegraphics[width=1\linewidth]{figs/pixelLab/dia3/fix.PNG}
+        \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta Pixel Lab.}
+    \end{minipage}
 \end{figure}
+
+% \begin{figure}[htbp]
+%     \centering
+%     \caption{\small Comparação do sprite original e sprite gerado pelo Gemini Pro antes da edição}
+%     \label{fig:pixelLabFixSideViewComparaAntes}
+%     \includegraphics[width=0.4\linewidth]{figs/pixelLab/dia3/comparacao.PNG}
+%     \legend{\small Fonte: Elaborada pela autora.}
+% \end{figure}
     
-\begin{figure}[htbp]
-    \centering
-    \caption{\small Comparação do sprite original e sprite gerado pelo Gemini Pro depois da edição}
-    \label{fig:pixelLabFixSideViewComparaDepois}
-    \includegraphics[width=0.4\linewidth]{figs/pixelLab/dia3/fix.PNG}
-    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta Pixel Lab.}
-\end{figure}
+% \begin{figure}[htbp]
+%     \centering
+%     \caption{\small Comparação do sprite original e sprite gerado pelo Gemini Pro depois da edição}
+%     \label{fig:pixelLabFixSideViewComparaDepois}
+%     \includegraphics[width=0.4\linewidth]{figs/pixelLab/dia3/fix.PNG}
+%     \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta Pixel Lab.}
+% \end{figure}
 
 \begin{figure}[htbp]
     \centering
@@ -77,7 +96,7 @@ Também foram realizados ajustes finos na, anteriormente apresentada, Figura \re
 
 Os ajustes finos feitos no sprite sheet da porta abrindo em side view (Figura \ref{fig:pixelLabPortaViduSideView}) gerada pelo Vidu (detalhado na Seção \ref{s.vidu}) foram parcialmente parecidos com os anteriores, usando o sprite da porta fechada (Figura \ref{fig:pixelLabPortaSideView} para corrigir a altura, além de retirar qualquer pixel branco. Além disso, a moldura da porta (presente no sprite) foi fixada na mesma posição em todos os quadros, pois a moldura deve permanecer igual sem se mover mesmo quando a porta é aberta. Após isso, para cada um dos quadros, foi apagada a maçaneta ainda ligada à moldura, pintada novamente aquela parte da porta e desenhada uma nova maçaneta no canto correto. Após 12 quadros (dos 31 totais), foi observada que a porta praticamente não ficava mais aberta, com a maior parte dos outros frames igual ou muito similares. Dessa forma, os frames restantes foram apagados para não ocorrer perda de tempo em mudanças insignificantes.
 
-A parte mais complexa do processo foi fazer novamente a maçaneta, pois era necessário entender o formato correto que ela ficaria dependendo do ângulo e como representar essa forma através dos tons de cores. Apesar disso, foi uma tarefa muito mais simples e rápida do que fazer a porta inteira do zero múltiplas vezes com cada frame tendo apenas pequenas modificações. O resultado desse processo final de edição pode ser verificado na Figura \ref{fig:pixelLabFinalPortaSideView}.
+A parte mais complexa do processo foi refazer a maçaneta, pois era necessário entender o formato correto que ela ficaria dependendo do ângulo e como representar essa forma através dos tons de cores. Apesar disso, foi uma tarefa muito mais simples e rápida do que fazer a porta inteira do zero múltiplas vezes, com cada frame tendo apenas pequenas modificações. O resultado desse processo final de edição pode ser verificado na Figura \ref{fig:pixelLabFinalPortaSideView}.
 
 \begin{figure}[htbp]
     \centering
@@ -96,6 +115,33 @@ A parte mais complexa do processo foi fazer novamente a maçaneta, pois era nece
         \label{fig:pixelLabFinalPortaSideView2}
     \end{subfigure}
 
+    \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta Pixel Lab.}
+\end{figure}
+
+As edições realizadas no sprite sheet da porta abrindo em side view (Figura \ref{fig:pixelLabPortaGeminiProSideView}) gerada pelo GeminiPro (detalhado na Seção \ref{s.ferramentaB}) foram parcialmente similares às anteriores, utilizando o sprite da porta fechada (Figura \ref{fig:pixelLabPortaSideView}) para corrigir a altura, além de fixar a moldura na mesma posição em todos os quadros. Após isso, para cada um dos quadros, foram ajustadas as cores do sprite. O resultado desse processo final de edição pode ser verificado na Figura \ref{}.
+
+\begin{figure}[htbp]
+    \centering
+    \caption{\small Processo de edição no Pixel Lab do sprite sheet da porta gerado pelo Gemini Pro}
+    \label{fig:pixelLabFinalPortaSideViewGemini}
+    \begin{subfigure}{0.7\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/geminiPro/sprite sheet/side_door_pixel.png}
+        \caption{\small Antes da edição no Pixel Lab}
+        \label{fig:pixelLabFinalPortaSideViewGeminiAntes}
+    \end{subfigure}
+    \begin{subfigure}{0.7\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/pixelLab/final/side_door_pixel_correcao.png}
+        \caption{\small Após ajuste do tamanho e moldura no Pixel Lab}
+        \label{fig:pixelLabFinalSideViewGemini1}
+    \end{subfigure}
+    \begin{subfigure}{0.5\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/pixelLab/final/side_door_pixel_correcao_pixel_cor.png}
+        \caption{\small Resultado final}
+        \label{fig:pixelLabFinalSideViewGemini2}
+    \end{subfigure}
 
     \legend{\small Fonte: Elaborada pela autora, utilizando a ferramenta Pixel Lab.}
 \end{figure}

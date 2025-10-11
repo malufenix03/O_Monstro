@@ -1,0 +1,45 @@
+Foco em 2D	(níveis de foco)
+	Foco em realismo
+	Sem foco específico
+	Foco em animação/sprite sheet para jogo
+	Foco em 2D
+	Foco em pixel art 2D
+
+Consistência e precisão geral (estilo, cores e características + precisão movimento e pose)
+
+Nível de customização (diferentes opções de modelo de IA, nível do modelo de IA, funcionalidade específica para diferentes estilos, controle da força do prompt, prompt textual e imagem de referência, palavras negativas, limitação de cores, tamanho de pixel, controle da força da imagem de referência, imagem inicial para guiar o resultado, apontar juntas do esqueleto, animações ilimitadas para escolher, frame inicial e frame final, proporção do vídeo, mais de uma imagem de referência, autorreposicionamento, seleção específica da direção, ângulo de visão)
+
+	Extremamente alto (7 ou mais das opções acima)
+	Muito alto (6 das opções acima)
+	Alto (5 das opções acima)
+	Médio (4 das opções acima)
+	Baixo (3 das opções acima)
+	Muito baixo (2 das opções acima)
+	Extremamente baixo (nenhuma ou 1 das opções acima)
+
+Adequação ao estilo pixel art (pixel perfect + coerência animação)
+
+
+Facilidade de edição e refinamento do material gerado
+	Extremamente alta (editor fácil de usar imbutido na própria ferramenta que permite manipular os resultados gerados na hora)
+	Alta (editor embutido na própria ferramenta)
+	Média (exportação de maneira a facilitar a edição em outras ferramentas)
+	Baixa (precisa usar várias ferramentas para tornar o resultado passível de edição)
+	Extremamente baixa (extremamente difícil edição)
+
+
+
+
+Eficiência (Na real isso está altamente ligado à capacidade de edição dentro da própria ferramenta)
+	Extremamente alta (fácil de usar/editar/exportar/importar, sem precisar de muitas iterações para o resultado adequado)
+	Muito alta (fácil de usar/editar/exportar/importar, precisa de um número razoável de iterações para o resultado adequado)
+	Alta (fácil de usar/importar/editar, exportar precisa criar sprite sheet/tirar o fundo, precisa de um número razoável de iterações para o resultado adequado)
+	Média (fácil de usar/importar, editar detalhes pequenos não é tão fácil, exportar precisa criar sprite sheet/tirar o fundo, precisa de um número razoável de iterações para o resultado adequado)
+	Baixa (fácil de usar, editar detalhes pequenos é difícil, exportar precisa criar sprite sheet/tirar o fundo, importar não é tão simples, precisa de um número grande de iterações para o resultado adequado)
+	Extremamente Baixa (difícil de usar/editar/exportar/importar precisa de um número grande de iterações para o resultado adequado)
+
+
+Artefato gerado
+	Imagem, vídeo, sprite sheet
+
+

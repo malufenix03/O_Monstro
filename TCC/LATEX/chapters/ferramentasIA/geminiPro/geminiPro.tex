@@ -1,0 +1,95 @@
+\FloatBarrier
+\section{Análise da Ferramenta Gemini Pro}
+\label{s.ferramentaB}
+
+A ferramenta Gemini Pro foi escolhida por sua capacidade de operar, entender e combinar diferentes tipos de informação, incluindo texto, imagem e vídeo \cite{sundarpichai_2023}. Mais especificamente, para os testes, foi utilizado o Gemini 2.5 Pro, que é capaz de raciocinar nativamente por meio de seus pensamentos antes de responder, o que aumenta a performance e a precisão \cite{koraykavukcuoglu_2025}. Para a geração de imagens, era integrado o modelo especializado Imagen 4, e para vídeos havia o Veo 3 \cite{woodward_2025}. 
+
+Para a geração e edição de imagens, era possível anexar diversos arquivos, enquanto para a criação do vídeo só era permitido o anexo de uma imagem. Além disso, era oferecida a possibilidade de re-gerar as figuras com um limite alto, porém os vídeos tinham um limite diário de três gerações e não podiam ser refeitos sem escrever novamente o prompt.
+
+Durante a análise, o objetivo variou de acordo com o sucesso dos testes e as necessidades do projeto. No total, foi tentado criar animações do personagem Pablo andando, pulando, abrindo a porta e de diferentes portas fechando.
+
+%%% pablo, pablo lateral de alguma IA, ver tudo que pegou de fora
+\begin{figure}[htbp]
+    \centering
+    \caption{\small Artefatos usados para referência no Gemini Pro}
+    \label{fig:geminiProArtefatos}
+    \begin{subfigure}{0.23\linewidth}
+        \includegraphics[width=0.7\linewidth]{figs/sprites/Pablo.PNG}
+        \caption{\small Sprite do personagem Pablo em front view}
+        \label{fig:geminiProPablo}
+    \end{subfigure}
+    \begin{subfigure}{0.22 \linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/chatGPT/visao_lateral/res1.png}
+        \caption{\small Sprite do personagem Pablo em side view gerado pelo ChatGPT}
+        \label{fig:geminiProPabloChatGPTSide}
+    \end{subfigure}
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/pixelLab/dia2/fix_init_1.PNG}
+        \caption{\small Sprite do personagem Pablo em side view gerado pelo Pixel Lab}
+        \label{fig:geminiProPabloPixelLab}
+    \end{subfigure}
+    \begin{subfigure}{0.23\linewidth}
+        \includegraphics[width=1\linewidth]{figs/sprites/Pablo_sideView.png}
+        \caption{\small Sprite do personagem Pablo em side view gerado pelo Gemini Pro e editado no Pixel Lab}
+        \label{fig:geminiProPabloPixelLabSide}
+    \end{subfigure}
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/pixelLab/dia2/fix_teste_3.PNG}
+        \caption{\small Sprite 1 do personagem Pablo rotacionado 45 graus gerado pelo Pixel Lab}
+        \label{fig:geminiProPabloPixelLab45_1}
+    \end{subfigure}
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/pixelLab/dia3/fix1.PNG}
+        \caption{\small Sprite 2 do personagem Pablo rotacionado 45 graus gerado pelo Pixel Lab}
+        \label{fig:geminiProPabloPixelLab45_2}
+    \end{subfigure}
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_porta (1).png}
+        \caption{\small Sprite da porta em front view}
+        \label{fig:geminiProPortaA}
+    \end{subfigure}
+    \begin{subfigure}{0.23\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{figs/vidu/referencia_porta (2).png}
+        \caption{\small Sprite da porta em side view}
+        \label{fig:geminiProPortaB}
+    \end{subfigure}
+    % \begin{subfigure}{0.23\linewidth}
+    %     \centering
+    %     \includegraphics[width=1\linewidth]{figs/vidu/referencia_porta_tutorial (2).png}
+    %     \caption{\small Sprite da porta C fechada}
+    %     \label{fig:geminiProPortaC2}
+    % \end{subfigure}
+    % \begin{subfigure}{0.23\linewidth}
+    %     \centering
+    %     \includegraphics[width=1\linewidth]{figs/vidu/referencia_porta_tutorial (3).png}
+    %     \caption{\small Sprite da porta C aberta}
+    %     \label{fig:geminiProPortaC3}
+    % \end{subfigure}
+    % \begin{subfigure}{0.23\linewidth}
+    %     \centering
+    %     \includegraphics[width=1\linewidth]{figs/sprites/porta.PNG}
+    %     \caption{\small Estrutura com porta aberta}
+    %     \label{fig:geminiProTutorial}
+    % \end{subfigure}
+    % \begin{subfigure}{0.23\linewidth}
+    %     \centering
+    %     \includegraphics[width=1\linewidth]{figs/sprites/hand.PNG}
+    %     \caption{\small Inimigos do jogo}
+    %     \label{fig:geminiProMao}
+    % \end{subfigure}
+    \legend{\small Fonte: Elaborada pela autora.}
+\end{figure}
+
+\input{chapters/ferramentasIA/geminiPro/sideView}
+\input{chapters/ferramentasIA/geminiPro/backView}
+\input{chapters/ferramentasIA/geminiPro/spriteSheet}
+\input{chapters/ferramentasIA/geminiPro/animacaoAndar}
+\input{chapters/ferramentasIA/geminiPro/animacaoPular}
+\input{chapters/ferramentasIA/geminiPro/animacaoAbrirPorta}
+\input{chapters/ferramentasIA/geminiPro/porta}
